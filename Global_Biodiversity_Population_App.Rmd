@@ -1,0 +1,39 @@
+---
+title: "Global Biodiversity & Population App"
+author: "Rachel Kenny"
+date: "2/10/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+###Load Libraries
+```{r, load, message=FALSE}
+
+library(tidyverse)
+library(dplyr)
+library(RColorBrewer)
+library(ggplot2)
+library(ggrepel)
+library(readr)
+
+bio <- read_csv("IUCN_thr_species_data.csv")
+View(bio)
+
+```
+
+###Example bar graph for Page 1 of App
+```{r, ggplot}
+
+#note in the real app, this is where the selection of countries will take place.  This is not doing what I want it to do yet, but I wanted to get a start on coding.
+bio_df <- dplyr::filter(bio, Country == "Algeria" | Country == "Egypt")
+
+country_bio_graph <- ggplot(bio_df, aes(x=Country, y=Mammals), fill=variable)+
+  geom_bar(stat='identity', position='dodge')
+
+country_bio_graph
+
+```
+
