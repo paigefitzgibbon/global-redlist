@@ -1,0 +1,33 @@
+---
+title: "Scatterplot"
+author: "Maddie Meltzer"
+date: "2/24/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, message=FALSE}
+
+library(tidyverse)
+library(dplyr)
+
+```
+
+```{r}
+
+threatened_species <- read_csv("IUCN_thr_species_data.csv")
+population <- read_csv("TotalPopulation_MediumVariant.csv")
+
+```
+
+
+```{r}
+
+world_pop <- population %>% 
+  filter(X5 == 900 | X5 == "Country code")
+
+```
+
