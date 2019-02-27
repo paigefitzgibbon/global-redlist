@@ -22,16 +22,27 @@ library(readr)
 bio <- read_csv("IUCN_thr_species_data.csv")
 View(bio)
 
+bio <- gather(bio, species_type, thr_count, Mammals:Fishes, factor_key=TRUE)
+
+View(bio)
+
 ```
 
 ###Example bar graph for Page 1 of App
 ```{r, ggplot}
 
-#note in the real app, this is where the selection of countries will take place.  This is not doing what I want it to do yet, but I wanted to get a start on coding.
-bio_df <- dplyr::filter(bio, Country == "Algeria" | Country == "Egypt")
+#Now we just need to figure out how to replace all this with inputs!
 
-country_bio_graph <- ggplot(bio_df, aes(x=Country, y=Mammals), fill=variable)+
-  geom_bar(stat='identity', position='dodge')
+bio_df <- dplyr::filter(bio, Country == "Algeria" | Country == "Egypt")  
+  
+
+country_bio_graph <- ggplot(bio_df, aes(x=species_type, y=thr_count, fill=Country))+
+  geom_bar(stat='identity', position='dodge')+
+  ggtitle("Comparison of Threatened Species Count for Algeria and Egypt")+
+  theme_classic()+
+  xlab("Species Type")+
+  ylab("Count of Threatened Species")+
+  theme(axis.title = element_text(face="bold"), title = element_text(face="bold"))
 
 country_bio_graph
 
