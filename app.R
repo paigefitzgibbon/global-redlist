@@ -1,35 +1,46 @@
 library(shiny)
 library(tidyverse)
+library(shinythemes)
 
 # Define UI for application that draws a histogram
-ui <- fluidPage(
+ui <- navbarPage("Exploring Population Growth and the Global Distribution of Red List Species",
+                 theme = shinytheme("cerulean"),
    
-   # Application title
-   titlePanel("Old Faithful Geyser Data"),
-   
-   # Sidebar with a slider input for number of bins 
-   sidebarLayout(position = "left",
-      sidebarPanel("Leatherback Sea Turtle",
-         sliderInput("bins",
-                     "Number of bins:",
-                     min = 1,
-                     max = 50,
-                     value = 30)
-      ),
-      
-      # Show a plot of the generated distribution
-      mainPanel("This is the main panel title",
-         plotOutput("distPlot"),
-         tabsetPanel(
-             type = "tab",
-             tabPanel("Distribution",
-                      plotOutput("distPlot")),
-             tabPanel("Scatterplot",
-                      plotOutput("scatterplot"))
+  # Home page panel               
+  tabPanel("Summary",
+           
+           fluidPage(
+             sidebarLayout(
+               sidebarPanel(tags$img(src = "turtle.jpg", align = "center", height = '500px', width = '250px')
+                            ),
+               mainPanel(
+                 h4("Summary of the app:"),
+                 h4("This app will examine the relationship between human
+                    population growth and the global distribution of IUCN Red List species. The goal of this app is to help visualize how many and what class of listed species are located in each country compared to historical and projected population growth."),
+                 br(),
+                 br(),
+                 h4("Our app will utilize three datasets:"),
+                 br(),
+                 h4("1) Number of threatened International Union for the Conservation of Nature (IUCN) Red List species in each country categorized by continent (IUCN Red List of Threatened Species 2018)."),
+                 h4("2) Total population (including both sexes) by region, subregion, and country, annually for 1950-2100 (thousands) (United Nations 2017)."),
+                 h4("3) Average annual rates of population change by region, subregion, and country for 1950-2100 (percentage) (United Nations 2017)."),
+                 br(),
+                 br(),
+                 h5("Creators: Paige Fitzgibbon, Rachel Kenny, and Madison Meltzer")
+               )
+                          
+                        )
+                 )
+           ),
+           
+  tabPanel("Bar Graph"),
+  tabPanel("Map"),
+  tabPanel("Scatterplot")
+            
+
            )
-         )
-      )
-   )
+
+  
    
 # Define server logic required to draw a histogram
 server <- function(input, output) {
