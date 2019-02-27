@@ -13,21 +13,51 @@ knitr::opts_chunk$set(echo = TRUE)
 
 library(tidyverse)
 library(dplyr)
+library(janitor)
 
 ```
 
-```{r}
+```{r, message = FALSE}
 
 threatened_species <- read_csv("IUCN_thr_species_data.csv")
 population <- read_csv("TotalPopulation_MediumVariant.csv")
 
+names(population) <- population[1,]
+population <- population[-1,]
+
 ```
 
+### Wrangle data to include only total world population (medium variant) & add totals to threatened species
+```{r}
+
+world_pop_medium <- population %>% 
+  filter(`Country code` == 900) %>% 
+  select("2015")
+
+total_species <- threatened_species %>% 
+  adorn_totals("row") %>% 
+  filter(X1 == "Total")
+
+total_species$Plants <- NULL
+total_species$Fungi_Protists <- NULL
+total_species$Other_Invertebrates <- NULL
+total_species$Continent <- NULL
+total_species$Region <- NULL
+
+df_species_worldpop <- merge(total_species, world_pop_medium)
+
+```
+
+X axis = total threatened species (or species by class)
+Y axis = projected population increase to 2050
+...not possible, just do 1 point in time?
 
 ```{r}
 
-world_pop <- population %>% 
-  filter(X5 == 900 | X5 == "Country code")
+ggplot(df_species_worldpop, aes(x = "Total", y = "2015")) +
+  geom_point()
 
 ```
+
+
 
