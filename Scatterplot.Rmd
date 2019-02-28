@@ -48,9 +48,7 @@ df_species_worldpop <- merge(total_species, world_pop_medium)
 
 ```
 
-X axis = total threatened species (or species by class)
-Y axis = projected population increase to 2050
-...not possible, just do 1 point in time?
+
 
 ```{r}
 
