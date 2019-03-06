@@ -62,10 +62,7 @@ ui <- navbarPage("Exploring Population Growth and the Global Distribution of Red
                               #selectInput("continent", "Continent",
                                           #label = "Select continent:",
                                           #choices = levels(scatterplot_df1$Continent),
-                                          #selected = "Africa",
-                                          #multiple = FALSE,
-                                          #selectize = FALSE
-                                          #),
+                                          #selected = "Africa"),
                               
                               #Drop-down menu to choose species class (X axis)
                               selectInput("x", "Species Class",
@@ -95,9 +92,9 @@ ui <- navbarPage("Exploring Population Growth and the Global Distribution of Red
 server <- function(input, output) {
 
   #scatterplot_subset <- reactive({
-    #req(input$continent)
-    #filter(scatterplot_df1, Continent %in% input$continent)
-   
+    #scatterplot_df1 %>%
+      #dplyr::filter(Continent == input$continent)
+
   #})
   
   # Generate ggplot scatterplot of requested variables
