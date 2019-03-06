@@ -1,0 +1,234 @@
+Country,Continent,Country code,Low,Medium,High
+Burundi,Africa,108,1.71,2.09,2.46
+Comoros,Africa,174,0.83,1.28,1.7
+Djibouti,Africa,262,-0.11,0.35,0.79
+Eritrea,Africa,232,0.96,1.4,1.82
+Ethiopia,Africa,231,0.69,1.14,1.57
+Kenya,Africa,404,0.94,1.38,1.81
+Madagascar,Africa,450,1.29,1.74,2.17
+Malawi,Africa,454,1.43,1.85,2.26
+Mauritius,Africa,480,-1,-0.46,0.07
+Mayotte,Africa,175,0.97,1.38,1.77
+Mozambique,Africa,508,1.59,1.98,2.34
+R_union,Africa,638,-0.51,-0.02,0.48
+Rwanda,Africa,646,0.65,1.1,1.53
+Seychelles,Africa,690,-0.9,-0.34,0.2
+Somalia,Africa,706,1.82,2.21,2.59
+South Sudan,Africa,728,1.18,1.61,2.02
+Uganda,Africa,800,1.68,2.09,2.48
+United Republic of Tanzania,Africa,834,1.73,2.15,2.54
+Zambia,Africa,894,1.8,2.2,2.58
+Zimbabwe,Africa,716,0.74,1.22,1.67
+Angola,Africa,24,1.89,2.26,2.61
+Cameroon,Africa,120,1.36,1.75,2.12
+Central African Republic,Africa,140,1.06,1.5,1.9
+Chad,Africa,148,1.47,1.84,2.19
+Congo,Africa,178,1.5,1.93,2.33
+Democratic Republic of the Congo,Africa,180,1.61,2.01,2.37
+Equatorial Guinea,Africa,226,1.26,1.67,2.07
+Gabon,Africa,266,0.78,1.2,1.6
+Sao Tome and Principe,Africa,678,0.96,1.4,1.81
+Algeria,Africa,12,0.13,0.57,1
+Egypt,Africa,818,0.42,0.91,1.37
+Libya,Africa,434,-0.36,0.13,0.59
+Morocco,Africa,504,-0.19,0.28,0.74
+Sudan,Africa,729,1.19,1.58,1.95
+Tunisia,Africa,788,-0.29,0.19,0.66
+Western Sahara,Africa,732,0.64,1.03,1.4
+Botswana,Africa,72,0.18,0.65,1.1
+Lesotho,Africa,426,0.31,0.86,1.37
+Namibia,Africa,516,0.66,1.14,1.6
+South Africa,Africa,710,-0.14,0.39,0.9
+Swaziland,Africa,748,0.28,0.82,1.33
+Benin,Africa,204,1.37,1.78,2.17
+Burkina Faso,Africa,854,1.48,1.88,2.27
+Cabo Verde,Africa,132,-0.11,0.4,0.9
+CŽte d'Ivoire,Africa,384,1.48,1.89,2.28
+Gambia,Africa,270,1.21,1.6,1.96
+Ghana,Africa,288,0.84,1.28,1.7
+Guinea,Africa,324,1.34,1.75,2.14
+Guinea-Bissau,Africa,624,1.08,1.52,1.93
+Liberia,Africa,430,1.29,1.73,2.14
+Mali,Africa,466,1.57,1.97,2.34
+Mauritania,Africa,478,1.21,1.6,1.97
+Niger,Africa,562,2.58,2.91,3.22
+Nigeria,Africa,566,1.51,1.89,2.25
+Saint Helena,Africa,654,-0.76,-0.24,0.27
+Senegal,Africa,686,1.42,1.81,2.18
+Sierra Leone,Africa,694,0.58,1.07,1.52
+Togo,Africa,768,1.08,1.53,1.95
+China,Asia,156,-1.03,-0.53,-0.05
+"China, Hong Kong SAR",Asia,344,-0.38,0.03,0.45
+"China, Macao SAR",Asia,446,0.23,0.6,0.97
+"China, Taiwan Province of China",Asia,158,-1.02,-0.57,-0.12
+Dem. People's Republic of Korea,Asia,408,-0.71,-0.17,0.36
+Japan,Asia,392,-0.99,-0.56,-0.12
+Mongolia,Asia,496,-0.01,0.49,0.96
+Republic of Korea,Asia,410,-0.96,-0.53,-0.11
+Kazakhstan,Asia,398,-0.02,0.47,0.93
+Kyrgyzstan,Asia,417,-0.04,0.48,0.98
+Tajikistan,Asia,762,0.46,0.96,1.43
+Turkmenistan,Asia,795,-0.08,0.45,0.95
+Uzbekistan,Asia,860,-0.32,0.2,0.71
+Afghanistan,Asia,4,0.45,0.92,1.36
+Bangladesh,Asia,50,-0.43,0.1,0.62
+Bhutan,Asia,64,-0.38,0.11,0.6
+India,Asia,356,-0.36,0.17,0.69
+Iran (Islamic Republic of),Asia,364,-0.57,-0.09,0.39
+Maldives,Asia,462,-0.13,0.28,0.7
+Nepal,Asia,524,-0.42,0.12,0.66
+Pakistan,Asia,586,0.28,0.76,1.23
+Sri Lanka,Asia,144,-1.02,-0.45,0.09
+Brunei Darussalam,Asia,96,-0.35,0.12,0.58
+Cambodia,Asia,116,-0.07,0.47,0.97
+Indonesia,Asia,360,-0.4,0.14,0.66
+Lao People's Democratic Republic,Asia,418,-0.28,0.26,0.79
+Malaysia,Asia,458,-0.06,0.39,0.84
+Myanmar,Asia,104,-0.56,-0.01,0.52
+Philippines,Asia,608,0.16,0.66,1.13
+Singapore,Asia,702,-0.55,-0.18,0.21
+Thailand,Asia,764,-1.1,-0.6,-0.1
+Timor-Leste,Asia,626,1,1.45,1.87
+Viet Nam,Asia,704,-0.32,0.15,0.63
+Armenia,Asia,51,-1.12,-0.57,-0.03
+Azerbaijan,Asia,31,-0.66,-0.13,0.39
+Bahrain,Asia,48,0.01,0.37,0.74
+Cyprus,Asia,196,-0.25,0.16,0.58
+Georgia,Asia,268,-1.2,-0.6,-0.03
+Iraq,Asia,368,1.35,1.79,2.21
+Israel,Asia,376,0.56,0.95,1.32
+Jordan,Asia,400,0.41,0.87,1.31
+Kuwait,Asia,414,-0.07,0.37,0.8
+Lebanon,Asia,422,-0.57,-0.05,0.49
+Oman,Asia,512,0.13,0.49,0.85
+Qatar,Asia,634,0.21,0.5,0.81
+Saudi Arabia,Asia,682,-0.11,0.32,0.75
+State of Palestine,Asia,275,1.02,1.46,1.87
+Syrian Arab Republic,Asia,760,0.3,0.74,1.16
+Turkey,Asia,792,-0.36,0.12,0.59
+United Arab Emirates,Asia,784,0.24,0.56,0.9
+Yemen,Asia,887,0.4,0.87,1.31
+Belarus,Europe,112,-0.85,-0.31,0.21
+Bulgaria,Europe,100,-1.39,-0.84,-0.3
+Czechia,Europe,203,-0.7,-0.24,0.22
+Hungary,Europe,348,-1.06,-0.56,-0.06
+Poland,Europe,616,-1.25,-0.75,-0.24
+Republic of Moldova,Europe,498,-1.54,-0.95,-0.36
+Romania,Europe,642,-1.2,-0.67,-0.15
+Russian Federation,Europe,643,-0.75,-0.22,0.3
+Slovakia,Europe,703,-0.99,-0.48,0.02
+Ukraine,Europe,804,-1.17,-0.61,-0.07
+Channel Islands,Europe,830,-0.39,0.02,0.44
+Denmark,Europe,208,-0.25,0.19,0.63
+Estonia,Europe,233,-1.03,-0.52,-0.02
+Faeroe Islands,Europe,234,-0.33,0.12,0.56
+Finland,Europe,246,-0.32,0.12,0.56
+Iceland,Europe,352,-0.31,0.13,0.56
+Ireland,Europe,372,-0.1,0.31,0.72
+Isle of Man,Europe,833,-0.19,0.23,0.64
+Latvia,Europe,428,-1.24,-0.69,-0.16
+Lithuania,Europe,440,-1.15,-0.58,-0.02
+Norway,Europe,578,0.13,0.53,0.93
+Sweden,Europe,752,-0.03,0.39,0.81
+United Kingdom,Europe,826,-0.2,0.24,0.67
+Albania,Europe,8,-1.27,-0.72,-0.16
+Andorra,Europe,20,-0.84,-0.45,-0.06
+Bosnia and Herzegovina,Europe,70,-1.15,-0.63,-0.1
+Croatia,Europe,191,-1.16,-0.66,-0.16
+Gibraltar,Europe,292,-0.35,0.08,0.52
+Greece,Europe,300,-1.07,-0.64,-0.2
+Holy See,Europe,336,-0.16,0.1,0.39
+Italy,Europe,380,-0.85,-0.43,0
+Malta,Europe,470,-0.71,-0.25,0.2
+Montenegro,Europe,499,-0.94,-0.43,0.08
+Portugal,Europe,620,-1.12,-0.67,-0.23
+San Marino,Europe,674,-0.58,-0.17,0.25
+Serbia,Europe,688,-1.15,-0.6,-0.06
+Slovenia,Europe,705,-0.87,-0.41,0.05
+Spain,Europe,724,-0.85,-0.44,-0.02
+TFYR Macedonia,Europe,807,-1.01,-0.48,0.05
+Austria,Europe,40,-0.62,-0.18,0.26
+Belgium,Europe,56,-0.34,0.1,0.53
+France,Europe,250,-0.36,0.09,0.53
+Germany,Europe,276,-0.74,-0.3,0.14
+Liechtenstein,Europe,438,-0.3,0.11,0.53
+Luxembourg,Europe,442,0.27,0.65,1.02
+Monaco,Europe,492,0.2,0.55,0.89
+Netherlands,Europe,528,-0.61,-0.15,0.31
+Switzerland,Europe,756,-0.18,0.21,0.61
+Anguilla,North America,660,-0.86,-0.34,0.18
+Antigua and Barbuda,North America,28,-0.37,0.15,0.65
+Aruba,North America,533,-0.78,-0.26,0.24
+Bahamas,North America,44,-0.28,0.18,0.63
+Barbados,North America,52,-0.77,-0.25,0.25
+British Virgin Islands,North America,92,-0.4,0.06,0.52
+Caribbean Netherlands,North America,535,-0.26,0.18,0.63
+Cayman Islands,North America,136,0.03,0.45,0.87
+Cuba,North America,192,-1.06,-0.56,-0.06
+Curacao,North America,531,-0.28,0.16,0.6
+Dominica,North America,212,-0.82,-0.28,0.26
+Dominican Republic,North America,214,-0.38,0.17,0.7
+Grenada,North America,308,-1.05,-0.43,0.17
+Guadeloupe,North America,312,-1.04,-0.53,-0.02
+Haiti,North America,332,-0.31,0.23,0.74
+Jamaica,North America,388,-1.36,-0.73,-0.12
+Martinique,North America,474,-1.15,-0.64,-0.14
+Montserrat,North America,500,-0.72,-0.22,0.29
+Puerto Rico,North America,630,-1.24,-0.7,-0.16
+Saint Kitts and Nevis,North America,659,-0.58,-0.06,0.45
+Saint Lucia,North America,662,-0.9,-0.39,0.13
+Saint Vincent and the Grenadines,North America,670,-0.99,-0.4,0.17
+Sint Maarten (Dutch part),North America,534,0.02,0.47,0.92
+Trinidad and Tobago,North America,780,-1.07,-0.5,0.05
+Turks and Caicos Islands,North America,796,-0.09,0.36,0.8
+United States Virgin Islands,North America,850,-1.5,-0.88,-0.29
+Belize,North America,84,0.28,0.77,1.24
+Costa Rica,North America,188,-0.43,0.04,0.5
+El Salvador,North America,222,-0.67,-0.09,0.48
+Guatemala,North America,320,0.4,0.86,1.3
+Honduras,North America,340,0.04,0.51,0.98
+Mexico,North America,484,-0.25,0.23,0.71
+Nicaragua,North America,558,-0.25,0.24,0.73
+Panama,North America,591,0.13,0.59,1.04
+Argentina,South America,32,-0.09,0.38,0.84
+Bolivia (Plurinational State of),South America,68,0.18,0.66,1.12
+Brazil,South America,76,-0.59,-0.1,0.4
+Chile,South America,152,-0.44,0.03,0.49
+Colombia,South America,170,-0.65,-0.14,0.37
+Ecuador,South America,218,0.03,0.51,0.98
+Falkland Islands (Malvinas),South America,238,-0.66,-0.19,0.27
+French Guiana,South America,254,1.03,1.4,1.75
+Guyana,South America,328,-0.97,-0.31,0.31
+Paraguay,South America,600,-0.18,0.35,0.85
+Peru,South America,604,-0.15,0.33,0.79
+Suriname,South America,740,-0.55,0,0.52
+Uruguay,South America,858,-0.56,-0.05,0.45
+Venezuela (Bolivarian Republic of),South America,862,-0.17,0.34,0.84
+Bermuda,North America,60,-1.17,-0.67,-0.16
+Canada,North America,124,-0.02,0.38,0.77
+Greenland,Europe,304,-0.98,-0.39,0.17
+Saint Pierre and Miquelon,North America,666,-0.36,0.11,0.56
+United States of America,North America,840,-0.06,0.38,0.82
+Australia,Oceania,36,0.3,0.68,1.06
+New Zealand,Oceania,554,-0.14,0.28,0.71
+Fiji,Oceania,242,-0.69,-0.1,0.46
+New Caledonia,Oceania,540,0.17,0.58,0.98
+Papua New Guinea,Oceania,598,0.63,1.08,1.5
+Solomon Islands,Oceania,90,0.69,1.13,1.54
+Vanuatu,Oceania,548,0.71,1.15,1.58
+Guam,Oceania,316,-0.44,0.06,0.55
+Kiribati,Oceania,296,0.51,0.98,1.43
+Marshall Islands,Oceania,584,-0.26,0.22,0.65
+Micronesia (Fed. States of),Oceania,583,-0.34,0.23,0.76
+Nauru,Oceania,520,-0.81,-0.29,0.22
+Northern Mariana Islands,Oceania,580,-1.43,-0.87,-0.31
+Palau,Oceania,585,-0.1,0.35,0.78
+American Samoa,Oceania,16,-0.98,-0.31,0.3
+Cook Islands,Oceania,184,-0.52,0,0.52
+French Polynesia,Oceania,258,-0.45,0.03,0.51
+Niue,Oceania,570,-0.31,0.21,0.69
+Samoa,Oceania,882,-0.13,0.4,0.88
+Tokelau,Oceania,772,-0.28,0.24,0.78
+Tonga,Oceania,776,-0.08,0.44,0.93
+Tuvalu,Oceania,798,0.07,0.63,1.14
+Wallis and Futuna Islands,Oceania,876,-0.72,-0.19,0.33

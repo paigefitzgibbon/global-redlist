@@ -9,7 +9,9 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-```{r, message=FALSE}
+https://shiny.rstudio.com/tutorial/written-tutorial/lesson5/
+
+```{r, warning=FALSE, message=FALSE}
 
 library(tidyverse)
 library(dplyr)
@@ -17,45 +19,67 @@ library(janitor)
 
 ```
 
-```{r, message = FALSE}
+### Read in data
+```{r,  warning=FALSE, message=FALSE}
 
 threatened_species <- read_csv("IUCN_thr_species_data.csv")
-population <- read_csv("TotalPopulation_MediumVariant.csv")
-
-names(population) <- population[1,]
-population <- population[-1,]
+population <- read_csv("PopGrowthRate.csv")
 
 ```
 
 ### Wrangle data to include only total world population (medium variant) & add totals to threatened species
-```{r}
+```{r, warning=FALSE, message=FALSE}
 
-world_pop_medium <- population %>% 
-  filter(`Country code` == 900) %>% 
-  select("2015")
+worldpop2050 <- population %>% 
+  select(Country, Low, Medium, High)
 
-total_species <- threatened_species %>% 
-  adorn_totals("row") %>% 
-  filter(X1 == "Total")
+total_species2 <- threatened_species %>% 
+  adorn_totals("row")
 
-total_species$Plants <- NULL
-total_species$Fungi_Protists <- NULL
-total_species$Other_Invertebrates <- NULL
-total_species$Continent <- NULL
-total_species$Region <- NULL
+total_species2$Plants <- NULL
+total_species2$Fungi_Protists <- NULL
+total_species2$Other_Invertebrates <- NULL
+total_species2$Region <- NULL
 
-df_species_worldpop <- merge(total_species, world_pop_medium)
+scatterplot_df <- merge(total_species2, worldpop2050) %>% 
+  arrange(Continent)
 
-```
+summary(scatterplot_df)
+head(scatterplot_df)
 
+#Assign correct attributes to each column
+scatterplot_df$Continent <- as.factor(scatterplot_df$Continent)
 
-
-```{r}
-
-ggplot(df_species_worldpop, aes(x = "Total", y = "2015")) +
-  geom_point()
+write.csv(scatterplot_df, "cleaned_scatterplot.csv")
 
 ```
 
+write.table(df_species_worldpop, "cleaned_scatterplot.txt")
+
+##X axis = total threatened species (or species by class) (Numbers of threatened species (Critically Endangered, Endangered and Vulnerable)
+##Y axis = projected population increase to 2050
 
 
+```{r, warning=FALSE, message=FALSE}
+
+medium <- scatterplot_df$Medium
+total <- scatterplot_df$Total
+
+
+ggplot(scatterplot_df, aes(x = total, y = medium)) +
+  geom_point() +
+  labs(x = "Number of Threatened Species", y = "Rate of Population Increase to 2050", 
+       title = "Threatened Species and Projected Population Increase") +
+  theme(panel.grid.major = element_line(color = gray(0.5), linetype = "blank", 
+        size = 0.5), panel.background = element_rect(fill = "white"))
+
+```
+
+#ggplot(df_species_worldpop, aes(x = df_species_worldpop$Total, y = df_species_worldpop$`2050-2055`)) +
+  #geom_point() +
+  #geom_text(label = df_species_worldpop$Country) +
+  #geom_label_repel(data = df_species_worldpop, aes(label = Country)) +
+  #xlab("Total Threatened Species") +
+  #ylab("Rate of Population Increase to 2050")
+
+c("Africa", "Asia", "North America", "South America", "Oceania", "Europe")

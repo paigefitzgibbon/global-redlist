@@ -1,11 +1,21 @@
 library(shiny)
 library(tidyverse)
+library(dplyr)
 library(shinythemes)
 library(sf)
 library(rgeos)
 library(ggplot2)
 library(rmapshaper)
+library(janitor)
+library(datasets)
+library(RColorBrewer)
+library(ggrepel)
 
+# Read in data
+scatterplot_df1 <- read_csv("cleaned_scatterplot.csv")
+
+
+# User interface 
 ui <- navbarPage("Exploring Population Growth and the Global Distribution of Red List Species",
                  theme = shinytheme("cerulean"),
                  
@@ -14,7 +24,7 @@ ui <- navbarPage("Exploring Population Growth and the Global Distribution of Red
                           
                           fluidPage(
                             sidebarLayout(
-                              sidebarPanel(tags$img(src = "turtle.jpg", align = "center", height = '500px', width = '250px')
+                              sidebarPanel(tags$img(src = "turtle.jpg", align = "center", height = '400px', width = '250px')
                               ),
                               mainPanel(
                                 h4("Summary of the app:"),
@@ -36,27 +46,78 @@ ui <- navbarPage("Exploring Population Growth and the Global Distribution of Red
                           )
                  ),
                  
+                 # Bar graph panel
                  tabPanel("Bar Graph"),
+                 
+                 # Map panel
                  tabPanel("Map"),
-                 tabPanel("Scatterplot")
+                 
+                 # Scatterplot panel
+                 tabPanel("Scatterplot",
+                          titlePanel("Number of Threatened Species & Projected Population Increase to 2050"),
+                          sidebarLayout(
+                            sidebarPanel(
+                                          
+                              #Drop-down menu to choose continent of interest
+                              #selectInput("continent", "Continent",
+                                          #label = "Select continent:",
+                                          #choices = levels(scatterplot_df1$Continent),
+                                          #selected = "Africa",
+                                          #multiple = FALSE,
+                                          #selectize = FALSE
+                                          #),
+                              
+                              #Drop-down menu to choose species class (X axis)
+                              selectInput("x", "Species Class",
+                                          choices = c("Mammals", "Birds", "Reptiles", "Amphibians", "Fishes", "Molluscs", "Total"),
+                                          selected = "Total",
+                                          multiple = FALSE),
+                              
+                              #Drop-down menu to choose growth rate variant (Y axis)
+                              selectInput("y", "Growth Rate Variant",
+                                          choices = c("Low", "Medium", "High"),
+                                          selected = "High",
+                                          multiple = FALSE)
+                            ),
+                            mainPanel(
+                              plotOutput(outputId = "scatterplot")
+                            )
+                          )
+                           
+                         )
                  
                  
 )
 
 
 
-# Define server logic required to draw a histogram
+# Define server logic
 server <- function(input, output) {
+
+  #scatterplot_subset <- reactive({
+    #req(input$continent)
+    #filter(scatterplot_df1, Continent %in% input$continent)
+   
+  #})
   
-  output$distPlot <- renderPlot({
-    # generate bins based on input$bins from ui.R
-    x    <- faithful[, 2] 
-    bins <- seq(min(x), max(x), length.out = input$bins + 1)
-    
-    # draw the histogram with the specified number of bins
-    hist(x, breaks = bins, col = 'darkgray', border = 'white')
+  # Generate ggplot scatterplot of requested variables
+  output$scatterplot <- renderPlot({
+    ggplot(data = scatterplot_df1, 
+           aes_string(x = input$x, y = input$y)) +
+      geom_point() +
+      geom_text(label = scatterplot_df1$Country) +
+      labs(x = "Number of Threatened Species", y = "Rate of Population Increase (2050)") +
+      theme(panel.grid.major = element_line(color = gray(0.5), linetype = "blank", 
+                                            size = 0.5), panel.background = element_rect(fill = "white"))
+
+
   })
 }
 
+
 # Run the application 
 shinyApp(ui = ui, server = server)
+
+
+
+
