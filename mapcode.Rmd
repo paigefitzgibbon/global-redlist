@@ -41,7 +41,7 @@ Graph2000 <- ggplot(data = world_df) +
   scale_fill_manual(values = cols) +
         theme_minimal() +
         coord_sf(datum=NA) +
-        labs(x = "", y = "", title = "Predicted Population Increase Worldwide")
+        labs(x = "", y = "", title = "Distribution of Worldwide Population (Decile)")
 
 Graph2010<- ggplot(data = world_df) + 
         geom_sf(aes(fill = Total2010), 
@@ -51,7 +51,7 @@ Graph2010<- ggplot(data = world_df) +
   scale_fill_manual(values = cols) +
         theme_minimal() +
         coord_sf(datum=NA) +
-        labs(x = "", y = "", title = "Predicted Population Increase Worldwide")
+        labs(x = "", y = "", title = "Distribution of Worldwide Population (Decile)")
 
 Graph2020 <- ggplot(data = world_df) + 
         geom_sf(aes(fill = Total2020), 
@@ -61,17 +61,10 @@ Graph2020 <- ggplot(data = world_df) +
   scale_fill_manual(values = cols) +
         theme_minimal() +
         coord_sf(datum=NA) +
-        labs(x = "", y = "", title = "Predicted Population Increase Worldwide")
-ggplot(data = world_df) + 
-        geom_sf(aes(fill = Total2000), 
-                colour = "gray10", 
-                show.legend = FALSE) +
-  scale_colour_manual(values = cols) +
-  scale_fill_manual(values = cols) +
-        theme_minimal() +
-        coord_sf(datum=NA) +
-        labs(x = "", y = "", title = "Predicted Population Increase Worldwide")
-ggplot(data = world_df) + 
+        labs(x = "", y = "", title = "Distribution of Worldwide Population (Decile)")
+
+
+Graph2030 <- ggplot(data = world_df) + 
         geom_sf(aes(fill = Total2030), 
                 colour = "gray10", 
                 show.legend = FALSE) +
@@ -79,8 +72,9 @@ ggplot(data = world_df) +
   scale_fill_manual(values = cols) +
         theme_minimal() +
         coord_sf(datum=NA) +
-        labs(x = "", y = "", title = "Predicted Population Increase Worldwide")
-ggplot(data = world_df) + 
+        labs(x = "", y = "", title = "Distribution of Worldwide Population (Decile)")
+
+Graph2040<- ggplot(data = world_df) + 
         geom_sf(aes(fill = Total2040), 
                 colour = "gray10", 
                 show.legend = FALSE) +
@@ -88,9 +82,9 @@ ggplot(data = world_df) +
   scale_fill_manual(values = cols) +
         theme_minimal() +
         coord_sf(datum=NA) +
-        labs(x = "", y = "", title = "Predicted Population Increase Worldwide")
+        labs(x = "", y = "", title = "Distribution of Worldwide Population (Decile)")
 
-ggplot(data = world_df) + 
+Graph2050<- ggplot(data = world_df) + 
         geom_sf(aes(fill = Total2050), 
                 colour = "gray10", 
                 show.legend = FALSE) +
@@ -98,8 +92,16 @@ ggplot(data = world_df) +
   scale_fill_manual(values = cols) +
         theme_minimal() +
         coord_sf(datum=NA) +
-        labs(x = "", y = "", title = "Predicted Population Increase Worldwide")
+        labs(x = "", y = "", title = "Distribution of Worldwide Population (Decile)")
 
+
+par(mfrow=c(1,5)) 
+plot(Graph2000)
+plot(Graph2010)
+plot(Graph2020)
+plot(Graph2030)
+plot(Graph2040)
+plot(Graph2050)
 
 ```
 
