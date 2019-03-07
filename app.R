@@ -13,7 +13,7 @@ library(ggrepel)
 
 # Read in data
 scatterplot_df1 <- read_csv("cleaned_scatterplot.csv")
-bio <- read_csv("bio")
+bio <- read_csv("bio.csv")
 
 # User interface 
 ui <- navbarPage("Exploring Population Growth and the Global Distribution of Red List Species",
@@ -126,7 +126,7 @@ server <- function(input, output) {
 # Generate  bar graph of requested variables
 output$bargraph <- renderPlot({
   ggplot(data = bio, 
-         aes_string(x = species_type, y = thr_count, fill=input$z)) +
+         aes_string(x = bio$species_type, y = bio$thr_count, fill=input$z)) +
     geom_bar(stat='identity', position='dodge') +
     geom_text(label = bio$Country) +
     labs(x = "Number of Threatened Species", y = "Count") +
