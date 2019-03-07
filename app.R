@@ -140,7 +140,7 @@ output$bargraph <- renderPlot({
           panel.background = element_rect(fill = "white"))+
     theme_classic()+
     xlab("Species Type")+
-    ylab("Count of Threatened Species")+
+    ylab("Count of Threatend Species")+
     theme(axis.title = element_text(face="bold"), title = element_text(face="bold"))})  
   
 }
