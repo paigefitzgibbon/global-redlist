@@ -14,8 +14,7 @@ library(ggrepel)
 # Read in data
 scatterplot_df1 <- read_csv("cleaned_scatterplot.csv")
 bio <- read_csv("bio.csv")
-<<<<<<< HEAD
-=======
+
 PopulationPredictions <- read_csv("PopulationPredictions.csv", 
                                   col_types = cols(Total2000 = col_factor(levels = c("2", 
                                                                                      "3", "4", "5", "6", "7", "8", "9", 
@@ -32,7 +31,68 @@ PopulationPredictions <- read_csv("PopulationPredictions.csv",
                                                                                                                                                                                                                                                                                                        "10"))))
 world_outline <- read_sf(dsn = ".", layer = "countries")
 world_df <- full_join(world_outline, PopulationPredictions, by = "COUNTRY")
->>>>>>> f82761e0a49fee7c2c799c2138a95e716db77af2
+cols <- c("2" = "#FFFFCC", "3" = "#FFEDA0", "4" = "#FED976", "5" = "#FEB24C", "6" = "#FD8D3C", "7" = "#FC4E2A", "8" = "#E31A1C", "9" = "#BD0026", "10" = "#800026")
+#define plots
+Graph2000 <- ggplot(data = world_df) + 
+  geom_sf(aes(fill = Total2000), 
+          colour = "gray10", 
+          show.legend = FALSE) +
+  scale_colour_manual(values = cols) +
+  scale_fill_manual(values = cols) +
+  theme_minimal() +
+  coord_sf(datum=NA) +
+  labs(x = "", y = "", title = "Distribution of Worldwide Population (Decile)")
+
+Graph2010<- ggplot(data = world_df) + 
+  geom_sf(aes(fill = Total2010), 
+          colour = "gray10", 
+          show.legend = FALSE) +
+  scale_colour_manual(values = cols) +
+  scale_fill_manual(values = cols) +
+  theme_minimal() +
+  coord_sf(datum=NA) +
+  labs(x = "", y = "", title = "Distribution of Worldwide Population (Decile)")
+
+Graph2020 <- ggplot(data = world_df) + 
+  geom_sf(aes(fill = Total2020), 
+          colour = "gray10", 
+          show.legend = FALSE) +
+  scale_colour_manual(values = cols) +
+  scale_fill_manual(values = cols) +
+  theme_minimal() +
+  coord_sf(datum=NA) +
+  labs(x = "", y = "", title = "Distribution of Worldwide Population (Decile)")
+
+
+Graph2030 <- ggplot(data = world_df) + 
+  geom_sf(aes(fill = Total2030), 
+          colour = "gray10", 
+          show.legend = FALSE) +
+  scale_colour_manual(values = cols) +
+  scale_fill_manual(values = cols) +
+  theme_minimal() +
+  coord_sf(datum=NA) +
+  labs(x = "", y = "", title = "Distribution of Worldwide Population (Decile)")
+
+Graph2040<- ggplot(data = world_df) + 
+  geom_sf(aes(fill = Total2040), 
+          colour = "gray10", 
+          show.legend = FALSE) +
+  scale_colour_manual(values = cols) +
+  scale_fill_manual(values = cols) +
+  theme_minimal() +
+  coord_sf(datum=NA) +
+  labs(x = "", y = "", title = "Distribution of Worldwide Population (Decile)")
+
+Graph2050<- ggplot(data = world_df) + 
+  geom_sf(aes(fill = Total2050), 
+          colour = "gray10", 
+          show.legend = FALSE) +
+  scale_colour_manual(values = cols) +
+  scale_fill_manual(values = cols) +
+  theme_minimal() +
+  coord_sf(datum=NA) +
+  labs(x = "", y = "", title = "Distribution of Worldwide Population (Decile)")
 
 # User interface 
 ui <- navbarPage("Exploring Population Growth and the Global Distribution of Red List Species",
