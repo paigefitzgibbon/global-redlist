@@ -14,6 +14,25 @@ library(ggrepel)
 # Read in data
 scatterplot_df1 <- read_csv("cleaned_scatterplot.csv")
 bio <- read_csv("bio.csv")
+<<<<<<< HEAD
+=======
+PopulationPredictions <- read_csv("PopulationPredictions.csv", 
+                                  col_types = cols(Total2000 = col_factor(levels = c("2", 
+                                                                                     "3", "4", "5", "6", "7", "8", "9", 
+                                                                                     "10")), Total2010 = col_factor(levels = c("2", 
+                                                                                                                               "3", "4", "5", "6", "7", "8", "9", 
+                                                                                                                               "10")), Total2020 = col_factor(levels = c("2", 
+                                                                                                                                                                         "3", "4", "5", "6", "7", "8", "9", 
+                                                                                                                                                                         "10")), Total2030 = col_factor(levels = c("2", 
+                                                                                                                                                                                                                   "3", "4", "5", "6", "7", "8", "9", 
+                                                                                                                                                                                                                   "10")), Total2040 = col_factor(levels = c("2", 
+                                                                                                                                                                                                                                                             "3", "4", "5", "6", "7", "8", "9", 
+                                                                                                                                                                                                                                                             "10")), Total2050 = col_factor(levels = c("2", 
+                                                                                                                                                                                                                                                                                                       "3", "4", "5", "6", "7", "8", "9", 
+                                                                                                                                                                                                                                                                                                       "10"))))
+world_outline <- read_sf(dsn = ".", layer = "countries")
+world_df <- full_join(world_outline, PopulationPredictions, by = "COUNTRY")
+>>>>>>> f82761e0a49fee7c2c799c2138a95e716db77af2
 
 # User interface 
 ui <- navbarPage("Exploring Population Growth and the Global Distribution of Red List Species",
@@ -39,7 +58,7 @@ ui <- navbarPage("Exploring Population Growth and the Global Distribution of Red
                                 h4("3) Average annual rates of population change by region, subregion, and country for 1950-2100 (percentage) (United Nations 2017)."),
                                 br(),
                                 br(),
-                                h5("Creators: Paige Fitzgibbon, Rachel Kenny, and Madison Meltzer")
+                                h5("Creators: Paige FitzGibbon, Rachel Kenny, and Madison Meltzer")
                                 )
                               
                             )
@@ -68,7 +87,18 @@ ui <- navbarPage("Exploring Population Growth and the Global Distribution of Red
                  ),
                  
                  # Map panel
-                 tabPanel("Map"),
+                 tabPanel("Map",
+                          titlePanel("Distribution of Worldwide Population"),
+                          sidebarLayout(
+                            sidebarPanel(sliderInput("Factor", "Year",
+                                                     min = 2000, max = 2050,
+                                                     value = 2000, step = 10)),
+                            mainPanel(
+                              plotOutput(outputId = "")
+                            )
+                          )
+                          
+                 ),
                  
                  # Scatterplot panel
                  tabPanel("Scatterplot",
@@ -140,7 +170,7 @@ output$bargraph <- renderPlot({
           panel.background = element_rect(fill = "white"))+
     theme_classic()+
     xlab("Species Type")+
-    ylab("Count of Threatend Species")+
+    ylab("Count of Threatened Species")+
     theme(axis.title = element_text(face="bold"), title = element_text(face="bold"))})  
   
 }

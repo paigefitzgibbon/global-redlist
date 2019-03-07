@@ -1,29 +1,107 @@
 ---
-title: "map code"
+title: "try 1"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 
+```{r cars}
+library(sf)
+library(tidyverse)
+library(RColorBrewer)
 
-```{r}
-st_read("countries.shp")
+PopulationPredictions <- read_csv("PopulationPredictions.csv", 
+    col_types = cols(Total2000 = col_factor(levels = c("2", 
+        "3", "4", "5", "6", "7", "8", "9", 
+        "10")), Total2010 = col_factor(levels = c("2", 
+        "3", "4", "5", "6", "7", "8", "9", 
+        "10")), Total2020 = col_factor(levels = c("2", 
+        "3", "4", "5", "6", "7", "8", "9", 
+        "10")), Total2030 = col_factor(levels = c("2", 
+        "3", "4", "5", "6", "7", "8", "9", 
+        "10")), Total2040 = col_factor(levels = c("2", 
+        "3", "4", "5", "6", "7", "8", "9", 
+        "10")), Total2050 = col_factor(levels = c("2", 
+        "3", "4", "5", "6", "7", "8", "9", 
+        "10"))))
 world_outline <- read_sf(dsn = ".", layer = "countries")
-st_crs(world_outline) = 4326
-
-regions <- ms_simplify(world_outline) %>% 
-  select(NAME, geometry)
 
 
 
+world_df <- full_join(world_outline, PopulationPredictions, by = "COUNTRY")
+
+cols <- c("2" = "#FFFFCC", "3" = "#FFEDA0", "4" = "#FED976", "5" = "#FEB24C", "6" = "#FD8D3C", "7" = "#FC4E2A", "8" = "#E31A1C", "9" = "#BD0026", "10" = "#800026")
 
 
-ggplot(regions) + 
-  geom_sf(aes(fill = "NAME"), 
-          show.legend = FALSE) +
-  theme_classic()
+Graph2000 <- ggplot(data = world_df) + 
+        geom_sf(aes(fill = Total2000), 
+                colour = "gray10", 
+                show.legend = FALSE) +
+  scale_colour_manual(values = cols) +
+  scale_fill_manual(values = cols) +
+        theme_minimal() +
+        coord_sf(datum=NA) +
+        labs(x = "", y = "", title = "Distribution of Worldwide Population (Decile)")
+
+Graph2010<- ggplot(data = world_df) + 
+        geom_sf(aes(fill = Total2010), 
+                colour = "gray10", 
+                show.legend = FALSE) +
+  scale_colour_manual(values = cols) +
+  scale_fill_manual(values = cols) +
+        theme_minimal() +
+        coord_sf(datum=NA) +
+        labs(x = "", y = "", title = "Distribution of Worldwide Population (Decile)")
+
+Graph2020 <- ggplot(data = world_df) + 
+        geom_sf(aes(fill = Total2020), 
+                colour = "gray10", 
+                show.legend = FALSE) +
+  scale_colour_manual(values = cols) +
+  scale_fill_manual(values = cols) +
+        theme_minimal() +
+        coord_sf(datum=NA) +
+        labs(x = "", y = "", title = "Distribution of Worldwide Population (Decile)")
+
+
+Graph2030 <- ggplot(data = world_df) + 
+        geom_sf(aes(fill = Total2030), 
+                colour = "gray10", 
+                show.legend = FALSE) +
+  scale_colour_manual(values = cols) +
+  scale_fill_manual(values = cols) +
+        theme_minimal() +
+        coord_sf(datum=NA) +
+        labs(x = "", y = "", title = "Distribution of Worldwide Population (Decile)")
+
+Graph2040<- ggplot(data = world_df) + 
+        geom_sf(aes(fill = Total2040), 
+                colour = "gray10", 
+                show.legend = FALSE) +
+  scale_colour_manual(values = cols) +
+  scale_fill_manual(values = cols) +
+        theme_minimal() +
+        coord_sf(datum=NA) +
+        labs(x = "", y = "", title = "Distribution of Worldwide Population (Decile)")
+
+Graph2050<- ggplot(data = world_df) + 
+        geom_sf(aes(fill = Total2050), 
+                colour = "gray10", 
+                show.legend = FALSE) +
+  scale_colour_manual(values = cols) +
+  scale_fill_manual(values = cols) +
+        theme_minimal() +
+        coord_sf(datum=NA) +
+        labs(x = "", y = "", title = "Distribution of Worldwide Population (Decile)")
+
+
+par(mfrow=c(1,5)) 
+plot(Graph2000)
+plot(Graph2010)
+plot(Graph2020)
+plot(Graph2030)
+plot(Graph2040)
+plot(Graph2050)
+
 ```
 
