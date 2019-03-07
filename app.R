@@ -13,9 +13,7 @@ library(ggrepel)
 
 # Read in data
 scatterplot_df1 <- read_csv("cleaned_scatterplot.csv")
-bio <- read_csv("IUCN_thr_species_data.csv") %>% 
-  gather(bio, species_type, thr_count, Mammals:Fishes, factor_key=TRUE)
-
+bio <- read_csv("bio")
 
 # User interface 
 ui <- navbarPage("Exploring Population Growth and the Global Distribution of Red List Species",
@@ -132,14 +130,14 @@ output$bargraph <- renderPlot({
     geom_bar(stat='identity', position='dodge') +
     geom_text(label = bio$Country) +
     labs(x = "Number of Threatened Species", y = "Count") +
-    theme(panel.grid.major = element_line(color = gray(0.5), linetype = "blank", 
-                                          size = 0.5), panel.background = element_rect(fill = "white"))+
+    theme(panel.grid.major = element_line(color = gray(0.5), 
+          linetype = "blank", size = 0.5), 
+          panel.background = element_rect(fill = "white"))+
     theme_classic()+
     xlab("Species Type")+
     ylab("Count of Threatened Species")+
-    theme(axis.title = element_text(face="bold"), title = element_text(face="bold")))  
+    theme(axis.title = element_text(face="bold"), title = element_text(face="bold"))})  
   
-})
 }
 
 

@@ -20,11 +20,13 @@ library(ggrepel)
 library(readr)
 
 bio <- read_csv("IUCN_thr_species_data.csv")
-View(bio)
-
+#View(bio)
 bio <- gather(bio, species_type, thr_count, Mammals:Fishes, factor_key=TRUE)
 
-View(bio)
+as_data_frame(bio)
+
+write.csv(bio, file = "bio.csv")
+
 
 ```
 
