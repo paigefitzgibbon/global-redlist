@@ -50,10 +50,15 @@ ui <- navbarPage("Exploring Population Growth and the Global Distribution of Red
                  tabPanel("Bar Graph",
                           titlePanel("Number of Threatened Species by Country"),
                           sidebarLayout(
-                            sidebarPanel(selectInput("z", "Country",
-                                                     choices = c("Algeria", "Ghana", "Denmark"),
-                                                     selected = "Total",
-                                                     multiple = FALSE)
+                            sidebarPanel(
+                              selectInput("z1", "Country 1",
+                                                     choices = levels(bio$country),
+                                                     selected = "Afghanistan",
+                                                     multiple = FALSE),
+                              selectInput("z2", "Country 2",
+                                          choices = levels(bio$country),
+                                          selected = "Ghana",
+                                          multiple = FALSE)
                             ),
                             mainPanel(
                               plotOutput(outputId = "bargraph")
@@ -126,7 +131,7 @@ server <- function(input, output) {
 # Generate  bar graph of requested variables
 output$bargraph <- renderPlot({
   ggplot(data = bio, 
-         aes_string(x = bio$species_type, y = bio$thr_count, fill=input$z)) +
+         aes_string(x = bio$species_type, y = bio$thr_count, fill=input$z1)) +
     geom_bar(stat='identity', position='dodge') +
     geom_text(label = bio$Country) +
     labs(x = "Number of Threatened Species", y = "Count") +
