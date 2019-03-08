@@ -153,11 +153,11 @@ ui <- navbarPage("Exploring Population Growth and the Global Distribution of IUC
                  tabPanel("Map",
                           titlePanel("Distribution of Worldwide Population"),
                           sidebarLayout(
-                            sidebarPanel(sliderInput("Factor", "Year",
+                            sidebarPanel(sliderInput("year", "Year",
                                                      min = 2000, max = 2050,
                                                      value = 2000, step = 10)),
                             mainPanel(
-                              plotOutput(outputId = "")
+                              plotOutput(outputId = "map")
                             )
                           )
                           
@@ -235,14 +235,32 @@ output$bargraph <- renderPlot({
     theme_classic()+
     xlab("Species Type")+
     ylab("Count of Threatened Species")+
-    theme(axis.title = element_text(face="bold"), title = element_text(face="bold"))})  
+    theme(axis.title = element_text(face="bold"), title = element_text(face="bold"))})
+
+output$map <- renderPlot({
+  if (input$year == 2000) 
+  {plot(Graph2000)}
+  else if (input$year == 2010)
+  {plot(Graph2010)}
+  else if (input$year == 2020)
+  {plot(Graph2020)}
+  else if (input$year == 2030)
+  {plot(Graph2030)}
+  else if (input$year == 2040)
+  {plot(Graph2040)}
+  else (input$year == 2050)
+  {plot(Graph2050)}}) 
+
+ 
   
 }
 
 
+
+
+
 # Run the application 
 shinyApp(ui = ui, server = server)
-
 
 
 
