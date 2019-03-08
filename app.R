@@ -12,8 +12,92 @@ library(RColorBrewer)
 library(ggrepel)
 
 # Read in data
+<<<<<<< HEAD
 scatterplot_df1 <- read_csv("clean_scatterplot.csv")
 bio <- read_csv("bio.csv")
+=======
+scatterplot_df1 <- read_csv("cleaned_scatterplot.csv")
+bio <- read_csv("bio.csv")
+
+PopulationPredictions <- read_csv("PopulationPredictions.csv", 
+                                  col_types = cols(Total2000 = col_factor(levels = c("2", 
+                                                                                     "3", "4", "5", "6", "7", "8", "9", 
+                                                                                     "10")), Total2010 = col_factor(levels = c("2", 
+                                                                                                                               "3", "4", "5", "6", "7", "8", "9", 
+                                                                                                                               "10")), Total2020 = col_factor(levels = c("2", 
+                                                                                                                                                                         "3", "4", "5", "6", "7", "8", "9", 
+                                                                                                                                                                         "10")), Total2030 = col_factor(levels = c("2", 
+                                                                                                                                                                                                                   "3", "4", "5", "6", "7", "8", "9", 
+                                                                                                                                                                                                                   "10")), Total2040 = col_factor(levels = c("2", 
+                                                                                                                                                                                                                                                             "3", "4", "5", "6", "7", "8", "9", 
+                                                                                                                                                                                                                                                             "10")), Total2050 = col_factor(levels = c("2", 
+                                                                                                                                                                                                                                                                                                       "3", "4", "5", "6", "7", "8", "9", 
+                                                                                                                                                                                                                                                                                                       "10"))))
+world_outline <- read_sf(dsn = ".", layer = "countries")
+world_df <- full_join(world_outline, PopulationPredictions, by = "COUNTRY")
+cols <- c("2" = "#FFFFCC", "3" = "#FFEDA0", "4" = "#FED976", "5" = "#FEB24C", "6" = "#FD8D3C", "7" = "#FC4E2A", "8" = "#E31A1C", "9" = "#BD0026", "10" = "#800026")
+#define plots
+Graph2000 <- ggplot(data = world_df) + 
+  geom_sf(aes(fill = Total2000), 
+          colour = "gray10", 
+          show.legend = FALSE) +
+  scale_colour_manual(values = cols) +
+  scale_fill_manual(values = cols) +
+  theme_minimal() +
+  coord_sf(datum=NA) +
+  labs(x = "", y = "", title = "Distribution of Worldwide Population (Decile)")
+
+Graph2010<- ggplot(data = world_df) + 
+  geom_sf(aes(fill = Total2010), 
+          colour = "gray10", 
+          show.legend = FALSE) +
+  scale_colour_manual(values = cols) +
+  scale_fill_manual(values = cols) +
+  theme_minimal() +
+  coord_sf(datum=NA) +
+  labs(x = "", y = "", title = "Distribution of Worldwide Population (Decile)")
+
+Graph2020 <- ggplot(data = world_df) + 
+  geom_sf(aes(fill = Total2020), 
+          colour = "gray10", 
+          show.legend = FALSE) +
+  scale_colour_manual(values = cols) +
+  scale_fill_manual(values = cols) +
+  theme_minimal() +
+  coord_sf(datum=NA) +
+  labs(x = "", y = "", title = "Distribution of Worldwide Population (Decile)")
+
+
+Graph2030 <- ggplot(data = world_df) + 
+  geom_sf(aes(fill = Total2030), 
+          colour = "gray10", 
+          show.legend = FALSE) +
+  scale_colour_manual(values = cols) +
+  scale_fill_manual(values = cols) +
+  theme_minimal() +
+  coord_sf(datum=NA) +
+  labs(x = "", y = "", title = "Distribution of Worldwide Population (Decile)")
+
+Graph2040<- ggplot(data = world_df) + 
+  geom_sf(aes(fill = Total2040), 
+          colour = "gray10", 
+          show.legend = FALSE) +
+  scale_colour_manual(values = cols) +
+  scale_fill_manual(values = cols) +
+  theme_minimal() +
+  coord_sf(datum=NA) +
+  labs(x = "", y = "", title = "Distribution of Worldwide Population (Decile)")
+
+Graph2050<- ggplot(data = world_df) + 
+  geom_sf(aes(fill = Total2050), 
+          colour = "gray10", 
+          show.legend = FALSE) +
+  scale_colour_manual(values = cols) +
+  scale_fill_manual(values = cols) +
+  theme_minimal() +
+  coord_sf(datum=NA) +
+  labs(x = "", y = "", title = "Distribution of Worldwide Population (Decile)")
+>>>>>>> 51a3b1ff4985b1cc5dad72bbe4b87b9a0a4ef9e7
 
 # User interface 
 ui <- navbarPage("Exploring Population Growth and the Global Distribution of IUCN Red List Species",
@@ -39,7 +123,7 @@ ui <- navbarPage("Exploring Population Growth and the Global Distribution of IUC
                                 h4("3) Average annual rates of population change by region, subregion, and country for 1950-2100 (percentage) (United Nations 2017)."),
                                 br(),
                                 br(),
-                                h5("Creators: Paige Fitzgibbon, Rachel Kenny, and Madison Meltzer")
+                                h5("Creators: Paige FitzGibbon, Rachel Kenny, and Madison Meltzer")
                                 )
                               
                             )
@@ -50,10 +134,15 @@ ui <- navbarPage("Exploring Population Growth and the Global Distribution of IUC
                  tabPanel("Bar Graph",
                           titlePanel("Number of Threatened Species by Country"),
                           sidebarLayout(
-                            sidebarPanel(selectInput("z", "Country",
-                                                     choices = c("Algeria", "Ghana", "Denmark"),
-                                                     selected = "Total",
-                                                     multiple = FALSE)
+                            sidebarPanel(
+                              selectInput("z1", "Country 1",
+                                                     choices = levels(bio$country),
+                                                     selected = "Afghanistan",
+                                                     multiple = FALSE),
+                              selectInput("z2", "Country 2",
+                                          choices = levels(bio$country),
+                                          selected = "Ghana",
+                                          multiple = FALSE)
                             ),
                             mainPanel(
                               plotOutput(outputId = "bargraph")
@@ -63,7 +152,18 @@ ui <- navbarPage("Exploring Population Growth and the Global Distribution of IUC
                  ),
                  
                  # Map panel
-                 tabPanel("Map"),
+                 tabPanel("Map",
+                          titlePanel("Distribution of Worldwide Population"),
+                          sidebarLayout(
+                            sidebarPanel(sliderInput("Factor", "Year",
+                                                     min = 2000, max = 2050,
+                                                     value = 2000, step = 10)),
+                            mainPanel(
+                              plotOutput(outputId = "")
+                            )
+                          )
+                          
+                 ),
                  
                  # Scatterplot panel
                  tabPanel("Scatterplot",
@@ -127,7 +227,7 @@ server <- function(input, output) {
 # Generate  bar graph of requested variables
 output$bargraph <- renderPlot({
   ggplot(data = bio, 
-         aes_string(x = species_type, y = thr_count, fill=input$z)) +
+         aes_string(x = bio$species_type, y = bio$thr_count, fill=input$z1)) +
     geom_bar(stat='identity', position='dodge') +
     geom_text(label = bio$Country) +
     labs(x = "Number of Threatened Species", y = "Count") +
