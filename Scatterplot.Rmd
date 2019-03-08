@@ -50,7 +50,7 @@ head(scatterplot_df)
 #Assign correct attributes to each column
 scatterplot_df$Continent <- as.factor(scatterplot_df$Continent)
 
-write.csv(scatterplot_df, "cleaned_scatterplot.csv")
+write.csv(scatterplot_df, "clean_scatterplot.csv")
 
 ```
 
@@ -68,6 +68,7 @@ total <- scatterplot_df$Total
 
 ggplot(scatterplot_df, aes(x = total, y = medium)) +
   geom_point() +
+  geom_text(label = scatterplot_df1$Country) +
   labs(x = "Number of Threatened Species", y = "Rate of Population Increase to 2050", 
        title = "Threatened Species and Projected Population Increase") +
   theme(panel.grid.major = element_line(color = gray(0.5), linetype = "blank", 

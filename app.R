@@ -12,11 +12,11 @@ library(RColorBrewer)
 library(ggrepel)
 
 # Read in data
-scatterplot_df1 <- read_csv("cleaned_scatterplot.csv")
-bio <- read_csv("bio")
+scatterplot_df1 <- read_csv("clean_scatterplot.csv")
+bio <- read_csv("bio.csv")
 
 # User interface 
-ui <- navbarPage("Exploring Population Growth and the Global Distribution of Red List Species",
+ui <- navbarPage("Exploring Population Growth and the Global Distribution of IUCN Red List Species",
                  theme = shinytheme("cerulean"),
                  
                  # Home page panel               
@@ -67,15 +67,15 @@ ui <- navbarPage("Exploring Population Growth and the Global Distribution of Red
                  
                  # Scatterplot panel
                  tabPanel("Scatterplot",
-                          titlePanel("Number of Threatened Species & Projected Population Increase to 2050"),
+                          titlePanel("Countries At Risk"),
                           sidebarLayout(
                             sidebarPanel(
                                           
                               #Drop-down menu to choose continent of interest
-                              #selectInput("continent", "Continent",
-                                          #label = "Select continent:",
-                                          #choices = levels(scatterplot_df1$Continent),
-                                          #selected = "Africa"),
+                              selectInput("continent", "Continent",
+                                          choices = c(Africa = "Africa", Asia = "Asia", Europe = "Europe", 'North America' = "North America", Oceania = "Oceania", 'South America' = "South America"),
+                                          selected = "Africa",
+                                          multiple = FALSE),
                               
                               #Drop-down menu to choose species class (X axis)
                               selectInput("x", "Species Class",
@@ -104,18 +104,19 @@ ui <- navbarPage("Exploring Population Growth and the Global Distribution of Red
 # Define server logic
 server <- function(input, output) {
 
-  #scatterplot_subset <- reactive({
-    #scatterplot_df1 %>%
-      #dplyr::filter(Continent == input$continent)
+  scatterplot_filtered <- reactive({
+    scatterplot_df1 %>%
+    filter(Continent == input$continent)
+  })
 
-  #})
-  
-  # Generate ggplot scatterplot of requested variables
+  # Generate ggplot scatterplot of requested variables 
   output$scatterplot <- renderPlot({
-    ggplot(data = scatterplot_df1, 
+    
+    
+    ggplot(data = scatterplot_filtered(), 
            aes_string(x = input$x, y = input$y)) +
       geom_point() +
-      geom_text(label = scatterplot_df1$Country) +
+      geom_text(aes(label = Country)) +
       labs(x = "Number of Threatened Species", y = "Rate of Population Increase (2050)") +
       theme(panel.grid.major = element_line(color = gray(0.5), linetype = "blank", 
                                             size = 0.5), panel.background = element_rect(fill = "white"))
