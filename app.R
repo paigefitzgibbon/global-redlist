@@ -12,12 +12,10 @@ library(RColorBrewer)
 library(ggrepel)
 
 # Read in data
-<<<<<<< HEAD
+
 scatterplot_df1 <- read_csv("clean_scatterplot.csv")
 bio <- read_csv("bio.csv")
-=======
-scatterplot_df1 <- read_csv("cleaned_scatterplot.csv")
-bio <- read_csv("bio.csv")
+
 
 PopulationPredictions <- read_csv("PopulationPredictions.csv", 
                                   col_types = cols(Total2000 = col_factor(levels = c("2", 
@@ -97,7 +95,7 @@ Graph2050<- ggplot(data = world_df) +
   theme_minimal() +
   coord_sf(datum=NA) +
   labs(x = "", y = "", title = "Distribution of Worldwide Population (Decile)")
->>>>>>> 51a3b1ff4985b1cc5dad72bbe4b87b9a0a4ef9e7
+
 
 # User interface 
 ui <- navbarPage("Exploring Population Growth and the Global Distribution of IUCN Red List Species",
