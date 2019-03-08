@@ -12,11 +12,8 @@ library(RColorBrewer)
 library(ggrepel)
 
 # Read in data
-<<<<<<< HEAD
+
 scatterplot_df1 <- read_csv("clean_scatterplot.csv")
-bio <- read_csv("bio.csv")
-=======
-scatterplot_df1 <- read_csv("cleaned_scatterplot.csv")
 bio <- read_csv("bio.csv")
 
 PopulationPredictions <- read_csv("PopulationPredictions.csv", 
