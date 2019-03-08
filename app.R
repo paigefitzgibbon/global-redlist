@@ -14,6 +14,7 @@ library(ggrepel)
 # Read in data
 
 scatterplot_df1 <- read_csv("clean_scatterplot.csv")
+
 bio <- read_csv("bio.csv")
 
 PopulationPredictions <- read_csv("PopulationPredictions.csv", 
@@ -33,7 +34,8 @@ PopulationPredictions <- read_csv("PopulationPredictions.csv",
 world_outline <- read_sf(dsn = ".", layer = "countries")
 world_df <- full_join(world_outline, PopulationPredictions, by = "COUNTRY")
 cols <- c("2" = "#FFFFCC", "3" = "#FFEDA0", "4" = "#FED976", "5" = "#FEB24C", "6" = "#FD8D3C", "7" = "#FC4E2A", "8" = "#E31A1C", "9" = "#BD0026", "10" = "#800026")
-#define plots
+
+# Define plots
 Graph2000 <- ggplot(data = world_df) + 
   geom_sf(aes(fill = Total2000), 
           colour = "gray10", 
@@ -94,7 +96,7 @@ Graph2050<- ggplot(data = world_df) +
   theme_minimal() +
   coord_sf(datum=NA) +
   labs(x = "", y = "", title = "Distribution of Worldwide Population (Decile)")
->>>>>>> 51a3b1ff4985b1cc5dad72bbe4b87b9a0a4ef9e7
+
 
 # User interface 
 ui <- navbarPage("Exploring Population Growth and the Global Distribution of IUCN Red List Species",
@@ -108,19 +110,22 @@ ui <- navbarPage("Exploring Population Growth and the Global Distribution of IUC
                               sidebarPanel(tags$img(src = "turtle.jpg", align = "center", height = '400px', width = '250px')
                               ),
                               mainPanel(
-                                h4("Summary of the app:"),
-                                h4("This app will examine the relationship between human
-                                   population growth and the global distribution of IUCN Red List species. The goal of this app is to help visualize how many and what class of listed species are located in each country compared to historical and projected population growth."),
+                                br(),
+                                h5("This app will examine the relationship between human
+                                   population growth and the global distribution of IUCN Red List species (Critically Endangered, Endangered and Vulnerable). 
+                                   The goal of this app is to help visualize how many and what class of listed species are located in each country compared to historical and projected population growth."),
                                 br(),
                                 br(),
-                                h4("Our app will utilize three datasets:"),
                                 br(),
-                                h4("1) Number of threatened International Union for the Conservation of Nature (IUCN) Red List species in each country categorized by continent (IUCN Red List of Threatened Species 2018)."),
-                                h4("2) Total population (including both sexes) by region, subregion, and country, annually for 1950-2100 (thousands) (United Nations 2017)."),
-                                h4("3) Average annual rates of population change by region, subregion, and country for 1950-2100 (percentage) (United Nations 2017)."),
+                                h5("Our app will utilize three datasets:"),
+                                br(),
+                                h5("1) Number of threatened International Union for the Conservation of Nature (IUCN) Red List species in each country categorized by continent (IUCN Red List of Threatened Species 2018)."),
+                                h5("2) Total population (including both sexes) by region, subregion, and country, annually for 1950-2100 (thousands) (United Nations 2017)."),
+                                h5("3) Average annual rates of population change by region, subregion, and country for 1950-2100 (percentage) (United Nations 2017)."),
                                 br(),
                                 br(),
-                                h5("Creators: Paige FitzGibbon, Rachel Kenny, and Madison Meltzer")
+                                br(),
+                                h6("Creators: Paige FitzGibbon, Rachel Kenny, and Madison Meltzer")
                                 )
                               
                             )
