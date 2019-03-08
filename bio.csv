@@ -1,1246 +1,1246 @@
-"","Country","Molluscs","Other_Invertebrates","Plants","Fungi_Protists","Total","Continent","Region","species_type","thr_count"
-"1","Algeria",11,29,22,0,143,"Africa","North Africa","Mammals",14
-"2","Egypt",0,56,8,0,167,"Africa","North Africa","Mammals",18
-"3","Libya",0,4,7,0,67,"Africa","North Africa","Mammals",10
-"4","Morocco",37,32,52,2,228,"Africa","North Africa","Mammals",18
-"5","Tunisia",7,13,9,0,100,"Africa","North Africa","Mammals",14
-"6","Western Sahara",2,1,0,0,52,"Africa","North Africa","Mammals",10
-"7","Angola",7,4,34,0,155,"Africa","Sub-Saharan Africa","Mammals",18
-"8","Benin",2,1,20,0,95,"Africa","Sub-Saharan Africa","Mammals",13
-"9","Botswana",0,0,3,0,33,"Africa","Sub-Saharan Africa","Mammals",11
-"10","Burkina Faso",1,0,4,0,33,"Africa","Sub-Saharan Africa","Mammals",9
-"11","Burundi",3,3,89,0,142,"Africa","Sub-Saharan Africa","Mammals",14
-"12","Cabo Verde",13,0,51,0,116,"Africa","Sub-Saharan Africa","Mammals",4
-"13","Cameroon",13,12,555,0,846,"Africa","Sub-Saharan Africa","Mammals",46
-"14","Central African Republic",0,0,26,0,66,"Africa","Sub-Saharan Africa","Mammals",16
-"15","Chad",4,0,6,0,48,"Africa","Sub-Saharan Africa","Mammals",16
-"16","Comoros",0,76,9,0,120,"Africa","Sub-Saharan Africa","Mammals",5
-"17","Congo",7,0,46,0,139,"Africa","Sub-Saharan Africa","Mammals",15
-"18","Congo, The Democratic Republic of the",44,10,148,0,390,"Africa","Sub-Saharan Africa","Mammals",32
-"19","Cªte d'Ivoire",5,2,118,0,262,"Africa","Sub-Saharan Africa","Mammals",31
-"20","Djibouti",1,56,3,0,107,"Africa","Sub-Saharan Africa","Mammals",11
-"21","Equatorial Guinea",2,2,98,0,187,"Africa","Sub-Saharan Africa","Mammals",23
-"22","Eritrea",1,57,6,0,136,"Africa","Sub-Saharan Africa","Mammals",15
-"23","Eswatini",0,0,13,0,41,"Africa","Sub-Saharan Africa","Mammals",9
-"24","Ethiopia",4,11,64,0,177,"Africa","Sub-Saharan Africa","Mammals",34
-"25","Gabon",2,2,173,0,284,"Africa","Sub-Saharan Africa","Mammals",18
-"26","Gambia",2,0,6,0,73,"Africa","Sub-Saharan Africa","Mammals",10
-"27","Ghana",2,3,119,0,245,"Africa","Sub-Saharan Africa","Mammals",21
-"28","Guinea",3,5,70,0,218,"Africa","Sub-Saharan Africa","Mammals",30
-"29","Guinea-Bissau",2,0,6,0,83,"Africa","Sub-Saharan Africa","Mammals",14
-"30","Kenya",20,71,243,0,505,"Africa","Sub-Saharan Africa","Mammals",30
-"31","Lesotho",0,3,4,0,20,"Africa","Sub-Saharan Africa","Mammals",4
-"32","Liberia",3,7,53,0,177,"Africa","Sub-Saharan Africa","Mammals",24
-"33","Madagascar",35,159,1111,0,1858,"Africa","Sub-Saharan Africa","Mammals",121
-"34","Malawi",7,7,34,0,122,"Africa","Sub-Saharan Africa","Mammals",10
-"35","Mali",0,0,12,0,49,"Africa","Sub-Saharan Africa","Mammals",14
-"36","Mauritania",2,1,0,0,91,"Africa","Sub-Saharan Africa","Mammals",18
-"37","Mauritius",29,91,91,0,262,"Africa","Sub-Saharan Africa","Mammals",7
-"38","Mayotte",0,70,3,0,93,"Africa","Sub-Saharan Africa","Mammals",2
-"39","Mozambique",0,64,145,0,347,"Africa","Sub-Saharan Africa","Mammals",17
-"40","Namibia",2,2,27,0,117,"Africa","Sub-Saharan Africa","Mammals",15
-"41","Niger",1,0,4,0,38,"Africa","Sub-Saharan Africa","Mammals",13
-"42","Nigeria",3,10,205,0,368,"Africa","Sub-Saharan Africa","Mammals",31
-"43","R_union",17,72,18,0,132,"Africa","Sub-Saharan Africa","Mammals",4
-"44","Rwanda",0,4,41,0,98,"Africa","Sub-Saharan Africa","Mammals",24
-"45","Saint Helena, Ascension and Tristan da Cunha",1,67,44,1,153,"Africa","Sub-Saharan Africa","Mammals",3
-"46","Sao Tome and Principe",3,1,49,0,102,"Africa","Sub-Saharan Africa","Mammals",4
-"47","Senegal",12,1,14,0,132,"Africa","Sub-Saharan Africa","Mammals",19
-"48","Seychelles",37,283,61,0,441,"Africa","SSub-Saharan Africa","Mammals",6
-"49","Sierra Leone",5,3,72,0,187,"Africa","Sub-Saharan Africa","Mammals",22
-"50","Somalia",2,60,49,0,185,"Africa","Sub-Saharan Africa","Mammals",16
-"51","South Africa",22,186,153,0,602,"Africa","Sub-Saharan Africa","Mammals",30
-"52","South Sudan",0,1,17,0,57,"Africa","Sub-Saharan Africa","Mammals",14
-"53","Sudan",0,50,17,0,147,"Africa","Sub-Saharan Africa","Mammals",16
-"54","Tanzania, United Republic of",11,136,644,0,1155,"Africa","Sub-Saharan Africa","Mammals",41
-"55","Togo",2,1,13,0,88,"Africa","Sub-Saharan Africa","Mammals",13
-"56","Uganda",14,16,64,0,221,"Africa","Sub-Saharan Africa","Mammals",31
-"57","Zambia",12,2,23,0,92,"Africa","Sub-Saharan Africa","Mammals",13
-"58","Zimbabwe",0,7,52,0,102,"Africa","Sub-Saharan Africa","Mammals",10
-"59","Antarctica",0,0,0,0,6,"Antarctica","Antarctica","Mammals",2
-"60","Bouvet Island",0,0,0,0,3,"Antarctica","Antarctica","Mammals",1
-"61","French Southern Territories",0,0,1,0,28,"Antarctica","Antarctica","Mammals",3
-"62","Heard Island and McDonald Islands",0,0,0,0,12,"Antarctica","Antarctica","Mammals",1
-"63","South Georgia and the South Sandwich Islands",0,0,0,0,9,"Antarctica","Antarctica","Mammals",3
-"64","China",15,61,593,1,1105,"Asia","East Asia","Mammals",73
-"65","Hong Kong",1,7,10,0,68,"Asia","East Asia","Mammals",4
-"66","Japan",33,142,50,4,429,"Asia","East Asia","Mammals",29
-"67","Korea, Democratic People's Republic of",0,3,17,0,82,"Asia","East Asia","Mammals",10
-"68","Korea, Republic of",0,8,31,1,119,"Asia","East Asia","Mammals",12
-"69","Macao",0,1,0,0,15,"Asia","East Asia","Mammals",0
-"70","Mongolia",0,3,0,0,40,"Asia","East Asia","Mammals",11
-"71","Taiwan, Province of China",1,127,85,1,342,"Asia","East Asia","Mammals",12
-"72","Belarus",3,7,1,0,26,"Asia","North Asia","Mammals",4
-"73","Moldova",2,4,2,0,33,"Asia","North Asia","Mammals",4
-"74","Russian Federation",8,31,56,5,239,"Asia","North Asia","Mammals",34
-"75","Ukraine",9,29,22,1,114,"Asia","North Asia","Mammals",11
-"76","Bangladesh",0,7,23,0,156,"Asia","South & Southeast Asia","Mammals",37
-"77","Bhutan",0,1,43,0,97,"Asia","South & Southeast Asia","Mammals",25
-"78","British Indian Ocean Territory",0,69,1,0,86,"Asia","South & Southeast Asia","Mammals",0
-"79","Brunei Darussalam",0,9,127,0,224,"Asia","South & Southeast Asia","Mammals",33
-"80","Cambodia",1,78,37,0,264,"Asia","South & Southeast Asia","Mammals",39
-"81","Disputed Territory",0,1,0,0,8,"Asia","South & Southeast Asia","Mammals",0
-"82","India",7,128,396,0,1073,"Asia","South & Southeast Asia","Mammals",93
-"83","Indonesia",6,285,458,0,1332,"Asia","South & Southeast Asia","Mammals",191
-"84","Lao People's Democratic Republic",16,5,56,0,239,"Asia","South & Southeast Asia","Mammals",45
-"85","Malaysia",37,228,727,1,1301,"Asia","South & Southeast Asia","Mammals",71
-"86","Maldives",0,46,0,0,75,"Asia","South & Southeast Asia","Mammals",2
-"87","Myanmar",3,74,61,0,331,"Asia","South & Southeast Asia","Mammals",49
-"88","Nepal",1,2,18,0,107,"Asia","South & Southeast Asia","Mammals",29
-"89","Philippines",3,235,254,0,780,"Asia","South & Southeast Asia","Mammals",38
-"90","Singapore",0,173,62,0,306,"Asia","South & Southeast Asia","Mammals",14
-"91","Sri Lanka",0,130,297,0,598,"Asia","South & Southeast Asia","Mammals",30
-"92","Thailand",15,196,159,0,641,"Asia","South & Southeast Asia","Mammals",59
-"93","Timor-Leste",0,1,2,0,29,"Asia","South & Southeast Asia","Mammals",5
-"94","Viet Nam",30,122,231,0,692,"Asia","South & Southeast Asia","Mammals",56
-"95","Afghanistan",0,2,5,0,40,"Asia","West & Central Asia","Mammals",11
-"96","Armenia",2,7,74,0,116,"Asia","West & Central Asia","Mammals",9
-"97","Azerbaijan",2,5,44,0,100,"Asia","West & Central Asia","Mammals",8
-"98","Bahrain",0,13,0,0,41,"Asia","West & Central Asia","Mammals",3
-"99","Cyprus",5,10,22,0,79,"Asia","West & Central Asia","Mammals",6
-"100","Georgia",4,11,63,1,121,"Asia","West & Central Asia","Mammals",9
-"101","Iran, Islamic Republic of",2,22,7,0,143,"Asia","West & Central Asia","Mammals",18
-"102","Iraq",1,16,2,0,72,"Asia","West & Central Asia","Mammals",13
-"103","Israel",11,63,23,0,193,"Asia","West & Central Asia","Mammals",15
-"104","Jordan",6,55,8,0,122,"Asia","West & Central Asia","Mammals",13
-"105","Kazakhstan",2,5,14,0,80,"Asia","West & Central Asia","Mammals",16
-"106","Kuwait",0,13,0,0,53,"Asia","West & Central Asia","Mammals",7
-"107","Kyrgyzstan",0,4,13,0,43,"Asia","West & Central Asia","Mammals",5
-"108","Lebanon",9,9,24,0,99,"Asia","West & Central Asia","Mammals",10
-"109","Oman",2,29,6,0,104,"Asia","West & Central Asia","Mammals",10
-"110","Pakistan",0,18,12,0,146,"Asia","West & Central Asia","Mammals",25
-"111","Palestine, State of",2,2,6,0,36,"Asia","West & Central Asia","Mammals",4
-"112","Qatar",0,13,0,0,46,"Asia","West & Central Asia","Mammals",4
-"113","Saudi Arabia",1,58,4,0,136,"Asia","West & Central Asia","Mammals",11
-"114","Syrian Arab Republic",9,13,26,0,139,"Asia","West & Central Asia","Mammals",14
-"115","Tajikistan",0,3,12,0,47,"Asia","West & Central Asia","Mammals",7
-"116","Turkey",45,40,113,2,401,"Asia","West & Central Asia","Mammals",19
-"117","Turkmenistan",1,6,4,0,59,"Asia","West & Central Asia","Mammals",10
-"118","United Arab Emirates",0,15,0,0,60,"Asia","West & Central Asia","Mammals",8
-"119","Uzbekistan",1,2,16,0,62,"Asia","West & Central Asia","Mammals",10
-"120","Yemen",2,66,163,0,306,"Asia","West & Central Asia","Mammals",11
-"121","Albania",50,21,4,0,137,"Europe","Europe","Mammals",3
-"122","Andorra",3,5,0,0,14,"Europe","Europe","Mammals",2
-"123","Austria",43,31,17,8,127,"Europe","Europe","Mammals",3
-"124","Belgium",6,9,0,1,39,"Europe","Europe","Mammals",2
-"125","Bosnia and Herzegovina",18,24,3,0,96,"Europe","Europe","Mammals",4
-"126","Bulgaria",32,25,9,0,115,"Europe","Europe","Mammals",8
-"127","Croatia",49,30,8,1,181,"Europe","Europe","Mammals",9
-"128","Czechia",6,23,26,5,74,"Europe","Europe","Mammals",3
-"129","Denmark",5,11,1,3,49,"Europe","Europe","Mammals",2
-"130","Estonia",4,3,0,2,24,"Europe","Europe","Mammals",1
-"131","Faroe Islands",0,0,0,1,24,"Europe","Europe","Mammals",4
-"132","Finland",3,7,2,6,37,"Europe","Europe","Mammals",2
-"133","France",92,68,47,8,300,"Europe","Europe","Mammals",9
-"134","Germany",31,30,36,7,144,"Europe","Europe","Mammals",5
-"135","Gibraltar",3,2,1,0,33,"Europe","Europe","Mammals",3
-"136","Greece",178,130,72,1,503,"Europe","Europe","Mammals",10
-"137","Greenland",0,0,1,0,25,"Europe","Europe","Mammals",9
-"138","Guernsey",0,0,0,0,6,"Europe","Europe","Mammals",0
-"139","Holy See (Vatican City State)",0,0,0,0,1,"Europe","Europe","Mammals",1
-"140","Hungary",8,26,43,2,105,"Europe","Europe","Mammals",3
-"141","Iceland",0,0,0,0,29,"Europe","Europe","Mammals",6
-"142","Ireland",4,2,3,2,54,"Europe","Europe","Mammals",5
-"143","Isle of Man",0,0,0,0,2,"Europe","Europe","Mammals",0
-"144","Italy",83,139,102,9,423,"Europe","Europe","Mammals",8
-"145","Jersey",1,0,0,0,7,"Europe","Europe","Mammals",0
-"146","Latvia",4,8,0,1,31,"Europe","Europe","Mammals",1
-"147","Liechtenstein",2,4,0,0,8,"Europe","Europe","Mammals",0
-"148","Lithuania",3,5,1,1,28,"Europe","Europe","Mammals",2
-"149","Luxembourg",5,2,0,0,11,"Europe","Europe","Mammals",0
-"150","Macedonia, the former Yugoslav Republic of",71,15,4,1,125,"Europe","Europe","Mammals",6
-"151","Malta",3,2,4,0,39,"Europe","Europe","Mammals",2
-"152","Monaco",1,2,1,0,22,"Europe","Europe","Mammals",3
-"153","Montenegro",22,20,3,0,101,"Europe","Europe","Mammals",6
-"154","Netherlands",5,6,1,3,43,"Europe","Europe","Mammals",3
-"155","Norway",3,7,10,11,73,"Europe","Europe","Mammals",8
-"156","Poland",7,21,11,3,65,"Europe","Europe","Mammals",4
-"157","Portugal",86,118,101,4,410,"Europe","Europe","Mammals",13
-"158","Romania",25,43,7,0,125,"Europe","Europe","Mammals",9
-"159","San Marino",1,0,0,0,1,"Europe","Europe","Mammals",0
-"160","Serbia",8,27,6,1,77,"Europe","Europe","Mammals",6
-"161","Slovakia",7,25,25,3,81,"Europe","Europe","Mammals",4
-"162","Slovenia",32,51,7,4,147,"Europe","Europe","Mammals",6
-"163","Spain",164,124,247,6,686,"Europe","Europe","Mammals",17
-"164","Svalbard and Jan Mayen",0,0,0,0,10,"Europe","Europe","Mammals",4
-"165","Sweden",4,12,5,10,58,"Europe","Europe","Mammals",1
-"166","Switzerland",10,37,4,6,79,"Europe","Europe","Mammals",3
-"167","United Kingdom",7,13,42,6,133,"Europe","Europe","Mammals",5
-"168","Belize",0,12,46,0,130,"North America","Mesoamerica","Mammals",10
-"169","Costa Rica",1,30,143,0,349,"North America","Mesoamerica","Mammals",11
-"170","El Salvador",0,10,33,0,92,"North America","Mesoamerica","Mammals",6
-"171","Guatemala",2,11,120,0,315,"North America","Mesoamerica","Mammals",15
-"172","Honduras",0,21,134,0,317,"North America","Mesoamerica","Mammals",8
-"173","Mexico",8,103,484,1,1261,"North America","Mesoamerica","Mammals",96
-"174","Nicaragua",2,18,50,0,153,"North America","Mesoamerica","Mammals",7
-"175","Panama",0,22,212,0,392,"North America","Mesoamerica","Mammals",17
-"176","Anguilla",0,10,4,0,56,"North America","Caribbean Islands","Mammals",1
-"177","Antigua and Barbuda",0,11,4,0,58,"North America","Caribbean Islands","Mammals",2
-"178","Aruba",1,1,2,0,34,"North America","Caribbean Islands","Mammals",2
-"179","Bahamas",1,11,7,0,88,"North America","Caribbean Islands","Mammals",5
-"180","Barbados",0,11,3,0,57,"North America","Caribbean Islands","Mammals",3
-"181","Bermuda",0,28,8,0,74,"North America","Caribbean Islands","Mammals",4
-"182","Bonaire, Sint Eustatius and Saba",0,11,3,0,57,"North America","Caribbean Islands","Mammals",3
-"183","Cayman Islands",1,10,22,0,75,"North America","Caribbean Islands","Mammals",1
-"184","Cuba",0,23,179,0,348,"North America","Caribbean Islands","Mammals",10
-"185","Curacao",0,11,2,0,51,"North America","Caribbean Islands","Mammals",3
-"186","Dominica",0,11,12,0,69,"North America","Caribbean Islands","Mammals",3
-"187","Dominican Republic",0,16,47,0,195,"North America","Caribbean Islands","Mammals",7
-"188","Grenada",0,10,3,0,55,"North America","Caribbean Islands","Mammals",3
-"189","Guadeloupe",1,15,10,0,78,"North America","Caribbean Islands","Mammals",4
-"190","Haiti",0,14,93,0,261,"North America","Caribbean Islands","Mammals",4
-"191","Jamaica",0,15,215,0,318,"North America","Caribbean Islands","Mammals",7
-"192","Martinique",2,0,9,0,54,"North America","Caribbean Islands","Mammals",1
-"193","Montserrat",0,11,6,0,58,"North America","Caribbean Islands","Mammals",2
-"194","Puerto Rico",0,0,64,0,139,"North America","Caribbean Islands","Mammals",2
-"195","Saint Barth_lemy",0,11,2,0,38,"North America","Caribbean Islands","Mammals",1
-"196","Saint Kitts and Nevis",0,10,2,0,54,"North America","Caribbean Islands","Mammals",2
-"197","Saint Lucia",0,11,7,0,64,"North America","Caribbean Islands","Mammals",2
-"198","Saint Martin (French part)",0,10,3,0,55,"North America","Caribbean Islands","Mammals",2
-"199","Saint Vincent and the Grenadines",0,10,6,0,60,"North America","Caribbean Islands","Mammals",2
-"200","Sint Maarten (Dutch part)",0,10,3,0,55,"North America","Caribbean Islands","Mammals",2
-"201","Trinidad and Tobago",0,10,50,0,119,"North America","Caribbean Islands","Mammals",2
-"202","Turks and Caicos Islands",0,10,9,0,62,"North America","Caribbean Islands","Mammals",2
-"203","Virgin Islands, British",0,10,20,0,81,"North America","Caribbean Islands","Mammals",1
-"204","Virgin Islands, U.S.",0,0,17,0,66,"North America","Caribbean Islands","Mammals",1
-"205","Canada",17,20,18,7,155,"North America","North America","Mammals",18
-"206","Saint Pierre and Miquelon",0,0,0,0,16,"North America","North America","Mammals",4
-"207","United States",311,269,510,24,1589,"North America","North America","Mammals",40
-"208","Argentina",0,14,70,1,273,"South America","South America","Mammals",38
-"209","Bolivia, Plurinational States of",2,1,106,0,239,"South America","South America","Mammals",21
-"210","Brazil",22,34,558,0,1027,"South America","South America","Mammals",80
-"211","Chile",1,12,73,0,221,"South America","South America","Mammals",19
-"212","Colombia",4,49,268,0,861,"South America","South America","Mammals",58
-"213","Ecuador",49,21,1859,7,2372,"South America","South America","Mammals",47
-"214","Falkland Islands (Malvinas)",0,0,5,0,22,"South America","South America","Mammals",4
-"215","French Guiana",0,0,18,0,74,"South America","South America","Mammals",8
-"216","Guyana",0,1,30,0,106,"South America","South America","Mammals",11
-"217","Paraguay",0,0,20,0,64,"South America","South America","Mammals",10
-"218","Peru",4,4,328,0,721,"South America","South America","Mammals",53
-"219","Suriname",0,1,27,0,85,"South America","South America","Mammals",9
-"220","Uruguay",0,2,22,0,112,"South America","South America","Mammals",10
-"221","Venezuela, Bolivarian Republic of",1,25,86,0,342,"South America","South America","Mammals",35
-"222","American Samoa",5,60,1,0,93,"Oceania","Oceania","Mammals",1
-"223","Australia",174,360,108,1,1005,"Oceania","Oceania","Mammals",63
-"224","Christmas Island",0,19,1,0,40,"Oceania","Oceania","Mammals",2
-"225","Cocos (Keeling) Islands",0,20,0,0,35,"Oceania","Oceania","Mammals",2
-"226","Cook Islands",0,32,11,0,74,"Oceania","Oceania","Mammals",1
-"227","Fiji",68,97,78,0,300,"Oceania","Oceania","Mammals",7
-"228","French Polynesia",31,31,48,0,176,"Oceania","Oceania","Mammals",0
-"229","Guam",6,54,5,0,101,"Oceania","Oceania","Mammals",3
-"230","Kiribati",1,80,0,0,105,"Oceania","Oceania","Mammals",2
-"231","Marshall Islands",1,72,0,0,100,"Oceania","Oceania","Mammals",1
-"232","Micronesia, Federated States of",3,111,5,0,168,"Oceania","Oceania","Mammals",5
-"233","Nauru",0,68,0,0,83,"Oceania","Oceania","Mammals",2
-"234","New Caledonia",28,97,350,0,592,"Oceania","Oceania","Mammals",9
-"235","New Zealand",35,26,21,3,219,"Oceania","Oceania","Mammals",9
-"236","Niue",0,30,0,0,51,"Oceania","Oceania","Mammals",1
-"237","Norfolk Island",12,11,2,0,45,"Oceania","Oceania","Mammals",1
-"238","Northern Mariana Islands",4,53,6,0,101,"Oceania","Oceania","Mammals",3
-"239","Palau",40,106,5,0,185,"Oceania","Oceania","Mammals",4
-"240","Papua New Guinea",2,176,179,2,524,"Oceania","Oceania","Mammals",41
-"241","Pitcairn",5,11,7,0,42,"Oceania","Oceania","Mammals",0
-"242","Samoa",1,62,2,0,94,"Oceania","Oceania","Mammals",2
-"243","Solomon Islands",2,148,16,0,241,"Oceania","Oceania","Mammals",19
-"244","Tokelau",0,35,0,0,49,"Oceania","Oceania","Mammals",0
-"245","Tonga",4,43,5,0,80,"Oceania","Oceania","Mammals",2
-"246","Tuvalu",1,77,0,0,97,"Oceania","Oceania","Mammals",2
-"247","United States Minor Outlying Islands",0,47,0,0,70,"Oceania","Oceania","Mammals",0
-"248","Vanuatu",3,88,10,0,139,"Oceania","Oceania","Mammals",8
-"249","Wallis and Futuna",0,64,1,0,88,"Oceania","Oceania","Mammals",0
-"250","Algeria",11,29,22,0,143,"Africa","North Africa","Birds",15
-"251","Egypt",0,56,8,0,167,"Africa","North Africa","Birds",14
-"252","Libya",0,4,7,0,67,"Africa","North Africa","Birds",8
-"253","Morocco",37,32,52,2,228,"Africa","North Africa","Birds",18
-"254","Tunisia",7,13,9,0,100,"Africa","North Africa","Birds",11
-"255","Western Sahara",2,1,0,0,52,"Africa","North Africa","Birds",5
-"256","Angola",7,4,34,0,155,"Africa","Sub-Saharan Africa","Birds",32
-"257","Benin",2,1,20,0,95,"Africa","Sub-Saharan Africa","Birds",12
-"258","Botswana",0,0,3,0,33,"Africa","Sub-Saharan Africa","Birds",16
-"259","Burkina Faso",1,0,4,0,33,"Africa","Sub-Saharan Africa","Birds",12
-"260","Burundi",3,3,89,0,142,"Africa","Sub-Saharan Africa","Birds",15
-"261","Cabo Verde",13,0,51,0,116,"Africa","Sub-Saharan Africa","Birds",7
-"262","Cameroon",13,12,555,0,846,"Africa","Sub-Saharan Africa","Birds",29
-"263","Central African Republic",0,0,26,0,66,"Africa","Sub-Saharan Africa","Birds",16
-"264","Chad",4,0,6,0,48,"Africa","Sub-Saharan Africa","Birds",16
-"265","Comoros",0,76,9,0,120,"Africa","Sub-Saharan Africa","Birds",14
-"266","Congo",7,0,46,0,139,"Africa","Sub-Saharan Africa","Birds",7
-"267","Congo, The Democratic Republic of the",44,10,148,0,390,"Africa","Sub-Saharan Africa","Birds",42
-"268","Cªte d'Ivoire",5,2,118,0,262,"Africa","Sub-Saharan Africa","Birds",25
-"269","Djibouti",1,56,3,0,107,"Africa","Sub-Saharan Africa","Birds",12
-"270","Equatorial Guinea",2,2,98,0,187,"Africa","Sub-Saharan Africa","Birds",6
-"271","Eritrea",1,57,6,0,136,"Africa","Sub-Saharan Africa","Birds",21
-"272","Eswatini",0,0,13,0,41,"Africa","Sub-Saharan Africa","Birds",13
-"273","Ethiopia",4,11,64,0,177,"Africa","Sub-Saharan Africa","Birds",35
-"274","Gabon",2,2,173,0,284,"Africa","Sub-Saharan Africa","Birds",7
-"275","Gambia",2,0,6,0,73,"Africa","Sub-Saharan Africa","Birds",14
-"276","Ghana",2,3,119,0,245,"Africa","Sub-Saharan Africa","Birds",23
-"277","Guinea",3,5,70,0,218,"Africa","Sub-Saharan Africa","Birds",20
-"278","Guinea-Bissau",2,0,6,0,83,"Africa","Sub-Saharan Africa","Birds",12
-"279","Kenya",20,71,243,0,505,"Africa","Sub-Saharan Africa","Birds",44
-"280","Lesotho",0,3,4,0,20,"Africa","Sub-Saharan Africa","Birds",8
-"281","Liberia",3,7,53,0,177,"Africa","Sub-Saharan Africa","Birds",14
-"282","Madagascar",35,159,1111,0,1858,"Africa","Sub-Saharan Africa","Birds",37
-"283","Malawi",7,7,34,0,122,"Africa","Sub-Saharan Africa","Birds",19
-"284","Mali",0,0,12,0,49,"Africa","Sub-Saharan Africa","Birds",17
-"285","Mauritania",2,1,0,0,91,"Africa","Sub-Saharan Africa","Birds",19
-"286","Mauritius",29,91,91,0,262,"Africa","Sub-Saharan Africa","Birds",12
-"287","Mayotte",0,70,3,0,93,"Africa","Sub-Saharan Africa","Birds",3
-"288","Mozambique",0,64,145,0,347,"Africa","Sub-Saharan Africa","Birds",30
-"289","Namibia",2,2,27,0,117,"Africa","Sub-Saharan Africa","Birds",32
-"290","Niger",1,0,4,0,38,"Africa","Sub-Saharan Africa","Birds",13
-"291","Nigeria",3,10,205,0,368,"Africa","Sub-Saharan Africa","Birds",21
-"292","R_union",17,72,18,0,132,"Africa","Sub-Saharan Africa","Birds",7
-"293","Rwanda",0,4,41,0,98,"Africa","Sub-Saharan Africa","Birds",20
-"294","Saint Helena, Ascension and Tristan da Cunha",1,67,44,1,153,"Africa","Sub-Saharan Africa","Birds",21
-"295","Sao Tome and Principe",3,1,49,0,102,"Africa","Sub-Saharan Africa","Birds",12
-"296","Senegal",12,1,14,0,132,"Africa","Sub-Saharan Africa","Birds",19
-"297","Seychelles",37,283,61,0,441,"Africa","SSub-Saharan Africa","Birds",13
-"298","Sierra Leone",5,3,72,0,187,"Africa","Sub-Saharan Africa","Birds",16
-"299","Somalia",2,60,49,0,185,"Africa","Sub-Saharan Africa","Birds",21
-"300","South Africa",22,186,153,0,602,"Africa","Sub-Saharan Africa","Birds",54
-"301","South Sudan",0,1,17,0,57,"Africa","Sub-Saharan Africa","Birds",21
-"302","Sudan",0,50,17,0,147,"Africa","Sub-Saharan Africa","Birds",26
-"303","Tanzania, United Republic of",11,136,644,0,1155,"Africa","Sub-Saharan Africa","Birds",49
-"304","Togo",2,1,13,0,88,"Africa","Sub-Saharan Africa","Birds",13
-"305","Uganda",14,16,64,0,221,"Africa","Sub-Saharan Africa","Birds",30
-"306","Zambia",12,2,23,0,92,"Africa","Sub-Saharan Africa","Birds",20
-"307","Zimbabwe",0,7,52,0,102,"Africa","Sub-Saharan Africa","Birds",19
-"308","Antarctica",0,0,0,0,6,"Antarctica","Antarctica","Birds",4
-"309","Bouvet Island",0,0,0,0,3,"Antarctica","Antarctica","Birds",1
-"310","French Southern Territories",0,0,1,0,28,"Antarctica","Antarctica","Birds",13
-"311","Heard Island and McDonald Islands",0,0,0,0,12,"Antarctica","Antarctica","Birds",10
-"312","South Georgia and the South Sandwich Islands",0,0,0,0,9,"Antarctica","Antarctica","Birds",6
-"313","China",15,61,593,1,1105,"Asia","East Asia","Birds",96
-"314","Hong Kong",1,7,10,0,68,"Asia","East Asia","Birds",21
-"315","Japan",33,142,50,4,429,"Asia","East Asia","Birds",49
-"316","Korea, Democratic People's Republic of",0,3,17,0,82,"Asia","East Asia","Birds",29
-"317","Korea, Republic of",0,8,31,1,119,"Asia","East Asia","Birds",33
-"318","Macao",0,1,0,0,15,"Asia","East Asia","Birds",4
-"319","Mongolia",0,3,0,0,40,"Asia","East Asia","Birds",24
-"320","Taiwan, Province of China",1,127,85,1,342,"Asia","East Asia","Birds",24
-"321","Belarus",3,7,1,0,26,"Asia","North Asia","Birds",9
-"322","Moldova",2,4,2,0,33,"Asia","North Asia","Birds",11
-"323","Russian Federation",8,31,56,5,239,"Asia","North Asia","Birds",57
-"324","Ukraine",9,29,22,1,114,"Asia","North Asia","Birds",17
-"325","Bangladesh",0,7,23,0,156,"Asia","South & Southeast Asia","Birds",36
-"326","Bhutan",0,1,43,0,97,"Asia","South & Southeast Asia","Birds",21
-"327","British Indian Ocean Territory",0,69,1,0,86,"Asia","South & Southeast Asia","Birds",1
-"328","Brunei Darussalam",0,9,127,0,224,"Asia","South & Southeast Asia","Birds",31
-"329","Cambodia",1,78,37,0,264,"Asia","South & Southeast Asia","Birds",31
-"330","Disputed Territory",0,1,0,0,8,"Asia","South & Southeast Asia","Birds",0
-"331","India",7,128,396,0,1073,"Asia","South & Southeast Asia","Birds",93
-"332","Indonesia",6,285,458,0,1332,"Asia","South & Southeast Asia","Birds",160
-"333","Lao People's Democratic Republic",16,5,56,0,239,"Asia","South & Southeast Asia","Birds",29
-"334","Malaysia",37,228,727,1,1301,"Asia","South & Southeast Asia","Birds",63
-"335","Maldives",0,46,0,0,75,"Asia","South & Southeast Asia","Birds",0
-"336","Myanmar",3,74,61,0,331,"Asia","South & Southeast Asia","Birds",56
-"337","Nepal",1,2,18,0,107,"Asia","South & Southeast Asia","Birds",38
-"338","Philippines",3,235,254,0,780,"Asia","South & Southeast Asia","Birds",93
-"339","Singapore",0,173,62,0,306,"Asia","South & Southeast Asia","Birds",22
-"340","Sri Lanka",0,130,297,0,598,"Asia","South & Southeast Asia","Birds",16
-"341","Thailand",15,196,159,0,641,"Asia","South & Southeast Asia","Birds",62
-"342","Timor-Leste",0,1,2,0,29,"Asia","South & Southeast Asia","Birds",6
-"343","Viet Nam",30,122,231,0,692,"Asia","South & Southeast Asia","Birds",52
-"344","Afghanistan",0,2,5,0,40,"Asia","West & Central Asia","Birds",16
-"345","Armenia",2,7,74,0,116,"Asia","West & Central Asia","Birds",14
-"346","Azerbaijan",2,5,44,0,100,"Asia","West & Central Asia","Birds",17
-"347","Bahrain",0,13,0,0,41,"Asia","West & Central Asia","Birds",7
-"348","Cyprus",5,10,22,0,79,"Asia","West & Central Asia","Birds",7
-"349","Georgia",4,11,63,1,121,"Asia","West & Central Asia","Birds",14
-"350","Iran, Islamic Republic of",2,22,7,0,143,"Asia","West & Central Asia","Birds",28
-"351","Iraq",1,16,2,0,72,"Asia","West & Central Asia","Birds",17
-"352","Israel",11,63,23,0,193,"Asia","West & Central Asia","Birds",18
-"353","Jordan",6,55,8,0,122,"Asia","West & Central Asia","Birds",14
-"354","Kazakhstan",2,5,14,0,80,"Asia","West & Central Asia","Birds",27
-"355","Kuwait",0,13,0,0,53,"Asia","West & Central Asia","Birds",11
-"356","Kyrgyzstan",0,4,13,0,43,"Asia","West & Central Asia","Birds",15
-"357","Lebanon",9,9,24,0,99,"Asia","West & Central Asia","Birds",11
-"358","Oman",2,29,6,0,104,"Asia","West & Central Asia","Birds",13
-"359","Pakistan",0,18,12,0,146,"Asia","West & Central Asia","Birds",33
-"360","Palestine, State of",2,2,6,0,36,"Asia","West & Central Asia","Birds",15
-"361","Qatar",0,13,0,0,46,"Asia","West & Central Asia","Birds",9
-"362","Saudi Arabia",1,58,4,0,136,"Asia","West & Central Asia","Birds",18
-"363","Syrian Arab Republic",9,13,26,0,139,"Asia","West & Central Asia","Birds",17
-"364","Tajikistan",0,3,12,0,47,"Asia","West & Central Asia","Birds",15
-"365","Turkey",45,40,113,2,401,"Asia","West & Central Asia","Birds",20
-"366","Turkmenistan",1,6,4,0,59,"Asia","West & Central Asia","Birds",19
-"367","United Arab Emirates",0,15,0,0,60,"Asia","West & Central Asia","Birds",13
-"368","Uzbekistan",1,2,16,0,62,"Asia","West & Central Asia","Birds",19
-"369","Yemen",2,66,163,0,306,"Asia","West & Central Asia","Birds",16
-"370","Albania",50,21,4,0,137,"Europe","Europe","Birds",8
-"371","Andorra",3,5,0,0,14,"Europe","Europe","Birds",3
-"372","Austria",43,31,17,8,127,"Europe","Europe","Birds",13
-"373","Belgium",6,9,0,1,39,"Europe","Europe","Birds",8
-"374","Bosnia and Herzegovina",18,24,3,0,96,"Europe","Europe","Birds",7
-"375","Bulgaria",32,25,9,0,115,"Europe","Europe","Birds",17
-"376","Croatia",49,30,8,1,181,"Europe","Europe","Birds",14
-"377","Czechia",6,23,26,5,74,"Europe","Europe","Birds",9
-"378","Denmark",5,11,1,3,49,"Europe","Europe","Birds",9
-"379","Estonia",4,3,0,2,24,"Europe","Europe","Birds",9
-"380","Faroe Islands",0,0,0,1,24,"Europe","Europe","Birds",6
-"381","Finland",3,7,2,6,37,"Europe","Europe","Birds",11
-"382","France",92,68,47,8,300,"Europe","Europe","Birds",16
-"383","Germany",31,30,36,7,144,"Europe","Europe","Birds",11
-"384","Gibraltar",3,2,1,0,33,"Europe","Europe","Birds",6
-"385","Greece",178,130,72,1,503,"Europe","Europe","Birds",17
-"386","Greenland",0,0,1,0,25,"Europe","Europe","Birds",6
-"387","Guernsey",0,0,0,0,6,"Europe","Europe","Birds",0
-"388","Holy See (Vatican City State)",0,0,0,0,1,"Europe","Europe","Birds",0
-"389","Hungary",8,26,43,2,105,"Europe","Europe","Birds",13
-"390","Iceland",0,0,0,0,29,"Europe","Europe","Birds",7
-"391","Ireland",4,2,3,2,54,"Europe","Europe","Birds",9
-"392","Isle of Man",0,0,0,0,2,"Europe","Europe","Birds",0
-"393","Italy",83,139,102,9,423,"Europe","Europe","Birds",17
-"394","Jersey",1,0,0,0,7,"Europe","Europe","Birds",0
-"395","Latvia",4,8,0,1,31,"Europe","Europe","Birds",11
-"396","Liechtenstein",2,4,0,0,8,"Europe","Europe","Birds",2
-"397","Lithuania",3,5,1,1,28,"Europe","Europe","Birds",10
-"398","Luxembourg",5,2,0,0,11,"Europe","Europe","Birds",3
-"399","Macedonia, the former Yugoslav Republic of",71,15,4,1,125,"Europe","Europe","Birds",13
-"400","Malta",3,2,4,0,39,"Europe","Europe","Birds",5
-"401","Monaco",1,2,1,0,22,"Europe","Europe","Birds",0
-"402","Montenegro",22,20,3,0,101,"Europe","Europe","Birds",13
-"403","Netherlands",5,6,1,3,43,"Europe","Europe","Birds",10
-"404","Norway",3,7,10,11,73,"Europe","Europe","Birds",11
-"405","Poland",7,21,11,3,65,"Europe","Europe","Birds",11
-"406","Portugal",86,118,101,4,410,"Europe","Europe","Birds",15
-"407","Romania",25,43,7,0,125,"Europe","Europe","Birds",17
-"408","San Marino",1,0,0,0,1,"Europe","Europe","Birds",0
-"409","Serbia",8,27,6,1,77,"Europe","Europe","Birds",13
-"410","Slovakia",7,25,25,3,81,"Europe","Europe","Birds",12
-"411","Slovenia",32,51,7,4,147,"Europe","Europe","Birds",10
-"412","Spain",164,124,247,6,686,"Europe","Europe","Birds",19
-"413","Svalbard and Jan Mayen",0,0,0,0,10,"Europe","Europe","Birds",4
-"414","Sweden",4,12,5,10,58,"Europe","Europe","Birds",11
-"415","Switzerland",10,37,4,6,79,"Europe","Europe","Birds",9
-"416","United Kingdom",7,13,42,6,133,"Europe","Europe","Birds",11
-"417","Belize",0,12,46,0,130,"North America","Mesoamerica","Birds",6
-"418","Costa Rica",1,30,143,0,349,"North America","Mesoamerica","Birds",27
-"419","El Salvador",0,10,33,0,92,"North America","Mesoamerica","Birds",7
-"420","Guatemala",2,11,120,0,315,"North America","Mesoamerica","Birds",17
-"421","Honduras",0,21,134,0,317,"North America","Mesoamerica","Birds",14
-"422","Mexico",8,103,484,1,1261,"North America","Mesoamerica","Birds",71
-"423","Nicaragua",2,18,50,0,153,"North America","Mesoamerica","Birds",17
-"424","Panama",0,22,212,0,392,"North America","Mesoamerica","Birds",25
-"425","Anguilla",0,10,4,0,56,"North America","Caribbean Islands","Birds",0
-"426","Antigua and Barbuda",0,11,4,0,58,"North America","Caribbean Islands","Birds",3
-"427","Aruba",1,1,2,0,34,"North America","Caribbean Islands","Birds",2
-"428","Bahamas",1,11,7,0,88,"North America","Caribbean Islands","Birds",10
-"429","Barbados",0,11,3,0,57,"North America","Caribbean Islands","Birds",4
-"430","Bermuda",0,28,8,0,74,"North America","Caribbean Islands","Birds",3
-"431","Bonaire, Sint Eustatius and Saba",0,11,3,0,57,"North America","Caribbean Islands","Birds",2
-"432","Cayman Islands",1,10,22,0,75,"North America","Caribbean Islands","Birds",3
-"433","Cuba",0,23,179,0,348,"North America","Caribbean Islands","Birds",19
-"434","Curacao",0,11,2,0,51,"North America","Caribbean Islands","Birds",2
-"435","Dominica",0,11,12,0,69,"North America","Caribbean Islands","Birds",7
-"436","Dominican Republic",0,16,47,0,195,"North America","Caribbean Islands","Birds",17
-"437","Grenada",0,10,3,0,55,"North America","Caribbean Islands","Birds",2
-"438","Guadeloupe",1,15,10,0,78,"North America","Caribbean Islands","Birds",5
-"439","Haiti",0,14,93,0,261,"North America","Caribbean Islands","Birds",17
-"440","Jamaica",0,15,215,0,318,"North America","Caribbean Islands","Birds",11
-"441","Martinique",2,0,9,0,54,"North America","Caribbean Islands","Birds",6
-"442","Montserrat",0,11,6,0,58,"North America","Caribbean Islands","Birds",4
-"443","Puerto Rico",0,0,64,0,139,"North America","Caribbean Islands","Birds",11
-"444","Saint Barth_lemy",0,11,2,0,38,"North America","Caribbean Islands","Birds",0
-"445","Saint Kitts and Nevis",0,10,2,0,54,"North America","Caribbean Islands","Birds",3
-"446","Saint Lucia",0,11,7,0,64,"North America","Caribbean Islands","Birds",7
-"447","Saint Martin (French part)",0,10,3,0,55,"North America","Caribbean Islands","Birds",1
-"448","Saint Vincent and the Grenadines",0,10,6,0,60,"North America","Caribbean Islands","Birds",4
-"449","Sint Maarten (Dutch part)",0,10,3,0,55,"North America","Caribbean Islands","Birds",1
-"450","Trinidad and Tobago",0,10,50,0,119,"North America","Caribbean Islands","Birds",5
-"451","Turks and Caicos Islands",0,10,9,0,62,"North America","Caribbean Islands","Birds",4
-"452","Virgin Islands, British",0,10,20,0,81,"North America","Caribbean Islands","Birds",3
-"453","Virgin Islands, U.S.",0,0,17,0,66,"North America","Caribbean Islands","Birds",3
-"454","Canada",17,20,18,7,155,"North America","North America","Birds",24
-"455","Saint Pierre and Miquelon",0,0,0,0,16,"North America","North America","Birds",9
-"456","United States",311,269,510,24,1589,"North America","North America","Birds",91
-"457","Argentina",0,14,70,1,273,"South America","South America","Birds",52
-"458","Bolivia, Plurinational States of",2,1,106,0,239,"South America","South America","Birds",55
-"459","Brazil",22,34,558,0,1027,"South America","South America","Birds",175
-"460","Chile",1,12,73,0,221,"South America","South America","Birds",35
-"461","Colombia",4,49,268,0,861,"South America","South America","Birds",126
-"462","Ecuador",49,21,1859,7,2372,"South America","South America","Birds",106
-"463","Falkland Islands (Malvinas)",0,0,5,0,22,"South America","South America","Birds",8
-"464","French Guiana",0,0,18,0,74,"South America","South America","Birds",8
-"465","Guyana",0,1,30,0,106,"South America","South America","Birds",16
-"466","Paraguay",0,0,20,0,64,"South America","South America","Birds",27
-"467","Peru",4,4,328,0,721,"South America","South America","Birds",119
-"468","Suriname",0,1,27,0,85,"South America","South America","Birds",9
-"469","Uruguay",0,2,22,0,112,"South America","South America","Birds",22
-"470","Venezuela, Bolivarian Republic of",1,25,86,0,342,"South America","South America","Birds",52
-"471","American Samoa",5,60,1,0,93,"Oceania","Oceania","Birds",8
-"472","Australia",174,360,108,1,1005,"Oceania","Oceania","Birds",52
-"473","Christmas Island",0,19,1,0,40,"Oceania","Oceania","Birds",4
-"474","Cocos (Keeling) Islands",0,20,0,0,35,"Oceania","Oceania","Birds",1
-"475","Cook Islands",0,32,11,0,74,"Oceania","Oceania","Birds",16
-"476","Fiji",68,97,78,0,300,"Oceania","Oceania","Birds",14
-"477","French Polynesia",31,31,48,0,176,"Oceania","Oceania","Birds",35
-"478","Guam",6,54,5,0,101,"Oceania","Oceania","Birds",14
-"479","Kiribati",1,80,0,0,105,"Oceania","Oceania","Birds",6
-"480","Marshall Islands",1,72,0,0,100,"Oceania","Oceania","Birds",4
-"481","Micronesia, Federated States of",3,111,5,0,168,"Oceania","Oceania","Birds",12
-"482","Nauru",0,68,0,0,83,"Oceania","Oceania","Birds",2
-"483","New Caledonia",28,97,350,0,592,"Oceania","Oceania","Birds",17
-"484","New Zealand",35,26,21,3,219,"Oceania","Oceania","Birds",69
-"485","Niue",0,30,0,0,51,"Oceania","Oceania","Birds",8
-"486","Norfolk Island",12,11,2,0,45,"Oceania","Oceania","Birds",11
-"487","Northern Mariana Islands",4,53,6,0,101,"Oceania","Oceania","Birds",17
-"488","Palau",40,106,5,0,185,"Oceania","Oceania","Birds",6
-"489","Papua New Guinea",2,176,179,2,524,"Oceania","Oceania","Birds",39
-"490","Pitcairn",5,11,7,0,42,"Oceania","Oceania","Birds",10
-"491","Samoa",1,62,2,0,94,"Oceania","Oceania","Birds",6
-"492","Solomon Islands",2,148,16,0,241,"Oceania","Oceania","Birds",24
-"493","Tokelau",0,35,0,0,49,"Oceania","Oceania","Birds",1
-"494","Tonga",4,43,5,0,80,"Oceania","Oceania","Birds",5
-"495","Tuvalu",1,77,0,0,97,"Oceania","Oceania","Birds",1
-"496","United States Minor Outlying Islands",0,47,0,0,70,"Oceania","Oceania","Birds",11
-"497","Vanuatu",3,88,10,0,139,"Oceania","Oceania","Birds",8
-"498","Wallis and Futuna",0,64,1,0,88,"Oceania","Oceania","Birds",9
-"499","Algeria",11,29,22,0,143,"Africa","North Africa","Reptiles",8
-"500","Egypt",0,56,8,0,167,"Africa","North Africa","Reptiles",13
-"501","Libya",0,4,7,0,67,"Africa","North Africa","Reptiles",6
-"502","Morocco",37,32,52,2,228,"Africa","North Africa","Reptiles",13
-"503","Tunisia",7,13,9,0,100,"Africa","North Africa","Reptiles",6
-"504","Western Sahara",2,1,0,0,52,"Africa","North Africa","Reptiles",1
-"505","Angola",7,4,34,0,155,"Africa","Sub-Saharan Africa","Reptiles",7
-"506","Benin",2,1,20,0,95,"Africa","Sub-Saharan Africa","Reptiles",7
-"507","Botswana",0,0,3,0,33,"Africa","Sub-Saharan Africa","Reptiles",1
-"508","Burkina Faso",1,0,4,0,33,"Africa","Sub-Saharan Africa","Reptiles",3
-"509","Burundi",3,3,89,0,142,"Africa","Sub-Saharan Africa","Reptiles",0
-"510","Cabo Verde",13,0,51,0,116,"Africa","Sub-Saharan Africa","Reptiles",6
-"511","Cameroon",13,12,555,0,846,"Africa","Sub-Saharan Africa","Reptiles",13
-"512","Central African Republic",0,0,26,0,66,"Africa","Sub-Saharan Africa","Reptiles",5
-"513","Chad",4,0,6,0,48,"Africa","Sub-Saharan Africa","Reptiles",5
-"514","Comoros",0,76,9,0,120,"Africa","Sub-Saharan Africa","Reptiles",5
-"515","Congo",7,0,46,0,139,"Africa","Sub-Saharan Africa","Reptiles",6
-"516","Congo, The Democratic Republic of the",44,10,148,0,390,"Africa","Sub-Saharan Africa","Reptiles",9
-"517","Cªte d'Ivoire",5,2,118,0,262,"Africa","Sub-Saharan Africa","Reptiles",8
-"518","Djibouti",1,56,3,0,107,"Africa","Sub-Saharan Africa","Reptiles",1
-"519","Equatorial Guinea",2,2,98,0,187,"Africa","Sub-Saharan Africa","Reptiles",8
-"520","Eritrea",1,57,6,0,136,"Africa","Sub-Saharan Africa","Reptiles",7
-"521","Eswatini",0,0,13,0,41,"Africa","Sub-Saharan Africa","Reptiles",1
-"522","Ethiopia",4,11,64,0,177,"Africa","Sub-Saharan Africa","Reptiles",3
-"523","Gabon",2,2,173,0,284,"Africa","Sub-Saharan Africa","Reptiles",7
-"524","Gambia",2,0,6,0,73,"Africa","Sub-Saharan Africa","Reptiles",6
-"525","Ghana",2,3,119,0,245,"Africa","Sub-Saharan Africa","Reptiles",8
-"526","Guinea",3,5,70,0,218,"Africa","Sub-Saharan Africa","Reptiles",9
-"527","Guinea-Bissau",2,0,6,0,83,"Africa","Sub-Saharan Africa","Reptiles",8
-"528","Kenya",20,71,243,0,505,"Africa","Sub-Saharan Africa","Reptiles",12
-"529","Lesotho",0,3,4,0,20,"Africa","Sub-Saharan Africa","Reptiles",0
-"530","Liberia",3,7,53,0,177,"Africa","Sub-Saharan Africa","Reptiles",8
-"531","Madagascar",35,159,1111,0,1858,"Africa","Sub-Saharan Africa","Reptiles",139
-"532","Malawi",7,7,34,0,122,"Africa","Sub-Saharan Africa","Reptiles",4
-"533","Mali",0,0,12,0,49,"Africa","Sub-Saharan Africa","Reptiles",4
-"534","Mauritania",2,1,0,0,91,"Africa","Sub-Saharan Africa","Reptiles",6
-"535","Mauritius",29,91,91,0,262,"Africa","Sub-Saharan Africa","Reptiles",11
-"536","Mayotte",0,70,3,0,93,"Africa","Sub-Saharan Africa","Reptiles",7
-"537","Mozambique",0,64,145,0,347,"Africa","Sub-Saharan Africa","Reptiles",14
-"538","Namibia",2,2,27,0,117,"Africa","Sub-Saharan Africa","Reptiles",6
-"539","Niger",1,0,4,0,38,"Africa","Sub-Saharan Africa","Reptiles",3
-"540","Nigeria",3,10,205,0,368,"Africa","Sub-Saharan Africa","Reptiles",13
-"541","R_union",17,72,18,0,132,"Africa","Sub-Saharan Africa","Reptiles",0
-"542","Rwanda",0,4,41,0,98,"Africa","Sub-Saharan Africa","Reptiles",0
-"543","Saint Helena, Ascension and Tristan da Cunha",1,67,44,1,153,"Africa","Sub-Saharan Africa","Reptiles",2
-"544","Sao Tome and Principe",3,1,49,0,102,"Africa","Sub-Saharan Africa","Reptiles",5
-"545","Senegal",12,1,14,0,132,"Africa","Sub-Saharan Africa","Reptiles",9
-"546","Seychelles",37,283,61,0,441,"Africa","SSub-Saharan Africa","Reptiles",11
-"547","Sierra Leone",5,3,72,0,187,"Africa","Sub-Saharan Africa","Reptiles",9
-"548","Somalia",2,60,49,0,185,"Africa","Sub-Saharan Africa","Reptiles",6
-"549","South Africa",22,186,153,0,602,"Africa","Sub-Saharan Africa","Reptiles",20
-"550","South Sudan",0,1,17,0,57,"Africa","Sub-Saharan Africa","Reptiles",4
-"551","Sudan",0,50,17,0,147,"Africa","Sub-Saharan Africa","Reptiles",6
-"552","Tanzania, United Republic of",11,136,644,0,1155,"Africa","Sub-Saharan Africa","Reptiles",34
-"553","Togo",2,1,13,0,88,"Africa","Sub-Saharan Africa","Reptiles",6
-"554","Uganda",14,16,64,0,221,"Africa","Sub-Saharan Africa","Reptiles",4
-"555","Zambia",12,2,23,0,92,"Africa","Sub-Saharan Africa","Reptiles",2
-"556","Zimbabwe",0,7,52,0,102,"Africa","Sub-Saharan Africa","Reptiles",4
-"557","Antarctica",0,0,0,0,6,"Antarctica","Antarctica","Reptiles",0
-"558","Bouvet Island",0,0,0,0,3,"Antarctica","Antarctica","Reptiles",0
-"559","French Southern Territories",0,0,1,0,28,"Antarctica","Antarctica","Reptiles",4
-"560","Heard Island and McDonald Islands",0,0,0,0,12,"Antarctica","Antarctica","Reptiles",0
-"561","South Georgia and the South Sandwich Islands",0,0,0,0,9,"Antarctica","Antarctica","Reptiles",0
-"562","China",15,61,593,1,1105,"Asia","East Asia","Reptiles",43
-"563","Hong Kong",1,7,10,0,68,"Asia","East Asia","Reptiles",5
-"564","Japan",33,142,50,4,429,"Asia","East Asia","Reptiles",25
-"565","Korea, Democratic People's Republic of",0,3,17,0,82,"Asia","East Asia","Reptiles",2
-"566","Korea, Republic of",0,8,31,1,119,"Asia","East Asia","Reptiles",3
-"567","Macao",0,1,0,0,15,"Asia","East Asia","Reptiles",1
-"568","Mongolia",0,3,0,0,40,"Asia","East Asia","Reptiles",0
-"569","Taiwan, Province of China",1,127,85,1,342,"Asia","East Asia","Reptiles",9
-"570","Belarus",3,7,1,0,26,"Asia","North Asia","Reptiles",0
-"571","Moldova",2,4,2,0,33,"Asia","North Asia","Reptiles",2
-"572","Russian Federation",8,31,56,5,239,"Asia","North Asia","Reptiles",9
-"573","Ukraine",9,29,22,1,114,"Asia","North Asia","Reptiles",1
-"574","Bangladesh",0,7,23,0,156,"Asia","South & Southeast Asia","Reptiles",23
-"575","Bhutan",0,1,43,0,97,"Asia","South & Southeast Asia","Reptiles",3
-"576","British Indian Ocean Territory",0,69,1,0,86,"Asia","South & Southeast Asia","Reptiles",2
-"577","Brunei Darussalam",0,9,127,0,224,"Asia","South & Southeast Asia","Reptiles",8
-"578","Cambodia",1,78,37,0,264,"Asia","South & Southeast Asia","Reptiles",21
-"579","Disputed Territory",0,1,0,0,8,"Asia","South & Southeast Asia","Reptiles",0
-"580","India",7,128,396,0,1073,"Asia","South & Southeast Asia","Reptiles",54
-"581","Indonesia",6,285,458,0,1332,"Asia","South & Southeast Asia","Reptiles",37
-"582","Lao People's Democratic Republic",16,5,56,0,239,"Asia","South & Southeast Asia","Reptiles",27
-"583","Malaysia",37,228,727,1,1301,"Asia","South & Southeast Asia","Reptiles",56
-"584","Maldives",0,46,0,0,75,"Asia","South & Southeast Asia","Reptiles",3
-"585","Myanmar",3,74,61,0,331,"Asia","South & Southeast Asia","Reptiles",32
-"586","Nepal",1,2,18,0,107,"Asia","South & Southeast Asia","Reptiles",9
-"587","Philippines",3,235,254,0,780,"Asia","South & Southeast Asia","Reptiles",39
-"588","Singapore",0,173,62,0,306,"Asia","South & Southeast Asia","Reptiles",6
-"589","Sri Lanka",0,130,297,0,598,"Asia","South & Southeast Asia","Reptiles",12
-"590","Thailand",15,196,159,0,641,"Asia","South & Southeast Asia","Reptiles",37
-"591","Timor-Leste",0,1,2,0,29,"Asia","South & Southeast Asia","Reptiles",2
-"592","Viet Nam",30,122,231,0,692,"Asia","South & Southeast Asia","Reptiles",73
-"593","Afghanistan",0,2,5,0,40,"Asia","West & Central Asia","Reptiles",1
-"594","Armenia",2,7,74,0,116,"Asia","West & Central Asia","Reptiles",7
-"595","Azerbaijan",2,5,44,0,100,"Asia","West & Central Asia","Reptiles",9
-"596","Bahrain",0,13,0,0,41,"Asia","West & Central Asia","Reptiles",4
-"597","Cyprus",5,10,22,0,79,"Asia","West & Central Asia","Reptiles",5
-"598","Georgia",4,11,63,1,121,"Asia","West & Central Asia","Reptiles",7
-"599","Iran, Islamic Republic of",2,22,7,0,143,"Asia","West & Central Asia","Reptiles",15
-"600","Iraq",1,16,2,0,72,"Asia","West & Central Asia","Reptiles",3
-"601","Israel",11,63,23,0,193,"Asia","West & Central Asia","Reptiles",11
-"602","Jordan",6,55,8,0,122,"Asia","West & Central Asia","Reptiles",6
-"603","Kazakhstan",2,5,14,0,80,"Asia","West & Central Asia","Reptiles",1
-"604","Kuwait",0,13,0,0,53,"Asia","West & Central Asia","Reptiles",4
-"605","Kyrgyzstan",0,4,13,0,43,"Asia","West & Central Asia","Reptiles",3
-"606","Lebanon",9,9,24,0,99,"Asia","West & Central Asia","Reptiles",8
-"607","Oman",2,29,6,0,104,"Asia","West & Central Asia","Reptiles",8
-"608","Pakistan",0,18,12,0,146,"Asia","West & Central Asia","Reptiles",12
-"609","Palestine, State of",2,2,6,0,36,"Asia","West & Central Asia","Reptiles",4
-"610","Qatar",0,13,0,0,46,"Asia","West & Central Asia","Reptiles",3
-"611","Saudi Arabia",1,58,4,0,136,"Asia","West & Central Asia","Reptiles",3
-"612","Syrian Arab Republic",9,13,26,0,139,"Asia","West & Central Asia","Reptiles",9
-"613","Tajikistan",0,3,12,0,47,"Asia","West & Central Asia","Reptiles",5
-"614","Turkey",45,40,113,2,401,"Asia","West & Central Asia","Reptiles",21
-"615","Turkmenistan",1,6,4,0,59,"Asia","West & Central Asia","Reptiles",6
-"616","United Arab Emirates",0,15,0,0,60,"Asia","West & Central Asia","Reptiles",4
-"617","Uzbekistan",1,2,16,0,62,"Asia","West & Central Asia","Reptiles",7
-"618","Yemen",2,66,163,0,306,"Asia","West & Central Asia","Reptiles",7
-"619","Albania",50,21,4,0,137,"Europe","Europe","Reptiles",5
-"620","Andorra",3,5,0,0,14,"Europe","Europe","Reptiles",1
-"621","Austria",43,31,17,8,127,"Europe","Europe","Reptiles",1
-"622","Belgium",6,9,0,1,39,"Europe","Europe","Reptiles",0
-"623","Bosnia and Herzegovina",18,24,3,0,96,"Europe","Europe","Reptiles",3
-"624","Bulgaria",32,25,9,0,115,"Europe","Europe","Reptiles",2
-"625","Croatia",49,30,8,1,181,"Europe","Europe","Reptiles",4
-"626","Czechia",6,23,26,5,74,"Europe","Europe","Reptiles",0
-"627","Denmark",5,11,1,3,49,"Europe","Europe","Reptiles",0
-"628","Estonia",4,3,0,2,24,"Europe","Europe","Reptiles",0
-"629","Faroe Islands",0,0,0,1,24,"Europe","Europe","Reptiles",0
-"630","Finland",3,7,2,6,37,"Europe","Europe","Reptiles",0
-"631","France",92,68,47,8,300,"Europe","Europe","Reptiles",5
-"632","Germany",31,30,36,7,144,"Europe","Europe","Reptiles",0
-"633","Gibraltar",3,2,1,0,33,"Europe","Europe","Reptiles",0
-"634","Greece",178,130,72,1,503,"Europe","Europe","Reptiles",10
-"635","Greenland",0,0,1,0,25,"Europe","Europe","Reptiles",0
-"636","Guernsey",0,0,0,0,6,"Europe","Europe","Reptiles",0
-"637","Holy See (Vatican City State)",0,0,0,0,1,"Europe","Europe","Reptiles",0
-"638","Hungary",8,26,43,2,105,"Europe","Europe","Reptiles",1
-"639","Iceland",0,0,0,0,29,"Europe","Europe","Reptiles",0
-"640","Ireland",4,2,3,2,54,"Europe","Europe","Reptiles",1
-"641","Isle of Man",0,0,0,0,2,"Europe","Europe","Reptiles",0
-"642","Italy",83,139,102,9,423,"Europe","Europe","Reptiles",4
-"643","Jersey",1,0,0,0,7,"Europe","Europe","Reptiles",0
-"644","Latvia",4,8,0,1,31,"Europe","Europe","Reptiles",0
-"645","Liechtenstein",2,4,0,0,8,"Europe","Europe","Reptiles",0
-"646","Lithuania",3,5,1,1,28,"Europe","Europe","Reptiles",0
-"647","Luxembourg",5,2,0,0,11,"Europe","Europe","Reptiles",0
-"648","Macedonia, the former Yugoslav Republic of",71,15,4,1,125,"Europe","Europe","Reptiles",2
-"649","Malta",3,2,4,0,39,"Europe","Europe","Reptiles",1
-"650","Monaco",1,2,1,0,22,"Europe","Europe","Reptiles",0
-"651","Montenegro",22,20,3,0,101,"Europe","Europe","Reptiles",4
-"652","Netherlands",5,6,1,3,43,"Europe","Europe","Reptiles",0
-"653","Norway",3,7,10,11,73,"Europe","Europe","Reptiles",0
-"654","Poland",7,21,11,3,65,"Europe","Europe","Reptiles",0
-"655","Portugal",86,118,101,4,410,"Europe","Europe","Reptiles",5
-"656","Romania",25,43,7,0,125,"Europe","Europe","Reptiles",2
-"657","San Marino",1,0,0,0,1,"Europe","Europe","Reptiles",0
-"658","Serbia",8,27,6,1,77,"Europe","Europe","Reptiles",1
-"659","Slovakia",7,25,25,3,81,"Europe","Europe","Reptiles",0
-"660","Slovenia",32,51,7,4,147,"Europe","Europe","Reptiles",2
-"661","Spain",164,124,247,6,686,"Europe","Europe","Reptiles",20
-"662","Svalbard and Jan Mayen",0,0,0,0,10,"Europe","Europe","Reptiles",0
-"663","Sweden",4,12,5,10,58,"Europe","Europe","Reptiles",0
-"664","Switzerland",10,37,4,6,79,"Europe","Europe","Reptiles",0
-"665","United Kingdom",7,13,42,6,133,"Europe","Europe","Reptiles",1
-"666","Belize",0,12,46,0,130,"North America","Mesoamerica","Reptiles",8
-"667","Costa Rica",1,30,143,0,349,"North America","Mesoamerica","Reptiles",12
-"668","El Salvador",0,10,33,0,92,"North America","Mesoamerica","Reptiles",10
-"669","Guatemala",2,11,120,0,315,"North America","Mesoamerica","Reptiles",32
-"670","Honduras",0,21,134,0,317,"North America","Mesoamerica","Reptiles",40
-"671","Mexico",8,103,484,1,1261,"North America","Mesoamerica","Reptiles",98
-"672","Nicaragua",2,18,50,0,153,"North America","Mesoamerica","Reptiles",9
-"673","Panama",0,22,212,0,392,"North America","Mesoamerica","Reptiles",10
-"674","Anguilla",0,10,4,0,56,"North America","Caribbean Islands","Reptiles",9
-"675","Antigua and Barbuda",0,11,4,0,58,"North America","Caribbean Islands","Reptiles",7
-"676","Aruba",1,1,2,0,34,"North America","Caribbean Islands","Reptiles",2
-"677","Bahamas",1,11,7,0,88,"North America","Caribbean Islands","Reptiles",11
-"678","Barbados",0,11,3,0,57,"North America","Caribbean Islands","Reptiles",7
-"679","Bermuda",0,28,8,0,74,"North America","Caribbean Islands","Reptiles",4
-"680","Bonaire, Sint Eustatius and Saba",0,11,3,0,57,"North America","Caribbean Islands","Reptiles",6
-"681","Cayman Islands",1,10,22,0,75,"North America","Caribbean Islands","Reptiles",7
-"682","Cuba",0,23,179,0,348,"North America","Caribbean Islands","Reptiles",24
-"683","Curacao",0,11,2,0,51,"North America","Caribbean Islands","Reptiles",5
-"684","Dominica",0,11,12,0,69,"North America","Caribbean Islands","Reptiles",3
-"685","Dominican Republic",0,16,47,0,195,"North America","Caribbean Islands","Reptiles",47
-"686","Grenada",0,10,3,0,55,"North America","Caribbean Islands","Reptiles",7
-"687","Guadeloupe",1,15,10,0,78,"North America","Caribbean Islands","Reptiles",9
-"688","Haiti",0,14,93,0,261,"North America","Caribbean Islands","Reptiles",54
-"689","Jamaica",0,15,215,0,318,"North America","Caribbean Islands","Reptiles",25
-"690","Martinique",2,0,9,0,54,"North America","Caribbean Islands","Reptiles",8
-"691","Montserrat",0,11,6,0,58,"North America","Caribbean Islands","Reptiles",4
-"692","Puerto Rico",0,0,64,0,139,"North America","Caribbean Islands","Reptiles",16
-"693","Saint Barth_lemy",0,11,2,0,38,"North America","Caribbean Islands","Reptiles",4
-"694","Saint Kitts and Nevis",0,10,2,0,54,"North America","Caribbean Islands","Reptiles",6
-"695","Saint Lucia",0,11,7,0,64,"North America","Caribbean Islands","Reptiles",7
-"696","Saint Martin (French part)",0,10,3,0,55,"North America","Caribbean Islands","Reptiles",8
-"697","Saint Vincent and the Grenadines",0,10,6,0,60,"North America","Caribbean Islands","Reptiles",8
-"698","Sint Maarten (Dutch part)",0,10,3,0,55,"North America","Caribbean Islands","Reptiles",8
-"699","Trinidad and Tobago",0,10,50,0,119,"North America","Caribbean Islands","Reptiles",7
-"700","Turks and Caicos Islands",0,10,9,0,62,"North America","Caribbean Islands","Reptiles",7
-"701","Virgin Islands, British",0,10,20,0,81,"North America","Caribbean Islands","Reptiles",14
-"702","Virgin Islands, U.S.",0,0,17,0,66,"North America","Caribbean Islands","Reptiles",14
-"703","Canada",17,20,18,7,155,"North America","North America","Reptiles",6
-"704","Saint Pierre and Miquelon",0,0,0,0,16,"North America","North America","Reptiles",0
-"705","United States",311,269,510,24,1589,"North America","North America","Reptiles",37
-"706","Argentina",0,14,70,1,273,"South America","South America","Reptiles",26
-"707","Bolivia, Plurinational States of",2,1,106,0,239,"South America","South America","Reptiles",11
-"708","Brazil",22,34,558,0,1027,"South America","South America","Reptiles",30
-"709","Chile",1,12,73,0,221,"South America","South America","Reptiles",25
-"710","Colombia",4,49,268,0,861,"South America","South America","Reptiles",35
-"711","Ecuador",49,21,1859,7,2372,"South America","South America","Reptiles",63
-"712","Falkland Islands (Malvinas)",0,0,5,0,22,"South America","South America","Reptiles",0
-"713","French Guiana",0,0,18,0,74,"South America","South America","Reptiles",7
-"714","Guyana",0,1,30,0,106,"South America","South America","Reptiles",6
-"715","Paraguay",0,0,20,0,64,"South America","South America","Reptiles",7
-"716","Peru",4,4,328,0,721,"South America","South America","Reptiles",23
-"717","Suriname",0,1,27,0,85,"South America","South America","Reptiles",6
-"718","Uruguay",0,2,22,0,112,"South America","South America","Reptiles",6
-"719","Venezuela, Bolivarian Republic of",1,25,86,0,342,"South America","South America","Reptiles",25
-"720","American Samoa",5,60,1,0,93,"Oceania","Oceania","Reptiles",6
-"721","Australia",174,360,108,1,1005,"Oceania","Oceania","Reptiles",75
-"722","Christmas Island",0,19,1,0,40,"Oceania","Oceania","Reptiles",3
-"723","Cocos (Keeling) Islands",0,20,0,0,35,"Oceania","Oceania","Reptiles",1
-"724","Cook Islands",0,32,11,0,74,"Oceania","Oceania","Reptiles",3
-"725","Fiji",68,97,78,0,300,"Oceania","Oceania","Reptiles",15
-"726","French Polynesia",31,31,48,0,176,"Oceania","Oceania","Reptiles",3
-"727","Guam",6,54,5,0,101,"Oceania","Oceania","Reptiles",5
-"728","Kiribati",1,80,0,0,105,"Oceania","Oceania","Reptiles",2
-"729","Marshall Islands",1,72,0,0,100,"Oceania","Oceania","Reptiles",4
-"730","Micronesia, Federated States of",3,111,5,0,168,"Oceania","Oceania","Reptiles",7
-"731","Nauru",0,68,0,0,83,"Oceania","Oceania","Reptiles",0
-"732","New Caledonia",28,97,350,0,592,"Oceania","Oceania","Reptiles",54
-"733","New Zealand",35,26,21,3,219,"Oceania","Oceania","Reptiles",15
-"734","Niue",0,30,0,0,51,"Oceania","Oceania","Reptiles",4
-"735","Norfolk Island",12,11,2,0,45,"Oceania","Oceania","Reptiles",2
-"736","Northern Mariana Islands",4,53,6,0,101,"Oceania","Oceania","Reptiles",4
-"737","Palau",40,106,5,0,185,"Oceania","Oceania","Reptiles",3
-"738","Papua New Guinea",2,176,179,2,524,"Oceania","Oceania","Reptiles",13
-"739","Pitcairn",5,11,7,0,42,"Oceania","Oceania","Reptiles",0
-"740","Samoa",1,62,2,0,94,"Oceania","Oceania","Reptiles",5
-"741","Solomon Islands",2,148,16,0,241,"Oceania","Oceania","Reptiles",6
-"742","Tokelau",0,35,0,0,49,"Oceania","Oceania","Reptiles",3
-"743","Tonga",4,43,5,0,80,"Oceania","Oceania","Reptiles",5
-"744","Tuvalu",1,77,0,0,97,"Oceania","Oceania","Reptiles",3
-"745","United States Minor Outlying Islands",0,47,0,0,70,"Oceania","Oceania","Reptiles",2
-"746","Vanuatu",3,88,10,0,139,"Oceania","Oceania","Reptiles",4
-"747","Wallis and Futuna",0,64,1,0,88,"Oceania","Oceania","Reptiles",2
-"748","Algeria",11,29,22,0,143,"Africa","North Africa","Amphibians",3
-"749","Egypt",0,56,8,0,167,"Africa","North Africa","Amphibians",0
-"750","Libya",0,4,7,0,67,"Africa","North Africa","Amphibians",0
-"751","Morocco",37,32,52,2,228,"Africa","North Africa","Amphibians",2
-"752","Tunisia",7,13,9,0,100,"Africa","North Africa","Amphibians",1
-"753","Western Sahara",2,1,0,0,52,"Africa","North Africa","Amphibians",0
-"754","Angola",7,4,34,0,155,"Africa","Sub-Saharan Africa","Amphibians",0
-"755","Benin",2,1,20,0,95,"Africa","Sub-Saharan Africa","Amphibians",0
-"756","Botswana",0,0,3,0,33,"Africa","Sub-Saharan Africa","Amphibians",0
-"757","Burkina Faso",1,0,4,0,33,"Africa","Sub-Saharan Africa","Amphibians",0
-"758","Burundi",3,3,89,0,142,"Africa","Sub-Saharan Africa","Amphibians",1
-"759","Cabo Verde",13,0,51,0,116,"Africa","Sub-Saharan Africa","Amphibians",0
-"760","Cameroon",13,12,555,0,846,"Africa","Sub-Saharan Africa","Amphibians",56
-"761","Central African Republic",0,0,26,0,66,"Africa","Sub-Saharan Africa","Amphibians",0
-"762","Chad",4,0,6,0,48,"Africa","Sub-Saharan Africa","Amphibians",0
-"763","Comoros",0,76,9,0,120,"Africa","Sub-Saharan Africa","Amphibians",0
-"764","Congo",7,0,46,0,139,"Africa","Sub-Saharan Africa","Amphibians",1
-"765","Congo, The Democratic Republic of the",44,10,148,0,390,"Africa","Sub-Saharan Africa","Amphibians",11
-"766","Cªte d'Ivoire",5,2,118,0,262,"Africa","Sub-Saharan Africa","Amphibians",14
-"767","Djibouti",1,56,3,0,107,"Africa","Sub-Saharan Africa","Amphibians",0
-"768","Equatorial Guinea",2,2,98,0,187,"Africa","Sub-Saharan Africa","Amphibians",4
-"769","Eritrea",1,57,6,0,136,"Africa","Sub-Saharan Africa","Amphibians",0
-"770","Eswatini",0,0,13,0,41,"Africa","Sub-Saharan Africa","Amphibians",0
-"771","Ethiopia",4,11,64,0,177,"Africa","Sub-Saharan Africa","Amphibians",12
-"772","Gabon",2,2,173,0,284,"Africa","Sub-Saharan Africa","Amphibians",3
-"773","Gambia",2,0,6,0,73,"Africa","Sub-Saharan Africa","Amphibians",0
-"774","Ghana",2,3,119,0,245,"Africa","Sub-Saharan Africa","Amphibians",11
-"775","Guinea",3,5,70,0,218,"Africa","Sub-Saharan Africa","Amphibians",5
-"776","Guinea-Bissau",2,0,6,0,83,"Africa","Sub-Saharan Africa","Amphibians",0
-"777","Kenya",20,71,243,0,505,"Africa","Sub-Saharan Africa","Amphibians",11
-"778","Lesotho",0,3,4,0,20,"Africa","Sub-Saharan Africa","Amphibians",0
-"779","Liberia",3,7,53,0,177,"Africa","Sub-Saharan Africa","Amphibians",4
-"780","Madagascar",35,159,1111,0,1858,"Africa","Sub-Saharan Africa","Amphibians",145
-"781","Malawi",7,7,34,0,122,"Africa","Sub-Saharan Africa","Amphibians",5
-"782","Mali",0,0,12,0,49,"Africa","Sub-Saharan Africa","Amphibians",0
-"783","Mauritania",2,1,0,0,91,"Africa","Sub-Saharan Africa","Amphibians",0
-"784","Mauritius",29,91,91,0,262,"Africa","Sub-Saharan Africa","Amphibians",0
-"785","Mayotte",0,70,3,0,93,"Africa","Sub-Saharan Africa","Amphibians",0
-"786","Mozambique",0,64,145,0,347,"Africa","Sub-Saharan Africa","Amphibians",5
-"787","Namibia",2,2,27,0,117,"Africa","Sub-Saharan Africa","Amphibians",0
-"788","Niger",1,0,4,0,38,"Africa","Sub-Saharan Africa","Amphibians",0
-"789","Nigeria",3,10,205,0,368,"Africa","Sub-Saharan Africa","Amphibians",11
-"790","R_union",17,72,18,0,132,"Africa","Sub-Saharan Africa","Amphibians",0
-"791","Rwanda",0,4,41,0,98,"Africa","Sub-Saharan Africa","Amphibians",2
-"792","Saint Helena, Ascension and Tristan da Cunha",1,67,44,1,153,"Africa","Sub-Saharan Africa","Amphibians",0
-"793","Sao Tome and Principe",3,1,49,0,102,"Africa","Sub-Saharan Africa","Amphibians",3
-"794","Senegal",12,1,14,0,132,"Africa","Sub-Saharan Africa","Amphibians",0
-"795","Seychelles",37,283,61,0,441,"Africa","SSub-Saharan Africa","Amphibians",6
-"796","Sierra Leone",5,3,72,0,187,"Africa","Sub-Saharan Africa","Amphibians",3
-"797","Somalia",2,60,49,0,185,"Africa","Sub-Saharan Africa","Amphibians",0
-"798","South Africa",22,186,153,0,602,"Africa","Sub-Saharan Africa","Amphibians",16
-"799","South Sudan",0,1,17,0,57,"Africa","Sub-Saharan Africa","Amphibians",0
-"800","Sudan",0,50,17,0,147,"Africa","Sub-Saharan Africa","Amphibians",0
-"801","Tanzania, United Republic of",11,136,644,0,1155,"Africa","Sub-Saharan Africa","Amphibians",61
-"802","Togo",2,1,13,0,88,"Africa","Sub-Saharan Africa","Amphibians",2
-"803","Uganda",14,16,64,0,221,"Africa","Sub-Saharan Africa","Amphibians",2
-"804","Zambia",12,2,23,0,92,"Africa","Sub-Saharan Africa","Amphibians",0
-"805","Zimbabwe",0,7,52,0,102,"Africa","Sub-Saharan Africa","Amphibians",7
-"806","Antarctica",0,0,0,0,6,"Antarctica","Antarctica","Amphibians",0
-"807","Bouvet Island",0,0,0,0,3,"Antarctica","Antarctica","Amphibians",0
-"808","French Southern Territories",0,0,1,0,28,"Antarctica","Antarctica","Amphibians",0
-"809","Heard Island and McDonald Islands",0,0,0,0,12,"Antarctica","Antarctica","Amphibians",0
-"810","South Georgia and the South Sandwich Islands",0,0,0,0,9,"Antarctica","Antarctica","Amphibians",0
-"811","China",15,61,593,1,1105,"Asia","East Asia","Amphibians",87
-"812","Hong Kong",1,7,10,0,68,"Asia","East Asia","Amphibians",5
-"813","Japan",33,142,50,4,429,"Asia","East Asia","Amphibians",20
-"814","Korea, Democratic People's Republic of",0,3,17,0,82,"Asia","East Asia","Amphibians",1
-"815","Korea, Republic of",0,8,31,1,119,"Asia","East Asia","Amphibians",3
-"816","Macao",0,1,0,0,15,"Asia","East Asia","Amphibians",0
-"817","Mongolia",0,3,0,0,40,"Asia","East Asia","Amphibians",0
-"818","Taiwan, Province of China",1,127,85,1,342,"Asia","East Asia","Amphibians",10
-"819","Belarus",3,7,1,0,26,"Asia","North Asia","Amphibians",0
-"820","Moldova",2,4,2,0,33,"Asia","North Asia","Amphibians",0
-"821","Russian Federation",8,31,56,5,239,"Asia","North Asia","Amphibians",0
-"822","Ukraine",9,29,22,1,114,"Asia","North Asia","Amphibians",0
-"823","Bangladesh",0,7,23,0,156,"Asia","South & Southeast Asia","Amphibians",1
-"824","Bhutan",0,1,43,0,97,"Asia","South & Southeast Asia","Amphibians",1
-"825","British Indian Ocean Territory",0,69,1,0,86,"Asia","South & Southeast Asia","Amphibians",0
-"826","Brunei Darussalam",0,9,127,0,224,"Asia","South & Southeast Asia","Amphibians",2
-"827","Cambodia",1,78,37,0,264,"Asia","South & Southeast Asia","Amphibians",9
-"828","Disputed Territory",0,1,0,0,8,"Asia","South & Southeast Asia","Amphibians",0
-"829","India",7,128,396,0,1073,"Asia","South & Southeast Asia","Amphibians",75
-"830","Indonesia",6,285,458,0,1332,"Asia","South & Southeast Asia","Amphibians",29
-"831","Lao People's Democratic Republic",16,5,56,0,239,"Asia","South & Southeast Asia","Amphibians",6
-"832","Malaysia",37,228,727,1,1301,"Asia","South & Southeast Asia","Amphibians",31
-"833","Maldives",0,46,0,0,75,"Asia","South & Southeast Asia","Amphibians",0
-"834","Myanmar",3,74,61,0,331,"Asia","South & Southeast Asia","Amphibians",3
-"835","Nepal",1,2,18,0,107,"Asia","South & Southeast Asia","Amphibians",3
-"836","Philippines",3,235,254,0,780,"Asia","South & Southeast Asia","Amphibians",27
-"837","Singapore",0,173,62,0,306,"Asia","South & Southeast Asia","Amphibians",0
-"838","Sri Lanka",0,130,297,0,598,"Asia","South & Southeast Asia","Amphibians",56
-"839","Thailand",15,196,159,0,641,"Asia","South & Southeast Asia","Amphibians",7
-"840","Timor-Leste",0,1,2,0,29,"Asia","South & Southeast Asia","Amphibians",0
-"841","Viet Nam",30,122,231,0,692,"Asia","South & Southeast Asia","Amphibians",45
-"842","Afghanistan",0,2,5,0,40,"Asia","West & Central Asia","Amphibians",1
-"843","Armenia",2,7,74,0,116,"Asia","West & Central Asia","Amphibians",0
-"844","Azerbaijan",2,5,44,0,100,"Asia","West & Central Asia","Amphibians",1
-"845","Bahrain",0,13,0,0,41,"Asia","West & Central Asia","Amphibians",0
-"846","Cyprus",5,10,22,0,79,"Asia","West & Central Asia","Amphibians",0
-"847","Georgia",4,11,63,1,121,"Asia","West & Central Asia","Amphibians",1
-"848","Iran, Islamic Republic of",2,22,7,0,143,"Asia","West & Central Asia","Amphibians",4
-"849","Iraq",1,16,2,0,72,"Asia","West & Central Asia","Amphibians",1
-"850","Israel",11,63,23,0,193,"Asia","West & Central Asia","Amphibians",2
-"851","Jordan",6,55,8,0,122,"Asia","West & Central Asia","Amphibians",0
-"852","Kazakhstan",2,5,14,0,80,"Asia","West & Central Asia","Amphibians",1
-"853","Kuwait",0,13,0,0,53,"Asia","West & Central Asia","Amphibians",0
-"854","Kyrgyzstan",0,4,13,0,43,"Asia","West & Central Asia","Amphibians",0
-"855","Lebanon",9,9,24,0,99,"Asia","West & Central Asia","Amphibians",0
-"856","Oman",2,29,6,0,104,"Asia","West & Central Asia","Amphibians",0
-"857","Pakistan",0,18,12,0,146,"Asia","West & Central Asia","Amphibians",0
-"858","Palestine, State of",2,2,6,0,36,"Asia","West & Central Asia","Amphibians",1
-"859","Qatar",0,13,0,0,46,"Asia","West & Central Asia","Amphibians",0
-"860","Saudi Arabia",1,58,4,0,136,"Asia","West & Central Asia","Amphibians",0
-"861","Syrian Arab Republic",9,13,26,0,139,"Asia","West & Central Asia","Amphibians",0
-"862","Tajikistan",0,3,12,0,47,"Asia","West & Central Asia","Amphibians",0
-"863","Turkey",45,40,113,2,401,"Asia","West & Central Asia","Amphibians",10
-"864","Turkmenistan",1,6,4,0,59,"Asia","West & Central Asia","Amphibians",0
-"865","United Arab Emirates",0,15,0,0,60,"Asia","West & Central Asia","Amphibians",0
-"866","Uzbekistan",1,2,16,0,62,"Asia","West & Central Asia","Amphibians",0
-"867","Yemen",2,66,163,0,306,"Asia","West & Central Asia","Amphibians",1
-"868","Albania",50,21,4,0,137,"Europe","Europe","Amphibians",2
-"869","Andorra",3,5,0,0,14,"Europe","Europe","Amphibians",0
-"870","Austria",43,31,17,8,127,"Europe","Europe","Amphibians",0
-"871","Belgium",6,9,0,1,39,"Europe","Europe","Amphibians",0
-"872","Bosnia and Herzegovina",18,24,3,0,96,"Europe","Europe","Amphibians",1
-"873","Bulgaria",32,25,9,0,115,"Europe","Europe","Amphibians",0
-"874","Croatia",49,30,8,1,181,"Europe","Europe","Amphibians",2
-"875","Czechia",6,23,26,5,74,"Europe","Europe","Amphibians",0
-"876","Denmark",5,11,1,3,49,"Europe","Europe","Amphibians",0
-"877","Estonia",4,3,0,2,24,"Europe","Europe","Amphibians",0
-"878","Faroe Islands",0,0,0,1,24,"Europe","Europe","Amphibians",0
-"879","Finland",3,7,2,6,37,"Europe","Europe","Amphibians",0
-"880","France",92,68,47,8,300,"Europe","Europe","Amphibians",2
-"881","Germany",31,30,36,7,144,"Europe","Europe","Amphibians",0
-"882","Gibraltar",3,2,1,0,33,"Europe","Europe","Amphibians",0
-"883","Greece",178,130,72,1,503,"Europe","Europe","Amphibians",5
-"884","Greenland",0,0,1,0,25,"Europe","Europe","Amphibians",0
-"885","Guernsey",0,0,0,0,6,"Europe","Europe","Amphibians",0
-"886","Holy See (Vatican City State)",0,0,0,0,1,"Europe","Europe","Amphibians",0
-"887","Hungary",8,26,43,2,105,"Europe","Europe","Amphibians",0
-"888","Iceland",0,0,0,0,29,"Europe","Europe","Amphibians",0
-"889","Ireland",4,2,3,2,54,"Europe","Europe","Amphibians",0
-"890","Isle of Man",0,0,0,0,2,"Europe","Europe","Amphibians",0
-"891","Italy",83,139,102,9,423,"Europe","Europe","Amphibians",9
-"892","Jersey",1,0,0,0,7,"Europe","Europe","Amphibians",0
-"893","Latvia",4,8,0,1,31,"Europe","Europe","Amphibians",0
-"894","Liechtenstein",2,4,0,0,8,"Europe","Europe","Amphibians",0
-"895","Lithuania",3,5,1,1,28,"Europe","Europe","Amphibians",0
-"896","Luxembourg",5,2,0,0,11,"Europe","Europe","Amphibians",0
-"897","Macedonia, the former Yugoslav Republic of",71,15,4,1,125,"Europe","Europe","Amphibians",0
-"898","Malta",3,2,4,0,39,"Europe","Europe","Amphibians",0
-"899","Monaco",1,2,1,0,22,"Europe","Europe","Amphibians",0
-"900","Montenegro",22,20,3,0,101,"Europe","Europe","Amphibians",1
-"901","Netherlands",5,6,1,3,43,"Europe","Europe","Amphibians",0
-"902","Norway",3,7,10,11,73,"Europe","Europe","Amphibians",0
-"903","Poland",7,21,11,3,65,"Europe","Europe","Amphibians",0
-"904","Portugal",86,118,101,4,410,"Europe","Europe","Amphibians",1
-"905","Romania",25,43,7,0,125,"Europe","Europe","Amphibians",0
-"906","San Marino",1,0,0,0,1,"Europe","Europe","Amphibians",0
-"907","Serbia",8,27,6,1,77,"Europe","Europe","Amphibians",0
-"908","Slovakia",7,25,25,3,81,"Europe","Europe","Amphibians",0
-"909","Slovenia",32,51,7,4,147,"Europe","Europe","Amphibians",2
-"910","Spain",164,124,247,6,686,"Europe","Europe","Amphibians",6
-"911","Svalbard and Jan Mayen",0,0,0,0,10,"Europe","Europe","Amphibians",0
-"912","Sweden",4,12,5,10,58,"Europe","Europe","Amphibians",0
-"913","Switzerland",10,37,4,6,79,"Europe","Europe","Amphibians",1
-"914","United Kingdom",7,13,42,6,133,"Europe","Europe","Amphibians",0
-"915","Belize",0,12,46,0,130,"North America","Mesoamerica","Amphibians",3
-"916","Costa Rica",1,30,143,0,349,"North America","Mesoamerica","Amphibians",61
-"917","El Salvador",0,10,33,0,92,"North America","Mesoamerica","Amphibians",9
-"918","Guatemala",2,11,120,0,315,"North America","Mesoamerica","Amphibians",77
-"919","Honduras",0,21,134,0,317,"North America","Mesoamerica","Amphibians",55
-"920","Mexico",8,103,484,1,1261,"North America","Mesoamerica","Amphibians",219
-"921","Nicaragua",2,18,50,0,153,"North America","Mesoamerica","Amphibians",10
-"922","Panama",0,22,212,0,392,"North America","Mesoamerica","Amphibians",49
-"923","Anguilla",0,10,4,0,56,"North America","Caribbean Islands","Amphibians",0
-"924","Antigua and Barbuda",0,11,4,0,58,"North America","Caribbean Islands","Amphibians",0
-"925","Aruba",1,1,2,0,34,"North America","Caribbean Islands","Amphibians",0
-"926","Bahamas",1,11,7,0,88,"North America","Caribbean Islands","Amphibians",0
-"927","Barbados",0,11,3,0,57,"North America","Caribbean Islands","Amphibians",0
-"928","Bermuda",0,28,8,0,74,"North America","Caribbean Islands","Amphibians",0
-"929","Bonaire, Sint Eustatius and Saba",0,11,3,0,57,"North America","Caribbean Islands","Amphibians",0
-"930","Cayman Islands",1,10,22,0,75,"North America","Caribbean Islands","Amphibians",0
-"931","Cuba",0,23,179,0,348,"North America","Caribbean Islands","Amphibians",49
-"932","Curacao",0,11,2,0,51,"North America","Caribbean Islands","Amphibians",0
-"933","Dominica",0,11,12,0,69,"North America","Caribbean Islands","Amphibians",2
-"934","Dominican Republic",0,16,47,0,195,"North America","Caribbean Islands","Amphibians",32
-"935","Grenada",0,10,3,0,55,"North America","Caribbean Islands","Amphibians",1
-"936","Guadeloupe",1,15,10,0,78,"North America","Caribbean Islands","Amphibians",3
-"937","Haiti",0,14,93,0,261,"North America","Caribbean Islands","Amphibians",49
-"938","Jamaica",0,15,215,0,318,"North America","Caribbean Islands","Amphibians",15
-"939","Martinique",2,0,9,0,54,"North America","Caribbean Islands","Amphibians",2
-"940","Montserrat",0,11,6,0,58,"North America","Caribbean Islands","Amphibians",1
-"941","Puerto Rico",0,0,64,0,139,"North America","Caribbean Islands","Amphibians",14
-"942","Saint Barth_lemy",0,11,2,0,38,"North America","Caribbean Islands","Amphibians",0
-"943","Saint Kitts and Nevis",0,10,2,0,54,"North America","Caribbean Islands","Amphibians",1
-"944","Saint Lucia",0,11,7,0,64,"North America","Caribbean Islands","Amphibians",0
-"945","Saint Martin (French part)",0,10,3,0,55,"North America","Caribbean Islands","Amphibians",0
-"946","Saint Vincent and the Grenadines",0,10,6,0,60,"North America","Caribbean Islands","Amphibians",1
-"947","Sint Maarten (Dutch part)",0,10,3,0,55,"North America","Caribbean Islands","Amphibians",0
-"948","Trinidad and Tobago",0,10,50,0,119,"North America","Caribbean Islands","Amphibians",8
-"949","Turks and Caicos Islands",0,10,9,0,62,"North America","Caribbean Islands","Amphibians",0
-"950","Virgin Islands, British",0,10,20,0,81,"North America","Caribbean Islands","Amphibians",2
-"951","Virgin Islands, U.S.",0,0,17,0,66,"North America","Caribbean Islands","Amphibians",2
-"952","Canada",17,20,18,7,155,"North America","North America","Amphibians",1
-"953","Saint Pierre and Miquelon",0,0,0,0,16,"North America","North America","Amphibians",0
-"954","United States",311,269,510,24,1589,"North America","North America","Amphibians",56
-"955","Argentina",0,14,70,1,273,"South America","South America","Amphibians",30
-"956","Bolivia, Plurinational States of",2,1,106,0,239,"South America","South America","Amphibians",35
-"957","Brazil",22,34,558,0,1027,"South America","South America","Amphibians",35
-"958","Chile",1,12,73,0,221,"South America","South America","Amphibians",29
-"959","Colombia",4,49,268,0,861,"South America","South America","Amphibians",222
-"960","Ecuador",49,21,1859,7,2372,"South America","South America","Amphibians",159
-"961","Falkland Islands (Malvinas)",0,0,5,0,22,"South America","South America","Amphibians",0
-"962","French Guiana",0,0,18,0,74,"South America","South America","Amphibians",3
-"963","Guyana",0,1,30,0,106,"South America","South America","Amphibians",9
-"964","Paraguay",0,0,20,0,64,"South America","South America","Amphibians",0
-"965","Peru",4,4,328,0,721,"South America","South America","Amphibians",138
-"966","Suriname",0,1,27,0,85,"South America","South America","Amphibians",1
-"967","Uruguay",0,2,22,0,112,"South America","South America","Amphibians",5
-"968","Venezuela, Bolivarian Republic of",1,25,86,0,342,"South America","South America","Amphibians",73
-"969","American Samoa",5,60,1,0,93,"Oceania","Oceania","Amphibians",0
-"970","Australia",174,360,108,1,1005,"Oceania","Oceania","Amphibians",47
-"971","Christmas Island",0,19,1,0,40,"Oceania","Oceania","Amphibians",0
-"972","Cocos (Keeling) Islands",0,20,0,0,35,"Oceania","Oceania","Amphibians",0
-"973","Cook Islands",0,32,11,0,74,"Oceania","Oceania","Amphibians",0
-"974","Fiji",68,97,78,0,300,"Oceania","Oceania","Amphibians",1
-"975","French Polynesia",31,31,48,0,176,"Oceania","Oceania","Amphibians",0
-"976","Guam",6,54,5,0,101,"Oceania","Oceania","Amphibians",0
-"977","Kiribati",1,80,0,0,105,"Oceania","Oceania","Amphibians",0
-"978","Marshall Islands",1,72,0,0,100,"Oceania","Oceania","Amphibians",0
-"979","Micronesia, Federated States of",3,111,5,0,168,"Oceania","Oceania","Amphibians",0
-"980","Nauru",0,68,0,0,83,"Oceania","Oceania","Amphibians",0
-"981","New Caledonia",28,97,350,0,592,"Oceania","Oceania","Amphibians",0
-"982","New Zealand",35,26,21,3,219,"Oceania","Oceania","Amphibians",3
-"983","Niue",0,30,0,0,51,"Oceania","Oceania","Amphibians",0
-"984","Norfolk Island",12,11,2,0,45,"Oceania","Oceania","Amphibians",0
-"985","Northern Mariana Islands",4,53,6,0,101,"Oceania","Oceania","Amphibians",0
-"986","Palau",40,106,5,0,185,"Oceania","Oceania","Amphibians",0
-"987","Papua New Guinea",2,176,179,2,524,"Oceania","Oceania","Amphibians",11
-"988","Pitcairn",5,11,7,0,42,"Oceania","Oceania","Amphibians",0
-"989","Samoa",1,62,2,0,94,"Oceania","Oceania","Amphibians",0
-"990","Solomon Islands",2,148,16,0,241,"Oceania","Oceania","Amphibians",2
-"991","Tokelau",0,35,0,0,49,"Oceania","Oceania","Amphibians",0
-"992","Tonga",4,43,5,0,80,"Oceania","Oceania","Amphibians",0
-"993","Tuvalu",1,77,0,0,97,"Oceania","Oceania","Amphibians",0
-"994","United States Minor Outlying Islands",0,47,0,0,70,"Oceania","Oceania","Amphibians",0
-"995","Vanuatu",3,88,10,0,139,"Oceania","Oceania","Amphibians",0
-"996","Wallis and Futuna",0,64,1,0,88,"Oceania","Oceania","Amphibians",0
-"997","Algeria",11,29,22,0,143,"Africa","North Africa","Fishes",41
-"998","Egypt",0,56,8,0,167,"Africa","North Africa","Fishes",58
-"999","Libya",0,4,7,0,67,"Africa","North Africa","Fishes",32
-"1000","Morocco",37,32,52,2,228,"Africa","North Africa","Fishes",54
-"1001","Tunisia",7,13,9,0,100,"Africa","North Africa","Fishes",39
-"1002","Western Sahara",2,1,0,0,52,"Africa","North Africa","Fishes",33
-"1003","Angola",7,4,34,0,155,"Africa","Sub-Saharan Africa","Fishes",53
-"1004","Benin",2,1,20,0,95,"Africa","Sub-Saharan Africa","Fishes",40
-"1005","Botswana",0,0,3,0,33,"Africa","Sub-Saharan Africa","Fishes",2
-"1006","Burkina Faso",1,0,4,0,33,"Africa","Sub-Saharan Africa","Fishes",4
-"1007","Burundi",3,3,89,0,142,"Africa","Sub-Saharan Africa","Fishes",17
-"1008","Cabo Verde",13,0,51,0,116,"Africa","Sub-Saharan Africa","Fishes",35
-"1009","Cameroon",13,12,555,0,846,"Africa","Sub-Saharan Africa","Fishes",122
-"1010","Central African Republic",0,0,26,0,66,"Africa","Sub-Saharan Africa","Fishes",3
-"1011","Chad",4,0,6,0,48,"Africa","Sub-Saharan Africa","Fishes",1
-"1012","Comoros",0,76,9,0,120,"Africa","Sub-Saharan Africa","Fishes",11
-"1013","Congo",7,0,46,0,139,"Africa","Sub-Saharan Africa","Fishes",57
-"1014","Congo, The Democratic Republic of the",44,10,148,0,390,"Africa","Sub-Saharan Africa","Fishes",94
-"1015","Cªte d'Ivoire",5,2,118,0,262,"Africa","Sub-Saharan Africa","Fishes",59
-"1016","Djibouti",1,56,3,0,107,"Africa","Sub-Saharan Africa","Fishes",23
-"1017","Equatorial Guinea",2,2,98,0,187,"Africa","Sub-Saharan Africa","Fishes",44
-"1018","Eritrea",1,57,6,0,136,"Africa","Sub-Saharan Africa","Fishes",29
-"1019","Eswatini",0,0,13,0,41,"Africa","Sub-Saharan Africa","Fishes",5
-"1020","Ethiopia",4,11,64,0,177,"Africa","Sub-Saharan Africa","Fishes",14
-"1021","Gabon",2,2,173,0,284,"Africa","Sub-Saharan Africa","Fishes",72
-"1022","Gambia",2,0,6,0,73,"Africa","Sub-Saharan Africa","Fishes",35
-"1023","Ghana",2,3,119,0,245,"Africa","Sub-Saharan Africa","Fishes",58
-"1024","Guinea",3,5,70,0,218,"Africa","Sub-Saharan Africa","Fishes",76
-"1025","Guinea-Bissau",2,0,6,0,83,"Africa","Sub-Saharan Africa","Fishes",41
-"1026","Kenya",20,71,243,0,505,"Africa","Sub-Saharan Africa","Fishes",74
-"1027","Lesotho",0,3,4,0,20,"Africa","Sub-Saharan Africa","Fishes",1
-"1028","Liberia",3,7,53,0,177,"Africa","Sub-Saharan Africa","Fishes",64
-"1029","Madagascar",35,159,1111,0,1858,"Africa","Sub-Saharan Africa","Fishes",111
-"1030","Malawi",7,7,34,0,122,"Africa","Sub-Saharan Africa","Fishes",36
-"1031","Mali",0,0,12,0,49,"Africa","Sub-Saharan Africa","Fishes",2
-"1032","Mauritania",2,1,0,0,91,"Africa","Sub-Saharan Africa","Fishes",45
-"1033","Mauritius",29,91,91,0,262,"Africa","Sub-Saharan Africa","Fishes",21
-"1034","Mayotte",0,70,3,0,93,"Africa","Sub-Saharan Africa","Fishes",8
-"1035","Mozambique",0,64,145,0,347,"Africa","Sub-Saharan Africa","Fishes",72
-"1036","Namibia",2,2,27,0,117,"Africa","Sub-Saharan Africa","Fishes",33
-"1037","Niger",1,0,4,0,38,"Africa","Sub-Saharan Africa","Fishes",4
-"1038","Nigeria",3,10,205,0,368,"Africa","Sub-Saharan Africa","Fishes",74
-"1039","R_union",17,72,18,0,132,"Africa","Sub-Saharan Africa","Fishes",14
-"1040","Rwanda",0,4,41,0,98,"Africa","Sub-Saharan Africa","Fishes",7
-"1041","Saint Helena, Ascension and Tristan da Cunha",1,67,44,1,153,"Africa","Sub-Saharan Africa","Fishes",14
-"1042","Sao Tome and Principe",3,1,49,0,102,"Africa","Sub-Saharan Africa","Fishes",25
-"1043","Senegal",12,1,14,0,132,"Africa","Sub-Saharan Africa","Fishes",58
-"1044","Seychelles",37,283,61,0,441,"Africa","SSub-Saharan Africa","Fishes",24
-"1045","Sierra Leone",5,3,72,0,187,"Africa","Sub-Saharan Africa","Fishes",57
-"1046","Somalia",2,60,49,0,185,"Africa","Sub-Saharan Africa","Fishes",31
-"1047","South Africa",22,186,153,0,602,"Africa","Sub-Saharan Africa","Fishes",121
-"1048","South Sudan",0,1,17,0,57,"Africa","Sub-Saharan Africa","Fishes",0
-"1049","Sudan",0,50,17,0,147,"Africa","Sub-Saharan Africa","Fishes",32
-"1050","Tanzania, United Republic of",11,136,644,0,1155,"Africa","Sub-Saharan Africa","Fishes",179
-"1051","Togo",2,1,13,0,88,"Africa","Sub-Saharan Africa","Fishes",38
-"1052","Uganda",14,16,64,0,221,"Africa","Sub-Saharan Africa","Fishes",60
-"1053","Zambia",12,2,23,0,92,"Africa","Sub-Saharan Africa","Fishes",20
-"1054","Zimbabwe",0,7,52,0,102,"Africa","Sub-Saharan Africa","Fishes",3
-"1055","Antarctica",0,0,0,0,6,"Antarctica","Antarctica","Fishes",0
-"1056","Bouvet Island",0,0,0,0,3,"Antarctica","Antarctica","Fishes",1
-"1057","French Southern Territories",0,0,1,0,28,"Antarctica","Antarctica","Fishes",7
-"1058","Heard Island and McDonald Islands",0,0,0,0,12,"Antarctica","Antarctica","Fishes",1
-"1059","South Georgia and the South Sandwich Islands",0,0,0,0,9,"Antarctica","Antarctica","Fishes",0
-"1060","China",15,61,593,1,1105,"Asia","East Asia","Fishes",136
-"1061","Hong Kong",1,7,10,0,68,"Asia","East Asia","Fishes",15
-"1062","Japan",33,142,50,4,429,"Asia","East Asia","Fishes",77
-"1063","Korea, Democratic People's Republic of",0,3,17,0,82,"Asia","East Asia","Fishes",20
-"1064","Korea, Republic of",0,8,31,1,119,"Asia","East Asia","Fishes",28
-"1065","Macao",0,1,0,0,15,"Asia","East Asia","Fishes",9
-"1066","Mongolia",0,3,0,0,40,"Asia","East Asia","Fishes",2
-"1067","Taiwan, Province of China",1,127,85,1,342,"Asia","East Asia","Fishes",73
-"1068","Belarus",3,7,1,0,26,"Asia","North Asia","Fishes",2
-"1069","Moldova",2,4,2,0,33,"Asia","North Asia","Fishes",8
-"1070","Russian Federation",8,31,56,5,239,"Asia","North Asia","Fishes",39
-"1071","Ukraine",9,29,22,1,114,"Asia","North Asia","Fishes",24
-"1072","Bangladesh",0,7,23,0,156,"Asia","South & Southeast Asia","Fishes",29
-"1073","Bhutan",0,1,43,0,97,"Asia","South & Southeast Asia","Fishes",3
-"1074","British Indian Ocean Territory",0,69,1,0,86,"Asia","South & Southeast Asia","Fishes",13
-"1075","Brunei Darussalam",0,9,127,0,224,"Asia","South & Southeast Asia","Fishes",14
-"1076","Cambodia",1,78,37,0,264,"Asia","South & Southeast Asia","Fishes",48
-"1077","Disputed Territory",0,1,0,0,8,"Asia","South & Southeast Asia","Fishes",7
-"1078","India",7,128,396,0,1073,"Asia","South & Southeast Asia","Fishes",227
-"1079","Indonesia",6,285,458,0,1332,"Asia","South & Southeast Asia","Fishes",166
-"1080","Lao People's Democratic Republic",16,5,56,0,239,"Asia","South & Southeast Asia","Fishes",55
-"1081","Malaysia",37,228,727,1,1301,"Asia","South & Southeast Asia","Fishes",87
-"1082","Maldives",0,46,0,0,75,"Asia","South & Southeast Asia","Fishes",24
-"1083","Myanmar",3,74,61,0,331,"Asia","South & Southeast Asia","Fishes",53
-"1084","Nepal",1,2,18,0,107,"Asia","South & Southeast Asia","Fishes",7
-"1085","Philippines",3,235,254,0,780,"Asia","South & Southeast Asia","Fishes",91
-"1086","Singapore",0,173,62,0,306,"Asia","South & Southeast Asia","Fishes",29
-"1087","Sri Lanka",0,130,297,0,598,"Asia","South & Southeast Asia","Fishes",57
-"1088","Thailand",15,196,159,0,641,"Asia","South & Southeast Asia","Fishes",106
-"1089","Timor-Leste",0,1,2,0,29,"Asia","South & Southeast Asia","Fishes",13
-"1090","Viet Nam",30,122,231,0,692,"Asia","South & Southeast Asia","Fishes",83
-"1091","Afghanistan",0,2,5,0,40,"Asia","West & Central Asia","Fishes",4
-"1092","Armenia",2,7,74,0,116,"Asia","West & Central Asia","Fishes",3
-"1093","Azerbaijan",2,5,44,0,100,"Asia","West & Central Asia","Fishes",14
-"1094","Bahrain",0,13,0,0,41,"Asia","West & Central Asia","Fishes",14
-"1095","Cyprus",5,10,22,0,79,"Asia","West & Central Asia","Fishes",24
-"1096","Georgia",4,11,63,1,121,"Asia","West & Central Asia","Fishes",11
-"1097","Iran, Islamic Republic of",2,22,7,0,143,"Asia","West & Central Asia","Fishes",47
-"1098","Iraq",1,16,2,0,72,"Asia","West & Central Asia","Fishes",19
-"1099","Israel",11,63,23,0,193,"Asia","West & Central Asia","Fishes",50
-"1100","Jordan",6,55,8,0,122,"Asia","West & Central Asia","Fishes",20
-"1101","Kazakhstan",2,5,14,0,80,"Asia","West & Central Asia","Fishes",14
-"1102","Kuwait",0,13,0,0,53,"Asia","West & Central Asia","Fishes",18
-"1103","Kyrgyzstan",0,4,13,0,43,"Asia","West & Central Asia","Fishes",3
-"1104","Lebanon",9,9,24,0,99,"Asia","West & Central Asia","Fishes",28
-"1105","Oman",2,29,6,0,104,"Asia","West & Central Asia","Fishes",36
-"1106","Pakistan",0,18,12,0,146,"Asia","West & Central Asia","Fishes",46
-"1107","Palestine, State of",2,2,6,0,36,"Asia","West & Central Asia","Fishes",2
-"1108","Qatar",0,13,0,0,46,"Asia","West & Central Asia","Fishes",17
-"1109","Saudi Arabia",1,58,4,0,136,"Asia","West & Central Asia","Fishes",41
-"1110","Syrian Arab Republic",9,13,26,0,139,"Asia","West & Central Asia","Fishes",51
-"1111","Tajikistan",0,3,12,0,47,"Asia","West & Central Asia","Fishes",5
-"1112","Turkey",45,40,113,2,401,"Asia","West & Central Asia","Fishes",131
-"1113","Turkmenistan",1,6,4,0,59,"Asia","West & Central Asia","Fishes",13
-"1114","United Arab Emirates",0,15,0,0,60,"Asia","West & Central Asia","Fishes",20
-"1115","Uzbekistan",1,2,16,0,62,"Asia","West & Central Asia","Fishes",7
-"1116","Yemen",2,66,163,0,306,"Asia","West & Central Asia","Fishes",40
-"1117","Albania",50,21,4,0,137,"Europe","Europe","Fishes",44
-"1118","Andorra",3,5,0,0,14,"Europe","Europe","Fishes",0
-"1119","Austria",43,31,17,8,127,"Europe","Europe","Fishes",11
-"1120","Belgium",6,9,0,1,39,"Europe","Europe","Fishes",13
-"1121","Bosnia and Herzegovina",18,24,3,0,96,"Europe","Europe","Fishes",36
-"1122","Bulgaria",32,25,9,0,115,"Europe","Europe","Fishes",22
-"1123","Croatia",49,30,8,1,181,"Europe","Europe","Fishes",64
-"1124","Czechia",6,23,26,5,74,"Europe","Europe","Fishes",2
-"1125","Denmark",5,11,1,3,49,"Europe","Europe","Fishes",18
-"1126","Estonia",4,3,0,2,24,"Europe","Europe","Fishes",5
-"1127","Faroe Islands",0,0,0,1,24,"Europe","Europe","Fishes",13
-"1128","Finland",3,7,2,6,37,"Europe","Europe","Fishes",6
-"1129","France",92,68,47,8,300,"Europe","Europe","Fishes",53
-"1130","Germany",31,30,36,7,144,"Europe","Europe","Fishes",24
-"1131","Gibraltar",3,2,1,0,33,"Europe","Europe","Fishes",18
-"1132","Greece",178,130,72,1,503,"Europe","Europe","Fishes",80
-"1133","Greenland",0,0,1,0,25,"Europe","Europe","Fishes",9
-"1134","Guernsey",0,0,0,0,6,"Europe","Europe","Fishes",6
-"1135","Holy See (Vatican City State)",0,0,0,0,1,"Europe","Europe","Fishes",0
-"1136","Hungary",8,26,43,2,105,"Europe","Europe","Fishes",9
-"1137","Iceland",0,0,0,0,29,"Europe","Europe","Fishes",16
-"1138","Ireland",4,2,3,2,54,"Europe","Europe","Fishes",28
-"1139","Isle of Man",0,0,0,0,2,"Europe","Europe","Fishes",2
-"1140","Italy",83,139,102,9,423,"Europe","Europe","Fishes",52
-"1141","Jersey",1,0,0,0,7,"Europe","Europe","Fishes",6
-"1142","Latvia",4,8,0,1,31,"Europe","Europe","Fishes",6
-"1143","Liechtenstein",2,4,0,0,8,"Europe","Europe","Fishes",0
-"1144","Lithuania",3,5,1,1,28,"Europe","Europe","Fishes",6
-"1145","Luxembourg",5,2,0,0,11,"Europe","Europe","Fishes",1
-"1146","Macedonia, the former Yugoslav Republic of",71,15,4,1,125,"Europe","Europe","Fishes",13
-"1147","Malta",3,2,4,0,39,"Europe","Europe","Fishes",22
-"1148","Monaco",1,2,1,0,22,"Europe","Europe","Fishes",15
-"1149","Montenegro",22,20,3,0,101,"Europe","Europe","Fishes",32
-"1150","Netherlands",5,6,1,3,43,"Europe","Europe","Fishes",15
-"1151","Norway",3,7,10,11,73,"Europe","Europe","Fishes",23
-"1152","Poland",7,21,11,3,65,"Europe","Europe","Fishes",8
-"1153","Portugal",86,118,101,4,410,"Europe","Europe","Fishes",67
-"1154","Romania",25,43,7,0,125,"Europe","Europe","Fishes",22
-"1155","San Marino",1,0,0,0,1,"Europe","Europe","Fishes",0
-"1156","Serbia",8,27,6,1,77,"Europe","Europe","Fishes",15
-"1157","Slovakia",7,25,25,3,81,"Europe","Europe","Fishes",5
-"1158","Slovenia",32,51,7,4,147,"Europe","Europe","Fishes",33
-"1159","Spain",164,124,247,6,686,"Europe","Europe","Fishes",83
-"1160","Svalbard and Jan Mayen",0,0,0,0,10,"Europe","Europe","Fishes",2
-"1161","Sweden",4,12,5,10,58,"Europe","Europe","Fishes",15
-"1162","Switzerland",10,37,4,6,79,"Europe","Europe","Fishes",9
-"1163","United Kingdom",7,13,42,6,133,"Europe","Europe","Fishes",48
-"1164","Belize",0,12,46,0,130,"North America","Mesoamerica","Fishes",45
-"1165","Costa Rica",1,30,143,0,349,"North America","Mesoamerica","Fishes",64
-"1166","El Salvador",0,10,33,0,92,"North America","Mesoamerica","Fishes",17
-"1167","Guatemala",2,11,120,0,315,"North America","Mesoamerica","Fishes",41
-"1168","Honduras",0,21,134,0,317,"North America","Mesoamerica","Fishes",45
-"1169","Mexico",8,103,484,1,1261,"North America","Mesoamerica","Fishes",181
-"1170","Nicaragua",2,18,50,0,153,"North America","Mesoamerica","Fishes",40
-"1171","Panama",0,22,212,0,392,"North America","Mesoamerica","Fishes",57
-"1172","Anguilla",0,10,4,0,56,"North America","Caribbean Islands","Fishes",32
-"1173","Antigua and Barbuda",0,11,4,0,58,"North America","Caribbean Islands","Fishes",31
-"1174","Aruba",1,1,2,0,34,"North America","Caribbean Islands","Fishes",24
-"1175","Bahamas",1,11,7,0,88,"North America","Caribbean Islands","Fishes",43
-"1176","Barbados",0,11,3,0,57,"North America","Caribbean Islands","Fishes",29
-"1177","Bermuda",0,28,8,0,74,"North America","Caribbean Islands","Fishes",27
-"1178","Bonaire, Sint Eustatius and Saba",0,11,3,0,57,"North America","Caribbean Islands","Fishes",32
-"1179","Cayman Islands",1,10,22,0,75,"North America","Caribbean Islands","Fishes",31
-"1180","Cuba",0,23,179,0,348,"North America","Caribbean Islands","Fishes",44
-"1181","Curacao",0,11,2,0,51,"North America","Caribbean Islands","Fishes",28
-"1182","Dominica",0,11,12,0,69,"North America","Caribbean Islands","Fishes",31
-"1183","Dominican Republic",0,16,47,0,195,"North America","Caribbean Islands","Fishes",29
-"1184","Grenada",0,10,3,0,55,"North America","Caribbean Islands","Fishes",29
-"1185","Guadeloupe",1,15,10,0,78,"North America","Caribbean Islands","Fishes",31
-"1186","Haiti",0,14,93,0,261,"North America","Caribbean Islands","Fishes",30
-"1187","Jamaica",0,15,215,0,318,"North America","Caribbean Islands","Fishes",30
-"1188","Martinique",2,0,9,0,54,"North America","Caribbean Islands","Fishes",26
-"1189","Montserrat",0,11,6,0,58,"North America","Caribbean Islands","Fishes",30
-"1190","Puerto Rico",0,0,64,0,139,"North America","Caribbean Islands","Fishes",32
-"1191","Saint Barth_lemy",0,11,2,0,38,"North America","Caribbean Islands","Fishes",20
-"1192","Saint Kitts and Nevis",0,10,2,0,54,"North America","Caribbean Islands","Fishes",30
-"1193","Saint Lucia",0,11,7,0,64,"North America","Caribbean Islands","Fishes",30
-"1194","Saint Martin (French part)",0,10,3,0,55,"North America","Caribbean Islands","Fishes",31
-"1195","Saint Vincent and the Grenadines",0,10,6,0,60,"North America","Caribbean Islands","Fishes",29
-"1196","Sint Maarten (Dutch part)",0,10,3,0,55,"North America","Caribbean Islands","Fishes",31
-"1197","Trinidad and Tobago",0,10,50,0,119,"North America","Caribbean Islands","Fishes",37
-"1198","Turks and Caicos Islands",0,10,9,0,62,"North America","Caribbean Islands","Fishes",30
-"1199","Virgin Islands, British",0,10,20,0,81,"North America","Caribbean Islands","Fishes",31
-"1200","Virgin Islands, U.S.",0,0,17,0,66,"North America","Caribbean Islands","Fishes",29
-"1201","Canada",17,20,18,7,155,"North America","North America","Fishes",44
-"1202","Saint Pierre and Miquelon",0,0,0,0,16,"North America","North America","Fishes",3
-"1203","United States",311,269,510,24,1589,"North America","North America","Fishes",251
-"1204","Argentina",0,14,70,1,273,"South America","South America","Fishes",42
-"1205","Bolivia, Plurinational States of",2,1,106,0,239,"South America","South America","Fishes",8
-"1206","Brazil",22,34,558,0,1027,"South America","South America","Fishes",93
-"1207","Chile",1,12,73,0,221,"South America","South America","Fishes",27
-"1208","Colombia",4,49,268,0,861,"South America","South America","Fishes",99
-"1209","Ecuador",49,21,1859,7,2372,"South America","South America","Fishes",61
-"1210","Falkland Islands (Malvinas)",0,0,5,0,22,"South America","South America","Fishes",5
-"1211","French Guiana",0,0,18,0,74,"South America","South America","Fishes",30
-"1212","Guyana",0,1,30,0,106,"South America","South America","Fishes",33
-"1213","Paraguay",0,0,20,0,64,"South America","South America","Fishes",0
-"1214","Peru",4,4,328,0,721,"South America","South America","Fishes",52
-"1215","Suriname",0,1,27,0,85,"South America","South America","Fishes",32
-"1216","Uruguay",0,2,22,0,112,"South America","South America","Fishes",45
-"1217","Venezuela, Bolivarian Republic of",1,25,86,0,342,"South America","South America","Fishes",45
-"1218","American Samoa",5,60,1,0,93,"Oceania","Oceania","Fishes",12
-"1219","Australia",174,360,108,1,1005,"Oceania","Oceania","Fishes",125
-"1220","Christmas Island",0,19,1,0,40,"Oceania","Oceania","Fishes",11
-"1221","Cocos (Keeling) Islands",0,20,0,0,35,"Oceania","Oceania","Fishes",11
-"1222","Cook Islands",0,32,11,0,74,"Oceania","Oceania","Fishes",11
-"1223","Fiji",68,97,78,0,300,"Oceania","Oceania","Fishes",20
-"1224","French Polynesia",31,31,48,0,176,"Oceania","Oceania","Fishes",28
-"1225","Guam",6,54,5,0,101,"Oceania","Oceania","Fishes",14
-"1226","Kiribati",1,80,0,0,105,"Oceania","Oceania","Fishes",14
-"1227","Marshall Islands",1,72,0,0,100,"Oceania","Oceania","Fishes",18
-"1228","Micronesia, Federated States of",3,111,5,0,168,"Oceania","Oceania","Fishes",25
-"1229","Nauru",0,68,0,0,83,"Oceania","Oceania","Fishes",11
-"1230","New Caledonia",28,97,350,0,592,"Oceania","Oceania","Fishes",37
-"1231","New Zealand",35,26,21,3,219,"Oceania","Oceania","Fishes",38
-"1232","Niue",0,30,0,0,51,"Oceania","Oceania","Fishes",8
-"1233","Norfolk Island",12,11,2,0,45,"Oceania","Oceania","Fishes",6
-"1234","Northern Mariana Islands",4,53,6,0,101,"Oceania","Oceania","Fishes",14
-"1235","Palau",40,106,5,0,185,"Oceania","Oceania","Fishes",21
-"1236","Papua New Guinea",2,176,179,2,524,"Oceania","Oceania","Fishes",61
-"1237","Pitcairn",5,11,7,0,42,"Oceania","Oceania","Fishes",9
-"1238","Samoa",1,62,2,0,94,"Oceania","Oceania","Fishes",16
-"1239","Solomon Islands",2,148,16,0,241,"Oceania","Oceania","Fishes",24
-"1240","Tokelau",0,35,0,0,49,"Oceania","Oceania","Fishes",10
-"1241","Tonga",4,43,5,0,80,"Oceania","Oceania","Fishes",16
-"1242","Tuvalu",1,77,0,0,97,"Oceania","Oceania","Fishes",13
-"1243","United States Minor Outlying Islands",0,47,0,0,70,"Oceania","Oceania","Fishes",10
-"1244","Vanuatu",3,88,10,0,139,"Oceania","Oceania","Fishes",18
-"1245","Wallis and Futuna",0,64,1,0,88,"Oceania","Oceania","Fishes",12
+Country,Molluscs,Other_Invertebrates,Plants,Fungi_Protists,Total,Continent,Region,species_type,thr_count
+Algeria,11,29,22,0,143,Africa,North Africa,Mammals,14
+Egypt,0,56,8,0,167,Africa,North Africa,Mammals,18
+Libya,0,4,7,0,67,Africa,North Africa,Mammals,10
+Morocco,37,32,52,2,228,Africa,North Africa,Mammals,18
+Tunisia,7,13,9,0,100,Africa,North Africa,Mammals,14
+Western Sahara,2,1,0,0,52,Africa,North Africa,Mammals,10
+Angola,7,4,34,0,155,Africa,Sub-Saharan Africa,Mammals,18
+Benin,2,1,20,0,95,Africa,Sub-Saharan Africa,Mammals,13
+Botswana,0,0,3,0,33,Africa,Sub-Saharan Africa,Mammals,11
+Burkina Faso,1,0,4,0,33,Africa,Sub-Saharan Africa,Mammals,9
+Burundi,3,3,89,0,142,Africa,Sub-Saharan Africa,Mammals,14
+Cabo Verde,13,0,51,0,116,Africa,Sub-Saharan Africa,Mammals,4
+Cameroon,13,12,555,0,846,Africa,Sub-Saharan Africa,Mammals,46
+Central African Republic,0,0,26,0,66,Africa,Sub-Saharan Africa,Mammals,16
+Chad,4,0,6,0,48,Africa,Sub-Saharan Africa,Mammals,16
+Comoros,0,76,9,0,120,Africa,Sub-Saharan Africa,Mammals,5
+Congo,7,0,46,0,139,Africa,Sub-Saharan Africa,Mammals,15
+"Congo, The Democratic Republic of the",44,10,148,0,390,Africa,Sub-Saharan Africa,Mammals,32
+Cªte d'Ivoire,5,2,118,0,262,Africa,Sub-Saharan Africa,Mammals,31
+Djibouti,1,56,3,0,107,Africa,Sub-Saharan Africa,Mammals,11
+Equatorial Guinea,2,2,98,0,187,Africa,Sub-Saharan Africa,Mammals,23
+Eritrea,1,57,6,0,136,Africa,Sub-Saharan Africa,Mammals,15
+Eswatini,0,0,13,0,41,Africa,Sub-Saharan Africa,Mammals,9
+Ethiopia,4,11,64,0,177,Africa,Sub-Saharan Africa,Mammals,34
+Gabon,2,2,173,0,284,Africa,Sub-Saharan Africa,Mammals,18
+Gambia,2,0,6,0,73,Africa,Sub-Saharan Africa,Mammals,10
+Ghana,2,3,119,0,245,Africa,Sub-Saharan Africa,Mammals,21
+Guinea,3,5,70,0,218,Africa,Sub-Saharan Africa,Mammals,30
+Guinea-Bissau,2,0,6,0,83,Africa,Sub-Saharan Africa,Mammals,14
+Kenya,20,71,243,0,505,Africa,Sub-Saharan Africa,Mammals,30
+Lesotho,0,3,4,0,20,Africa,Sub-Saharan Africa,Mammals,4
+Liberia,3,7,53,0,177,Africa,Sub-Saharan Africa,Mammals,24
+Madagascar,35,159,1111,0,1858,Africa,Sub-Saharan Africa,Mammals,121
+Malawi,7,7,34,0,122,Africa,Sub-Saharan Africa,Mammals,10
+Mali,0,0,12,0,49,Africa,Sub-Saharan Africa,Mammals,14
+Mauritania,2,1,0,0,91,Africa,Sub-Saharan Africa,Mammals,18
+Mauritius,29,91,91,0,262,Africa,Sub-Saharan Africa,Mammals,7
+Mayotte,0,70,3,0,93,Africa,Sub-Saharan Africa,Mammals,2
+Mozambique,0,64,145,0,347,Africa,Sub-Saharan Africa,Mammals,17
+Namibia,2,2,27,0,117,Africa,Sub-Saharan Africa,Mammals,15
+Niger,1,0,4,0,38,Africa,Sub-Saharan Africa,Mammals,13
+Nigeria,3,10,205,0,368,Africa,Sub-Saharan Africa,Mammals,31
+R_union,17,72,18,0,132,Africa,Sub-Saharan Africa,Mammals,4
+Rwanda,0,4,41,0,98,Africa,Sub-Saharan Africa,Mammals,24
+"Saint Helena, Ascension and Tristan da Cunha",1,67,44,1,153,Africa,Sub-Saharan Africa,Mammals,3
+Sao Tome and Principe,3,1,49,0,102,Africa,Sub-Saharan Africa,Mammals,4
+Senegal,12,1,14,0,132,Africa,Sub-Saharan Africa,Mammals,19
+Seychelles,37,283,61,0,441,Africa,SSub-Saharan Africa,Mammals,6
+Sierra Leone,5,3,72,0,187,Africa,Sub-Saharan Africa,Mammals,22
+Somalia,2,60,49,0,185,Africa,Sub-Saharan Africa,Mammals,16
+South Africa,22,186,153,0,602,Africa,Sub-Saharan Africa,Mammals,30
+South Sudan,0,1,17,0,57,Africa,Sub-Saharan Africa,Mammals,14
+Sudan,0,50,17,0,147,Africa,Sub-Saharan Africa,Mammals,16
+"Tanzania, United Republic of",11,136,644,0,1155,Africa,Sub-Saharan Africa,Mammals,41
+Togo,2,1,13,0,88,Africa,Sub-Saharan Africa,Mammals,13
+Uganda,14,16,64,0,221,Africa,Sub-Saharan Africa,Mammals,31
+Zambia,12,2,23,0,92,Africa,Sub-Saharan Africa,Mammals,13
+Zimbabwe,0,7,52,0,102,Africa,Sub-Saharan Africa,Mammals,10
+Antarctica,0,0,0,0,6,Antarctica,Antarctica,Mammals,2
+Bouvet Island,0,0,0,0,3,Antarctica,Antarctica,Mammals,1
+French Southern Territories,0,0,1,0,28,Antarctica,Antarctica,Mammals,3
+Heard Island and McDonald Islands,0,0,0,0,12,Antarctica,Antarctica,Mammals,1
+South Georgia and the South Sandwich Islands,0,0,0,0,9,Antarctica,Antarctica,Mammals,3
+China,15,61,593,1,1105,Asia,East Asia,Mammals,73
+Hong Kong,1,7,10,0,68,Asia,East Asia,Mammals,4
+Japan,33,142,50,4,429,Asia,East Asia,Mammals,29
+"Korea, Democratic People's Republic of",0,3,17,0,82,Asia,East Asia,Mammals,10
+"Korea, Republic of",0,8,31,1,119,Asia,East Asia,Mammals,12
+Macao,0,1,0,0,15,Asia,East Asia,Mammals,0
+Mongolia,0,3,0,0,40,Asia,East Asia,Mammals,11
+"Taiwan, Province of China",1,127,85,1,342,Asia,East Asia,Mammals,12
+Belarus,3,7,1,0,26,Asia,North Asia,Mammals,4
+Moldova,2,4,2,0,33,Asia,North Asia,Mammals,4
+Russian Federation,8,31,56,5,239,Asia,North Asia,Mammals,34
+Ukraine,9,29,22,1,114,Asia,North Asia,Mammals,11
+Bangladesh,0,7,23,0,156,Asia,South & Southeast Asia,Mammals,37
+Bhutan,0,1,43,0,97,Asia,South & Southeast Asia,Mammals,25
+British Indian Ocean Territory,0,69,1,0,86,Asia,South & Southeast Asia,Mammals,0
+Brunei Darussalam,0,9,127,0,224,Asia,South & Southeast Asia,Mammals,33
+Cambodia,1,78,37,0,264,Asia,South & Southeast Asia,Mammals,39
+Disputed Territory,0,1,0,0,8,Asia,South & Southeast Asia,Mammals,0
+India,7,128,396,0,1073,Asia,South & Southeast Asia,Mammals,93
+Indonesia,6,285,458,0,1332,Asia,South & Southeast Asia,Mammals,191
+Lao People's Democratic Republic,16,5,56,0,239,Asia,South & Southeast Asia,Mammals,45
+Malaysia,37,228,727,1,1301,Asia,South & Southeast Asia,Mammals,71
+Maldives,0,46,0,0,75,Asia,South & Southeast Asia,Mammals,2
+Myanmar,3,74,61,0,331,Asia,South & Southeast Asia,Mammals,49
+Nepal,1,2,18,0,107,Asia,South & Southeast Asia,Mammals,29
+Philippines,3,235,254,0,780,Asia,South & Southeast Asia,Mammals,38
+Singapore,0,173,62,0,306,Asia,South & Southeast Asia,Mammals,14
+Sri Lanka,0,130,297,0,598,Asia,South & Southeast Asia,Mammals,30
+Thailand,15,196,159,0,641,Asia,South & Southeast Asia,Mammals,59
+Timor-Leste,0,1,2,0,29,Asia,South & Southeast Asia,Mammals,5
+Viet Nam,30,122,231,0,692,Asia,South & Southeast Asia,Mammals,56
+Afghanistan,0,2,5,0,40,Asia,West & Central Asia,Mammals,11
+Armenia,2,7,74,0,116,Asia,West & Central Asia,Mammals,9
+Azerbaijan,2,5,44,0,100,Asia,West & Central Asia,Mammals,8
+Bahrain,0,13,0,0,41,Asia,West & Central Asia,Mammals,3
+Cyprus,5,10,22,0,79,Asia,West & Central Asia,Mammals,6
+Georgia,4,11,63,1,121,Asia,West & Central Asia,Mammals,9
+"Iran, Islamic Republic of",2,22,7,0,143,Asia,West & Central Asia,Mammals,18
+Iraq,1,16,2,0,72,Asia,West & Central Asia,Mammals,13
+Israel,11,63,23,0,193,Asia,West & Central Asia,Mammals,15
+Jordan,6,55,8,0,122,Asia,West & Central Asia,Mammals,13
+Kazakhstan,2,5,14,0,80,Asia,West & Central Asia,Mammals,16
+Kuwait,0,13,0,0,53,Asia,West & Central Asia,Mammals,7
+Kyrgyzstan,0,4,13,0,43,Asia,West & Central Asia,Mammals,5
+Lebanon,9,9,24,0,99,Asia,West & Central Asia,Mammals,10
+Oman,2,29,6,0,104,Asia,West & Central Asia,Mammals,10
+Pakistan,0,18,12,0,146,Asia,West & Central Asia,Mammals,25
+"Palestine, State of",2,2,6,0,36,Asia,West & Central Asia,Mammals,4
+Qatar,0,13,0,0,46,Asia,West & Central Asia,Mammals,4
+Saudi Arabia,1,58,4,0,136,Asia,West & Central Asia,Mammals,11
+Syrian Arab Republic,9,13,26,0,139,Asia,West & Central Asia,Mammals,14
+Tajikistan,0,3,12,0,47,Asia,West & Central Asia,Mammals,7
+Turkey,45,40,113,2,401,Asia,West & Central Asia,Mammals,19
+Turkmenistan,1,6,4,0,59,Asia,West & Central Asia,Mammals,10
+United Arab Emirates,0,15,0,0,60,Asia,West & Central Asia,Mammals,8
+Uzbekistan,1,2,16,0,62,Asia,West & Central Asia,Mammals,10
+Yemen,2,66,163,0,306,Asia,West & Central Asia,Mammals,11
+Albania,50,21,4,0,137,Europe,Europe,Mammals,3
+Andorra,3,5,0,0,14,Europe,Europe,Mammals,2
+Austria,43,31,17,8,127,Europe,Europe,Mammals,3
+Belgium,6,9,0,1,39,Europe,Europe,Mammals,2
+Bosnia and Herzegovina,18,24,3,0,96,Europe,Europe,Mammals,4
+Bulgaria,32,25,9,0,115,Europe,Europe,Mammals,8
+Croatia,49,30,8,1,181,Europe,Europe,Mammals,9
+Czechia,6,23,26,5,74,Europe,Europe,Mammals,3
+Denmark,5,11,1,3,49,Europe,Europe,Mammals,2
+Estonia,4,3,0,2,24,Europe,Europe,Mammals,1
+Faroe Islands,0,0,0,1,24,Europe,Europe,Mammals,4
+Finland,3,7,2,6,37,Europe,Europe,Mammals,2
+France,92,68,47,8,300,Europe,Europe,Mammals,9
+Germany,31,30,36,7,144,Europe,Europe,Mammals,5
+Gibraltar,3,2,1,0,33,Europe,Europe,Mammals,3
+Greece,178,130,72,1,503,Europe,Europe,Mammals,10
+Greenland,0,0,1,0,25,Europe,Europe,Mammals,9
+Guernsey,0,0,0,0,6,Europe,Europe,Mammals,0
+Holy See (Vatican City State),0,0,0,0,1,Europe,Europe,Mammals,1
+Hungary,8,26,43,2,105,Europe,Europe,Mammals,3
+Iceland,0,0,0,0,29,Europe,Europe,Mammals,6
+Ireland,4,2,3,2,54,Europe,Europe,Mammals,5
+Isle of Man,0,0,0,0,2,Europe,Europe,Mammals,0
+Italy,83,139,102,9,423,Europe,Europe,Mammals,8
+Jersey,1,0,0,0,7,Europe,Europe,Mammals,0
+Latvia,4,8,0,1,31,Europe,Europe,Mammals,1
+Liechtenstein,2,4,0,0,8,Europe,Europe,Mammals,0
+Lithuania,3,5,1,1,28,Europe,Europe,Mammals,2
+Luxembourg,5,2,0,0,11,Europe,Europe,Mammals,0
+"Macedonia, the former Yugoslav Republic of",71,15,4,1,125,Europe,Europe,Mammals,6
+Malta,3,2,4,0,39,Europe,Europe,Mammals,2
+Monaco,1,2,1,0,22,Europe,Europe,Mammals,3
+Montenegro,22,20,3,0,101,Europe,Europe,Mammals,6
+Netherlands,5,6,1,3,43,Europe,Europe,Mammals,3
+Norway,3,7,10,11,73,Europe,Europe,Mammals,8
+Poland,7,21,11,3,65,Europe,Europe,Mammals,4
+Portugal,86,118,101,4,410,Europe,Europe,Mammals,13
+Romania,25,43,7,0,125,Europe,Europe,Mammals,9
+San Marino,1,0,0,0,1,Europe,Europe,Mammals,0
+Serbia,8,27,6,1,77,Europe,Europe,Mammals,6
+Slovakia,7,25,25,3,81,Europe,Europe,Mammals,4
+Slovenia,32,51,7,4,147,Europe,Europe,Mammals,6
+Spain,164,124,247,6,686,Europe,Europe,Mammals,17
+Svalbard and Jan Mayen,0,0,0,0,10,Europe,Europe,Mammals,4
+Sweden,4,12,5,10,58,Europe,Europe,Mammals,1
+Switzerland,10,37,4,6,79,Europe,Europe,Mammals,3
+United Kingdom,7,13,42,6,133,Europe,Europe,Mammals,5
+Belize,0,12,46,0,130,North America,Mesoamerica,Mammals,10
+Costa Rica,1,30,143,0,349,North America,Mesoamerica,Mammals,11
+El Salvador,0,10,33,0,92,North America,Mesoamerica,Mammals,6
+Guatemala,2,11,120,0,315,North America,Mesoamerica,Mammals,15
+Honduras,0,21,134,0,317,North America,Mesoamerica,Mammals,8
+Mexico,8,103,484,1,1261,North America,Mesoamerica,Mammals,96
+Nicaragua,2,18,50,0,153,North America,Mesoamerica,Mammals,7
+Panama,0,22,212,0,392,North America,Mesoamerica,Mammals,17
+Anguilla,0,10,4,0,56,North America,Caribbean Islands,Mammals,1
+Antigua and Barbuda,0,11,4,0,58,North America,Caribbean Islands,Mammals,2
+Aruba,1,1,2,0,34,North America,Caribbean Islands,Mammals,2
+Bahamas,1,11,7,0,88,North America,Caribbean Islands,Mammals,5
+Barbados,0,11,3,0,57,North America,Caribbean Islands,Mammals,3
+Bermuda,0,28,8,0,74,North America,Caribbean Islands,Mammals,4
+"Bonaire, Sint Eustatius and Saba",0,11,3,0,57,North America,Caribbean Islands,Mammals,3
+Cayman Islands,1,10,22,0,75,North America,Caribbean Islands,Mammals,1
+Cuba,0,23,179,0,348,North America,Caribbean Islands,Mammals,10
+Curacao,0,11,2,0,51,North America,Caribbean Islands,Mammals,3
+Dominica,0,11,12,0,69,North America,Caribbean Islands,Mammals,3
+Dominican Republic,0,16,47,0,195,North America,Caribbean Islands,Mammals,7
+Grenada,0,10,3,0,55,North America,Caribbean Islands,Mammals,3
+Guadeloupe,1,15,10,0,78,North America,Caribbean Islands,Mammals,4
+Haiti,0,14,93,0,261,North America,Caribbean Islands,Mammals,4
+Jamaica,0,15,215,0,318,North America,Caribbean Islands,Mammals,7
+Martinique,2,0,9,0,54,North America,Caribbean Islands,Mammals,1
+Montserrat,0,11,6,0,58,North America,Caribbean Islands,Mammals,2
+Puerto Rico,0,0,64,0,139,North America,Caribbean Islands,Mammals,2
+Saint Barth_lemy,0,11,2,0,38,North America,Caribbean Islands,Mammals,1
+Saint Kitts and Nevis,0,10,2,0,54,North America,Caribbean Islands,Mammals,2
+Saint Lucia,0,11,7,0,64,North America,Caribbean Islands,Mammals,2
+Saint Martin (French part),0,10,3,0,55,North America,Caribbean Islands,Mammals,2
+Saint Vincent and the Grenadines,0,10,6,0,60,North America,Caribbean Islands,Mammals,2
+Sint Maarten (Dutch part),0,10,3,0,55,North America,Caribbean Islands,Mammals,2
+Trinidad and Tobago,0,10,50,0,119,North America,Caribbean Islands,Mammals,2
+Turks and Caicos Islands,0,10,9,0,62,North America,Caribbean Islands,Mammals,2
+"Virgin Islands, British",0,10,20,0,81,North America,Caribbean Islands,Mammals,1
+"Virgin Islands, U.S.",0,0,17,0,66,North America,Caribbean Islands,Mammals,1
+Canada,17,20,18,7,155,North America,North America,Mammals,18
+Saint Pierre and Miquelon,0,0,0,0,16,North America,North America,Mammals,4
+United States,311,269,510,24,1589,North America,North America,Mammals,40
+Argentina,0,14,70,1,273,South America,South America,Mammals,38
+"Bolivia, Plurinational States of",2,1,106,0,239,South America,South America,Mammals,21
+Brazil,22,34,558,0,1027,South America,South America,Mammals,80
+Chile,1,12,73,0,221,South America,South America,Mammals,19
+Colombia,4,49,268,0,861,South America,South America,Mammals,58
+Ecuador,49,21,1859,7,2372,South America,South America,Mammals,47
+Falkland Islands (Malvinas),0,0,5,0,22,South America,South America,Mammals,4
+French Guiana,0,0,18,0,74,South America,South America,Mammals,8
+Guyana,0,1,30,0,106,South America,South America,Mammals,11
+Paraguay,0,0,20,0,64,South America,South America,Mammals,10
+Peru,4,4,328,0,721,South America,South America,Mammals,53
+Suriname,0,1,27,0,85,South America,South America,Mammals,9
+Uruguay,0,2,22,0,112,South America,South America,Mammals,10
+"Venezuela, Bolivarian Republic of",1,25,86,0,342,South America,South America,Mammals,35
+American Samoa,5,60,1,0,93,Oceania,Oceania,Mammals,1
+Australia,174,360,108,1,1005,Oceania,Oceania,Mammals,63
+Christmas Island,0,19,1,0,40,Oceania,Oceania,Mammals,2
+Cocos (Keeling) Islands,0,20,0,0,35,Oceania,Oceania,Mammals,2
+Cook Islands,0,32,11,0,74,Oceania,Oceania,Mammals,1
+Fiji,68,97,78,0,300,Oceania,Oceania,Mammals,7
+French Polynesia,31,31,48,0,176,Oceania,Oceania,Mammals,0
+Guam,6,54,5,0,101,Oceania,Oceania,Mammals,3
+Kiribati,1,80,0,0,105,Oceania,Oceania,Mammals,2
+Marshall Islands,1,72,0,0,100,Oceania,Oceania,Mammals,1
+"Micronesia, Federated States of",3,111,5,0,168,Oceania,Oceania,Mammals,5
+Nauru,0,68,0,0,83,Oceania,Oceania,Mammals,2
+New Caledonia,28,97,350,0,592,Oceania,Oceania,Mammals,9
+New Zealand,35,26,21,3,219,Oceania,Oceania,Mammals,9
+Niue,0,30,0,0,51,Oceania,Oceania,Mammals,1
+Norfolk Island,12,11,2,0,45,Oceania,Oceania,Mammals,1
+Northern Mariana Islands,4,53,6,0,101,Oceania,Oceania,Mammals,3
+Palau,40,106,5,0,185,Oceania,Oceania,Mammals,4
+Papua New Guinea,2,176,179,2,524,Oceania,Oceania,Mammals,41
+Pitcairn,5,11,7,0,42,Oceania,Oceania,Mammals,0
+Samoa,1,62,2,0,94,Oceania,Oceania,Mammals,2
+Solomon Islands,2,148,16,0,241,Oceania,Oceania,Mammals,19
+Tokelau,0,35,0,0,49,Oceania,Oceania,Mammals,0
+Tonga,4,43,5,0,80,Oceania,Oceania,Mammals,2
+Tuvalu,1,77,0,0,97,Oceania,Oceania,Mammals,2
+United States Minor Outlying Islands,0,47,0,0,70,Oceania,Oceania,Mammals,0
+Vanuatu,3,88,10,0,139,Oceania,Oceania,Mammals,8
+Wallis and Futuna,0,64,1,0,88,Oceania,Oceania,Mammals,0
+Algeria,11,29,22,0,143,Africa,North Africa,Birds,15
+Egypt,0,56,8,0,167,Africa,North Africa,Birds,14
+Libya,0,4,7,0,67,Africa,North Africa,Birds,8
+Morocco,37,32,52,2,228,Africa,North Africa,Birds,18
+Tunisia,7,13,9,0,100,Africa,North Africa,Birds,11
+Western Sahara,2,1,0,0,52,Africa,North Africa,Birds,5
+Angola,7,4,34,0,155,Africa,Sub-Saharan Africa,Birds,32
+Benin,2,1,20,0,95,Africa,Sub-Saharan Africa,Birds,12
+Botswana,0,0,3,0,33,Africa,Sub-Saharan Africa,Birds,16
+Burkina Faso,1,0,4,0,33,Africa,Sub-Saharan Africa,Birds,12
+Burundi,3,3,89,0,142,Africa,Sub-Saharan Africa,Birds,15
+Cabo Verde,13,0,51,0,116,Africa,Sub-Saharan Africa,Birds,7
+Cameroon,13,12,555,0,846,Africa,Sub-Saharan Africa,Birds,29
+Central African Republic,0,0,26,0,66,Africa,Sub-Saharan Africa,Birds,16
+Chad,4,0,6,0,48,Africa,Sub-Saharan Africa,Birds,16
+Comoros,0,76,9,0,120,Africa,Sub-Saharan Africa,Birds,14
+Congo,7,0,46,0,139,Africa,Sub-Saharan Africa,Birds,7
+"Congo, The Democratic Republic of the",44,10,148,0,390,Africa,Sub-Saharan Africa,Birds,42
+Cªte d'Ivoire,5,2,118,0,262,Africa,Sub-Saharan Africa,Birds,25
+Djibouti,1,56,3,0,107,Africa,Sub-Saharan Africa,Birds,12
+Equatorial Guinea,2,2,98,0,187,Africa,Sub-Saharan Africa,Birds,6
+Eritrea,1,57,6,0,136,Africa,Sub-Saharan Africa,Birds,21
+Eswatini,0,0,13,0,41,Africa,Sub-Saharan Africa,Birds,13
+Ethiopia,4,11,64,0,177,Africa,Sub-Saharan Africa,Birds,35
+Gabon,2,2,173,0,284,Africa,Sub-Saharan Africa,Birds,7
+Gambia,2,0,6,0,73,Africa,Sub-Saharan Africa,Birds,14
+Ghana,2,3,119,0,245,Africa,Sub-Saharan Africa,Birds,23
+Guinea,3,5,70,0,218,Africa,Sub-Saharan Africa,Birds,20
+Guinea-Bissau,2,0,6,0,83,Africa,Sub-Saharan Africa,Birds,12
+Kenya,20,71,243,0,505,Africa,Sub-Saharan Africa,Birds,44
+Lesotho,0,3,4,0,20,Africa,Sub-Saharan Africa,Birds,8
+Liberia,3,7,53,0,177,Africa,Sub-Saharan Africa,Birds,14
+Madagascar,35,159,1111,0,1858,Africa,Sub-Saharan Africa,Birds,37
+Malawi,7,7,34,0,122,Africa,Sub-Saharan Africa,Birds,19
+Mali,0,0,12,0,49,Africa,Sub-Saharan Africa,Birds,17
+Mauritania,2,1,0,0,91,Africa,Sub-Saharan Africa,Birds,19
+Mauritius,29,91,91,0,262,Africa,Sub-Saharan Africa,Birds,12
+Mayotte,0,70,3,0,93,Africa,Sub-Saharan Africa,Birds,3
+Mozambique,0,64,145,0,347,Africa,Sub-Saharan Africa,Birds,30
+Namibia,2,2,27,0,117,Africa,Sub-Saharan Africa,Birds,32
+Niger,1,0,4,0,38,Africa,Sub-Saharan Africa,Birds,13
+Nigeria,3,10,205,0,368,Africa,Sub-Saharan Africa,Birds,21
+R_union,17,72,18,0,132,Africa,Sub-Saharan Africa,Birds,7
+Rwanda,0,4,41,0,98,Africa,Sub-Saharan Africa,Birds,20
+"Saint Helena, Ascension and Tristan da Cunha",1,67,44,1,153,Africa,Sub-Saharan Africa,Birds,21
+Sao Tome and Principe,3,1,49,0,102,Africa,Sub-Saharan Africa,Birds,12
+Senegal,12,1,14,0,132,Africa,Sub-Saharan Africa,Birds,19
+Seychelles,37,283,61,0,441,Africa,SSub-Saharan Africa,Birds,13
+Sierra Leone,5,3,72,0,187,Africa,Sub-Saharan Africa,Birds,16
+Somalia,2,60,49,0,185,Africa,Sub-Saharan Africa,Birds,21
+South Africa,22,186,153,0,602,Africa,Sub-Saharan Africa,Birds,54
+South Sudan,0,1,17,0,57,Africa,Sub-Saharan Africa,Birds,21
+Sudan,0,50,17,0,147,Africa,Sub-Saharan Africa,Birds,26
+"Tanzania, United Republic of",11,136,644,0,1155,Africa,Sub-Saharan Africa,Birds,49
+Togo,2,1,13,0,88,Africa,Sub-Saharan Africa,Birds,13
+Uganda,14,16,64,0,221,Africa,Sub-Saharan Africa,Birds,30
+Zambia,12,2,23,0,92,Africa,Sub-Saharan Africa,Birds,20
+Zimbabwe,0,7,52,0,102,Africa,Sub-Saharan Africa,Birds,19
+Antarctica,0,0,0,0,6,Antarctica,Antarctica,Birds,4
+Bouvet Island,0,0,0,0,3,Antarctica,Antarctica,Birds,1
+French Southern Territories,0,0,1,0,28,Antarctica,Antarctica,Birds,13
+Heard Island and McDonald Islands,0,0,0,0,12,Antarctica,Antarctica,Birds,10
+South Georgia and the South Sandwich Islands,0,0,0,0,9,Antarctica,Antarctica,Birds,6
+China,15,61,593,1,1105,Asia,East Asia,Birds,96
+Hong Kong,1,7,10,0,68,Asia,East Asia,Birds,21
+Japan,33,142,50,4,429,Asia,East Asia,Birds,49
+"Korea, Democratic People's Republic of",0,3,17,0,82,Asia,East Asia,Birds,29
+"Korea, Republic of",0,8,31,1,119,Asia,East Asia,Birds,33
+Macao,0,1,0,0,15,Asia,East Asia,Birds,4
+Mongolia,0,3,0,0,40,Asia,East Asia,Birds,24
+"Taiwan, Province of China",1,127,85,1,342,Asia,East Asia,Birds,24
+Belarus,3,7,1,0,26,Asia,North Asia,Birds,9
+Moldova,2,4,2,0,33,Asia,North Asia,Birds,11
+Russian Federation,8,31,56,5,239,Asia,North Asia,Birds,57
+Ukraine,9,29,22,1,114,Asia,North Asia,Birds,17
+Bangladesh,0,7,23,0,156,Asia,South & Southeast Asia,Birds,36
+Bhutan,0,1,43,0,97,Asia,South & Southeast Asia,Birds,21
+British Indian Ocean Territory,0,69,1,0,86,Asia,South & Southeast Asia,Birds,1
+Brunei Darussalam,0,9,127,0,224,Asia,South & Southeast Asia,Birds,31
+Cambodia,1,78,37,0,264,Asia,South & Southeast Asia,Birds,31
+Disputed Territory,0,1,0,0,8,Asia,South & Southeast Asia,Birds,0
+India,7,128,396,0,1073,Asia,South & Southeast Asia,Birds,93
+Indonesia,6,285,458,0,1332,Asia,South & Southeast Asia,Birds,160
+Lao People's Democratic Republic,16,5,56,0,239,Asia,South & Southeast Asia,Birds,29
+Malaysia,37,228,727,1,1301,Asia,South & Southeast Asia,Birds,63
+Maldives,0,46,0,0,75,Asia,South & Southeast Asia,Birds,0
+Myanmar,3,74,61,0,331,Asia,South & Southeast Asia,Birds,56
+Nepal,1,2,18,0,107,Asia,South & Southeast Asia,Birds,38
+Philippines,3,235,254,0,780,Asia,South & Southeast Asia,Birds,93
+Singapore,0,173,62,0,306,Asia,South & Southeast Asia,Birds,22
+Sri Lanka,0,130,297,0,598,Asia,South & Southeast Asia,Birds,16
+Thailand,15,196,159,0,641,Asia,South & Southeast Asia,Birds,62
+Timor-Leste,0,1,2,0,29,Asia,South & Southeast Asia,Birds,6
+Viet Nam,30,122,231,0,692,Asia,South & Southeast Asia,Birds,52
+Afghanistan,0,2,5,0,40,Asia,West & Central Asia,Birds,16
+Armenia,2,7,74,0,116,Asia,West & Central Asia,Birds,14
+Azerbaijan,2,5,44,0,100,Asia,West & Central Asia,Birds,17
+Bahrain,0,13,0,0,41,Asia,West & Central Asia,Birds,7
+Cyprus,5,10,22,0,79,Asia,West & Central Asia,Birds,7
+Georgia,4,11,63,1,121,Asia,West & Central Asia,Birds,14
+"Iran, Islamic Republic of",2,22,7,0,143,Asia,West & Central Asia,Birds,28
+Iraq,1,16,2,0,72,Asia,West & Central Asia,Birds,17
+Israel,11,63,23,0,193,Asia,West & Central Asia,Birds,18
+Jordan,6,55,8,0,122,Asia,West & Central Asia,Birds,14
+Kazakhstan,2,5,14,0,80,Asia,West & Central Asia,Birds,27
+Kuwait,0,13,0,0,53,Asia,West & Central Asia,Birds,11
+Kyrgyzstan,0,4,13,0,43,Asia,West & Central Asia,Birds,15
+Lebanon,9,9,24,0,99,Asia,West & Central Asia,Birds,11
+Oman,2,29,6,0,104,Asia,West & Central Asia,Birds,13
+Pakistan,0,18,12,0,146,Asia,West & Central Asia,Birds,33
+"Palestine, State of",2,2,6,0,36,Asia,West & Central Asia,Birds,15
+Qatar,0,13,0,0,46,Asia,West & Central Asia,Birds,9
+Saudi Arabia,1,58,4,0,136,Asia,West & Central Asia,Birds,18
+Syrian Arab Republic,9,13,26,0,139,Asia,West & Central Asia,Birds,17
+Tajikistan,0,3,12,0,47,Asia,West & Central Asia,Birds,15
+Turkey,45,40,113,2,401,Asia,West & Central Asia,Birds,20
+Turkmenistan,1,6,4,0,59,Asia,West & Central Asia,Birds,19
+United Arab Emirates,0,15,0,0,60,Asia,West & Central Asia,Birds,13
+Uzbekistan,1,2,16,0,62,Asia,West & Central Asia,Birds,19
+Yemen,2,66,163,0,306,Asia,West & Central Asia,Birds,16
+Albania,50,21,4,0,137,Europe,Europe,Birds,8
+Andorra,3,5,0,0,14,Europe,Europe,Birds,3
+Austria,43,31,17,8,127,Europe,Europe,Birds,13
+Belgium,6,9,0,1,39,Europe,Europe,Birds,8
+Bosnia and Herzegovina,18,24,3,0,96,Europe,Europe,Birds,7
+Bulgaria,32,25,9,0,115,Europe,Europe,Birds,17
+Croatia,49,30,8,1,181,Europe,Europe,Birds,14
+Czechia,6,23,26,5,74,Europe,Europe,Birds,9
+Denmark,5,11,1,3,49,Europe,Europe,Birds,9
+Estonia,4,3,0,2,24,Europe,Europe,Birds,9
+Faroe Islands,0,0,0,1,24,Europe,Europe,Birds,6
+Finland,3,7,2,6,37,Europe,Europe,Birds,11
+France,92,68,47,8,300,Europe,Europe,Birds,16
+Germany,31,30,36,7,144,Europe,Europe,Birds,11
+Gibraltar,3,2,1,0,33,Europe,Europe,Birds,6
+Greece,178,130,72,1,503,Europe,Europe,Birds,17
+Greenland,0,0,1,0,25,Europe,Europe,Birds,6
+Guernsey,0,0,0,0,6,Europe,Europe,Birds,0
+Holy See (Vatican City State),0,0,0,0,1,Europe,Europe,Birds,0
+Hungary,8,26,43,2,105,Europe,Europe,Birds,13
+Iceland,0,0,0,0,29,Europe,Europe,Birds,7
+Ireland,4,2,3,2,54,Europe,Europe,Birds,9
+Isle of Man,0,0,0,0,2,Europe,Europe,Birds,0
+Italy,83,139,102,9,423,Europe,Europe,Birds,17
+Jersey,1,0,0,0,7,Europe,Europe,Birds,0
+Latvia,4,8,0,1,31,Europe,Europe,Birds,11
+Liechtenstein,2,4,0,0,8,Europe,Europe,Birds,2
+Lithuania,3,5,1,1,28,Europe,Europe,Birds,10
+Luxembourg,5,2,0,0,11,Europe,Europe,Birds,3
+"Macedonia, the former Yugoslav Republic of",71,15,4,1,125,Europe,Europe,Birds,13
+Malta,3,2,4,0,39,Europe,Europe,Birds,5
+Monaco,1,2,1,0,22,Europe,Europe,Birds,0
+Montenegro,22,20,3,0,101,Europe,Europe,Birds,13
+Netherlands,5,6,1,3,43,Europe,Europe,Birds,10
+Norway,3,7,10,11,73,Europe,Europe,Birds,11
+Poland,7,21,11,3,65,Europe,Europe,Birds,11
+Portugal,86,118,101,4,410,Europe,Europe,Birds,15
+Romania,25,43,7,0,125,Europe,Europe,Birds,17
+San Marino,1,0,0,0,1,Europe,Europe,Birds,0
+Serbia,8,27,6,1,77,Europe,Europe,Birds,13
+Slovakia,7,25,25,3,81,Europe,Europe,Birds,12
+Slovenia,32,51,7,4,147,Europe,Europe,Birds,10
+Spain,164,124,247,6,686,Europe,Europe,Birds,19
+Svalbard and Jan Mayen,0,0,0,0,10,Europe,Europe,Birds,4
+Sweden,4,12,5,10,58,Europe,Europe,Birds,11
+Switzerland,10,37,4,6,79,Europe,Europe,Birds,9
+United Kingdom,7,13,42,6,133,Europe,Europe,Birds,11
+Belize,0,12,46,0,130,North America,Mesoamerica,Birds,6
+Costa Rica,1,30,143,0,349,North America,Mesoamerica,Birds,27
+El Salvador,0,10,33,0,92,North America,Mesoamerica,Birds,7
+Guatemala,2,11,120,0,315,North America,Mesoamerica,Birds,17
+Honduras,0,21,134,0,317,North America,Mesoamerica,Birds,14
+Mexico,8,103,484,1,1261,North America,Mesoamerica,Birds,71
+Nicaragua,2,18,50,0,153,North America,Mesoamerica,Birds,17
+Panama,0,22,212,0,392,North America,Mesoamerica,Birds,25
+Anguilla,0,10,4,0,56,North America,Caribbean Islands,Birds,0
+Antigua and Barbuda,0,11,4,0,58,North America,Caribbean Islands,Birds,3
+Aruba,1,1,2,0,34,North America,Caribbean Islands,Birds,2
+Bahamas,1,11,7,0,88,North America,Caribbean Islands,Birds,10
+Barbados,0,11,3,0,57,North America,Caribbean Islands,Birds,4
+Bermuda,0,28,8,0,74,North America,Caribbean Islands,Birds,3
+"Bonaire, Sint Eustatius and Saba",0,11,3,0,57,North America,Caribbean Islands,Birds,2
+Cayman Islands,1,10,22,0,75,North America,Caribbean Islands,Birds,3
+Cuba,0,23,179,0,348,North America,Caribbean Islands,Birds,19
+Curacao,0,11,2,0,51,North America,Caribbean Islands,Birds,2
+Dominica,0,11,12,0,69,North America,Caribbean Islands,Birds,7
+Dominican Republic,0,16,47,0,195,North America,Caribbean Islands,Birds,17
+Grenada,0,10,3,0,55,North America,Caribbean Islands,Birds,2
+Guadeloupe,1,15,10,0,78,North America,Caribbean Islands,Birds,5
+Haiti,0,14,93,0,261,North America,Caribbean Islands,Birds,17
+Jamaica,0,15,215,0,318,North America,Caribbean Islands,Birds,11
+Martinique,2,0,9,0,54,North America,Caribbean Islands,Birds,6
+Montserrat,0,11,6,0,58,North America,Caribbean Islands,Birds,4
+Puerto Rico,0,0,64,0,139,North America,Caribbean Islands,Birds,11
+Saint Barth_lemy,0,11,2,0,38,North America,Caribbean Islands,Birds,0
+Saint Kitts and Nevis,0,10,2,0,54,North America,Caribbean Islands,Birds,3
+Saint Lucia,0,11,7,0,64,North America,Caribbean Islands,Birds,7
+Saint Martin (French part),0,10,3,0,55,North America,Caribbean Islands,Birds,1
+Saint Vincent and the Grenadines,0,10,6,0,60,North America,Caribbean Islands,Birds,4
+Sint Maarten (Dutch part),0,10,3,0,55,North America,Caribbean Islands,Birds,1
+Trinidad and Tobago,0,10,50,0,119,North America,Caribbean Islands,Birds,5
+Turks and Caicos Islands,0,10,9,0,62,North America,Caribbean Islands,Birds,4
+"Virgin Islands, British",0,10,20,0,81,North America,Caribbean Islands,Birds,3
+"Virgin Islands, U.S.",0,0,17,0,66,North America,Caribbean Islands,Birds,3
+Canada,17,20,18,7,155,North America,North America,Birds,24
+Saint Pierre and Miquelon,0,0,0,0,16,North America,North America,Birds,9
+United States,311,269,510,24,1589,North America,North America,Birds,91
+Argentina,0,14,70,1,273,South America,South America,Birds,52
+"Bolivia, Plurinational States of",2,1,106,0,239,South America,South America,Birds,55
+Brazil,22,34,558,0,1027,South America,South America,Birds,175
+Chile,1,12,73,0,221,South America,South America,Birds,35
+Colombia,4,49,268,0,861,South America,South America,Birds,126
+Ecuador,49,21,1859,7,2372,South America,South America,Birds,106
+Falkland Islands (Malvinas),0,0,5,0,22,South America,South America,Birds,8
+French Guiana,0,0,18,0,74,South America,South America,Birds,8
+Guyana,0,1,30,0,106,South America,South America,Birds,16
+Paraguay,0,0,20,0,64,South America,South America,Birds,27
+Peru,4,4,328,0,721,South America,South America,Birds,119
+Suriname,0,1,27,0,85,South America,South America,Birds,9
+Uruguay,0,2,22,0,112,South America,South America,Birds,22
+"Venezuela, Bolivarian Republic of",1,25,86,0,342,South America,South America,Birds,52
+American Samoa,5,60,1,0,93,Oceania,Oceania,Birds,8
+Australia,174,360,108,1,1005,Oceania,Oceania,Birds,52
+Christmas Island,0,19,1,0,40,Oceania,Oceania,Birds,4
+Cocos (Keeling) Islands,0,20,0,0,35,Oceania,Oceania,Birds,1
+Cook Islands,0,32,11,0,74,Oceania,Oceania,Birds,16
+Fiji,68,97,78,0,300,Oceania,Oceania,Birds,14
+French Polynesia,31,31,48,0,176,Oceania,Oceania,Birds,35
+Guam,6,54,5,0,101,Oceania,Oceania,Birds,14
+Kiribati,1,80,0,0,105,Oceania,Oceania,Birds,6
+Marshall Islands,1,72,0,0,100,Oceania,Oceania,Birds,4
+"Micronesia, Federated States of",3,111,5,0,168,Oceania,Oceania,Birds,12
+Nauru,0,68,0,0,83,Oceania,Oceania,Birds,2
+New Caledonia,28,97,350,0,592,Oceania,Oceania,Birds,17
+New Zealand,35,26,21,3,219,Oceania,Oceania,Birds,69
+Niue,0,30,0,0,51,Oceania,Oceania,Birds,8
+Norfolk Island,12,11,2,0,45,Oceania,Oceania,Birds,11
+Northern Mariana Islands,4,53,6,0,101,Oceania,Oceania,Birds,17
+Palau,40,106,5,0,185,Oceania,Oceania,Birds,6
+Papua New Guinea,2,176,179,2,524,Oceania,Oceania,Birds,39
+Pitcairn,5,11,7,0,42,Oceania,Oceania,Birds,10
+Samoa,1,62,2,0,94,Oceania,Oceania,Birds,6
+Solomon Islands,2,148,16,0,241,Oceania,Oceania,Birds,24
+Tokelau,0,35,0,0,49,Oceania,Oceania,Birds,1
+Tonga,4,43,5,0,80,Oceania,Oceania,Birds,5
+Tuvalu,1,77,0,0,97,Oceania,Oceania,Birds,1
+United States Minor Outlying Islands,0,47,0,0,70,Oceania,Oceania,Birds,11
+Vanuatu,3,88,10,0,139,Oceania,Oceania,Birds,8
+Wallis and Futuna,0,64,1,0,88,Oceania,Oceania,Birds,9
+Algeria,11,29,22,0,143,Africa,North Africa,Reptiles,8
+Egypt,0,56,8,0,167,Africa,North Africa,Reptiles,13
+Libya,0,4,7,0,67,Africa,North Africa,Reptiles,6
+Morocco,37,32,52,2,228,Africa,North Africa,Reptiles,13
+Tunisia,7,13,9,0,100,Africa,North Africa,Reptiles,6
+Western Sahara,2,1,0,0,52,Africa,North Africa,Reptiles,1
+Angola,7,4,34,0,155,Africa,Sub-Saharan Africa,Reptiles,7
+Benin,2,1,20,0,95,Africa,Sub-Saharan Africa,Reptiles,7
+Botswana,0,0,3,0,33,Africa,Sub-Saharan Africa,Reptiles,1
+Burkina Faso,1,0,4,0,33,Africa,Sub-Saharan Africa,Reptiles,3
+Burundi,3,3,89,0,142,Africa,Sub-Saharan Africa,Reptiles,0
+Cabo Verde,13,0,51,0,116,Africa,Sub-Saharan Africa,Reptiles,6
+Cameroon,13,12,555,0,846,Africa,Sub-Saharan Africa,Reptiles,13
+Central African Republic,0,0,26,0,66,Africa,Sub-Saharan Africa,Reptiles,5
+Chad,4,0,6,0,48,Africa,Sub-Saharan Africa,Reptiles,5
+Comoros,0,76,9,0,120,Africa,Sub-Saharan Africa,Reptiles,5
+Congo,7,0,46,0,139,Africa,Sub-Saharan Africa,Reptiles,6
+"Congo, The Democratic Republic of the",44,10,148,0,390,Africa,Sub-Saharan Africa,Reptiles,9
+Cªte d'Ivoire,5,2,118,0,262,Africa,Sub-Saharan Africa,Reptiles,8
+Djibouti,1,56,3,0,107,Africa,Sub-Saharan Africa,Reptiles,1
+Equatorial Guinea,2,2,98,0,187,Africa,Sub-Saharan Africa,Reptiles,8
+Eritrea,1,57,6,0,136,Africa,Sub-Saharan Africa,Reptiles,7
+Eswatini,0,0,13,0,41,Africa,Sub-Saharan Africa,Reptiles,1
+Ethiopia,4,11,64,0,177,Africa,Sub-Saharan Africa,Reptiles,3
+Gabon,2,2,173,0,284,Africa,Sub-Saharan Africa,Reptiles,7
+Gambia,2,0,6,0,73,Africa,Sub-Saharan Africa,Reptiles,6
+Ghana,2,3,119,0,245,Africa,Sub-Saharan Africa,Reptiles,8
+Guinea,3,5,70,0,218,Africa,Sub-Saharan Africa,Reptiles,9
+Guinea-Bissau,2,0,6,0,83,Africa,Sub-Saharan Africa,Reptiles,8
+Kenya,20,71,243,0,505,Africa,Sub-Saharan Africa,Reptiles,12
+Lesotho,0,3,4,0,20,Africa,Sub-Saharan Africa,Reptiles,0
+Liberia,3,7,53,0,177,Africa,Sub-Saharan Africa,Reptiles,8
+Madagascar,35,159,1111,0,1858,Africa,Sub-Saharan Africa,Reptiles,139
+Malawi,7,7,34,0,122,Africa,Sub-Saharan Africa,Reptiles,4
+Mali,0,0,12,0,49,Africa,Sub-Saharan Africa,Reptiles,4
+Mauritania,2,1,0,0,91,Africa,Sub-Saharan Africa,Reptiles,6
+Mauritius,29,91,91,0,262,Africa,Sub-Saharan Africa,Reptiles,11
+Mayotte,0,70,3,0,93,Africa,Sub-Saharan Africa,Reptiles,7
+Mozambique,0,64,145,0,347,Africa,Sub-Saharan Africa,Reptiles,14
+Namibia,2,2,27,0,117,Africa,Sub-Saharan Africa,Reptiles,6
+Niger,1,0,4,0,38,Africa,Sub-Saharan Africa,Reptiles,3
+Nigeria,3,10,205,0,368,Africa,Sub-Saharan Africa,Reptiles,13
+R_union,17,72,18,0,132,Africa,Sub-Saharan Africa,Reptiles,0
+Rwanda,0,4,41,0,98,Africa,Sub-Saharan Africa,Reptiles,0
+"Saint Helena, Ascension and Tristan da Cunha",1,67,44,1,153,Africa,Sub-Saharan Africa,Reptiles,2
+Sao Tome and Principe,3,1,49,0,102,Africa,Sub-Saharan Africa,Reptiles,5
+Senegal,12,1,14,0,132,Africa,Sub-Saharan Africa,Reptiles,9
+Seychelles,37,283,61,0,441,Africa,SSub-Saharan Africa,Reptiles,11
+Sierra Leone,5,3,72,0,187,Africa,Sub-Saharan Africa,Reptiles,9
+Somalia,2,60,49,0,185,Africa,Sub-Saharan Africa,Reptiles,6
+South Africa,22,186,153,0,602,Africa,Sub-Saharan Africa,Reptiles,20
+South Sudan,0,1,17,0,57,Africa,Sub-Saharan Africa,Reptiles,4
+Sudan,0,50,17,0,147,Africa,Sub-Saharan Africa,Reptiles,6
+"Tanzania, United Republic of",11,136,644,0,1155,Africa,Sub-Saharan Africa,Reptiles,34
+Togo,2,1,13,0,88,Africa,Sub-Saharan Africa,Reptiles,6
+Uganda,14,16,64,0,221,Africa,Sub-Saharan Africa,Reptiles,4
+Zambia,12,2,23,0,92,Africa,Sub-Saharan Africa,Reptiles,2
+Zimbabwe,0,7,52,0,102,Africa,Sub-Saharan Africa,Reptiles,4
+Antarctica,0,0,0,0,6,Antarctica,Antarctica,Reptiles,0
+Bouvet Island,0,0,0,0,3,Antarctica,Antarctica,Reptiles,0
+French Southern Territories,0,0,1,0,28,Antarctica,Antarctica,Reptiles,4
+Heard Island and McDonald Islands,0,0,0,0,12,Antarctica,Antarctica,Reptiles,0
+South Georgia and the South Sandwich Islands,0,0,0,0,9,Antarctica,Antarctica,Reptiles,0
+China,15,61,593,1,1105,Asia,East Asia,Reptiles,43
+Hong Kong,1,7,10,0,68,Asia,East Asia,Reptiles,5
+Japan,33,142,50,4,429,Asia,East Asia,Reptiles,25
+"Korea, Democratic People's Republic of",0,3,17,0,82,Asia,East Asia,Reptiles,2
+"Korea, Republic of",0,8,31,1,119,Asia,East Asia,Reptiles,3
+Macao,0,1,0,0,15,Asia,East Asia,Reptiles,1
+Mongolia,0,3,0,0,40,Asia,East Asia,Reptiles,0
+"Taiwan, Province of China",1,127,85,1,342,Asia,East Asia,Reptiles,9
+Belarus,3,7,1,0,26,Asia,North Asia,Reptiles,0
+Moldova,2,4,2,0,33,Asia,North Asia,Reptiles,2
+Russian Federation,8,31,56,5,239,Asia,North Asia,Reptiles,9
+Ukraine,9,29,22,1,114,Asia,North Asia,Reptiles,1
+Bangladesh,0,7,23,0,156,Asia,South & Southeast Asia,Reptiles,23
+Bhutan,0,1,43,0,97,Asia,South & Southeast Asia,Reptiles,3
+British Indian Ocean Territory,0,69,1,0,86,Asia,South & Southeast Asia,Reptiles,2
+Brunei Darussalam,0,9,127,0,224,Asia,South & Southeast Asia,Reptiles,8
+Cambodia,1,78,37,0,264,Asia,South & Southeast Asia,Reptiles,21
+Disputed Territory,0,1,0,0,8,Asia,South & Southeast Asia,Reptiles,0
+India,7,128,396,0,1073,Asia,South & Southeast Asia,Reptiles,54
+Indonesia,6,285,458,0,1332,Asia,South & Southeast Asia,Reptiles,37
+Lao People's Democratic Republic,16,5,56,0,239,Asia,South & Southeast Asia,Reptiles,27
+Malaysia,37,228,727,1,1301,Asia,South & Southeast Asia,Reptiles,56
+Maldives,0,46,0,0,75,Asia,South & Southeast Asia,Reptiles,3
+Myanmar,3,74,61,0,331,Asia,South & Southeast Asia,Reptiles,32
+Nepal,1,2,18,0,107,Asia,South & Southeast Asia,Reptiles,9
+Philippines,3,235,254,0,780,Asia,South & Southeast Asia,Reptiles,39
+Singapore,0,173,62,0,306,Asia,South & Southeast Asia,Reptiles,6
+Sri Lanka,0,130,297,0,598,Asia,South & Southeast Asia,Reptiles,12
+Thailand,15,196,159,0,641,Asia,South & Southeast Asia,Reptiles,37
+Timor-Leste,0,1,2,0,29,Asia,South & Southeast Asia,Reptiles,2
+Viet Nam,30,122,231,0,692,Asia,South & Southeast Asia,Reptiles,73
+Afghanistan,0,2,5,0,40,Asia,West & Central Asia,Reptiles,1
+Armenia,2,7,74,0,116,Asia,West & Central Asia,Reptiles,7
+Azerbaijan,2,5,44,0,100,Asia,West & Central Asia,Reptiles,9
+Bahrain,0,13,0,0,41,Asia,West & Central Asia,Reptiles,4
+Cyprus,5,10,22,0,79,Asia,West & Central Asia,Reptiles,5
+Georgia,4,11,63,1,121,Asia,West & Central Asia,Reptiles,7
+"Iran, Islamic Republic of",2,22,7,0,143,Asia,West & Central Asia,Reptiles,15
+Iraq,1,16,2,0,72,Asia,West & Central Asia,Reptiles,3
+Israel,11,63,23,0,193,Asia,West & Central Asia,Reptiles,11
+Jordan,6,55,8,0,122,Asia,West & Central Asia,Reptiles,6
+Kazakhstan,2,5,14,0,80,Asia,West & Central Asia,Reptiles,1
+Kuwait,0,13,0,0,53,Asia,West & Central Asia,Reptiles,4
+Kyrgyzstan,0,4,13,0,43,Asia,West & Central Asia,Reptiles,3
+Lebanon,9,9,24,0,99,Asia,West & Central Asia,Reptiles,8
+Oman,2,29,6,0,104,Asia,West & Central Asia,Reptiles,8
+Pakistan,0,18,12,0,146,Asia,West & Central Asia,Reptiles,12
+"Palestine, State of",2,2,6,0,36,Asia,West & Central Asia,Reptiles,4
+Qatar,0,13,0,0,46,Asia,West & Central Asia,Reptiles,3
+Saudi Arabia,1,58,4,0,136,Asia,West & Central Asia,Reptiles,3
+Syrian Arab Republic,9,13,26,0,139,Asia,West & Central Asia,Reptiles,9
+Tajikistan,0,3,12,0,47,Asia,West & Central Asia,Reptiles,5
+Turkey,45,40,113,2,401,Asia,West & Central Asia,Reptiles,21
+Turkmenistan,1,6,4,0,59,Asia,West & Central Asia,Reptiles,6
+United Arab Emirates,0,15,0,0,60,Asia,West & Central Asia,Reptiles,4
+Uzbekistan,1,2,16,0,62,Asia,West & Central Asia,Reptiles,7
+Yemen,2,66,163,0,306,Asia,West & Central Asia,Reptiles,7
+Albania,50,21,4,0,137,Europe,Europe,Reptiles,5
+Andorra,3,5,0,0,14,Europe,Europe,Reptiles,1
+Austria,43,31,17,8,127,Europe,Europe,Reptiles,1
+Belgium,6,9,0,1,39,Europe,Europe,Reptiles,0
+Bosnia and Herzegovina,18,24,3,0,96,Europe,Europe,Reptiles,3
+Bulgaria,32,25,9,0,115,Europe,Europe,Reptiles,2
+Croatia,49,30,8,1,181,Europe,Europe,Reptiles,4
+Czechia,6,23,26,5,74,Europe,Europe,Reptiles,0
+Denmark,5,11,1,3,49,Europe,Europe,Reptiles,0
+Estonia,4,3,0,2,24,Europe,Europe,Reptiles,0
+Faroe Islands,0,0,0,1,24,Europe,Europe,Reptiles,0
+Finland,3,7,2,6,37,Europe,Europe,Reptiles,0
+France,92,68,47,8,300,Europe,Europe,Reptiles,5
+Germany,31,30,36,7,144,Europe,Europe,Reptiles,0
+Gibraltar,3,2,1,0,33,Europe,Europe,Reptiles,0
+Greece,178,130,72,1,503,Europe,Europe,Reptiles,10
+Greenland,0,0,1,0,25,Europe,Europe,Reptiles,0
+Guernsey,0,0,0,0,6,Europe,Europe,Reptiles,0
+Holy See (Vatican City State),0,0,0,0,1,Europe,Europe,Reptiles,0
+Hungary,8,26,43,2,105,Europe,Europe,Reptiles,1
+Iceland,0,0,0,0,29,Europe,Europe,Reptiles,0
+Ireland,4,2,3,2,54,Europe,Europe,Reptiles,1
+Isle of Man,0,0,0,0,2,Europe,Europe,Reptiles,0
+Italy,83,139,102,9,423,Europe,Europe,Reptiles,4
+Jersey,1,0,0,0,7,Europe,Europe,Reptiles,0
+Latvia,4,8,0,1,31,Europe,Europe,Reptiles,0
+Liechtenstein,2,4,0,0,8,Europe,Europe,Reptiles,0
+Lithuania,3,5,1,1,28,Europe,Europe,Reptiles,0
+Luxembourg,5,2,0,0,11,Europe,Europe,Reptiles,0
+"Macedonia, the former Yugoslav Republic of",71,15,4,1,125,Europe,Europe,Reptiles,2
+Malta,3,2,4,0,39,Europe,Europe,Reptiles,1
+Monaco,1,2,1,0,22,Europe,Europe,Reptiles,0
+Montenegro,22,20,3,0,101,Europe,Europe,Reptiles,4
+Netherlands,5,6,1,3,43,Europe,Europe,Reptiles,0
+Norway,3,7,10,11,73,Europe,Europe,Reptiles,0
+Poland,7,21,11,3,65,Europe,Europe,Reptiles,0
+Portugal,86,118,101,4,410,Europe,Europe,Reptiles,5
+Romania,25,43,7,0,125,Europe,Europe,Reptiles,2
+San Marino,1,0,0,0,1,Europe,Europe,Reptiles,0
+Serbia,8,27,6,1,77,Europe,Europe,Reptiles,1
+Slovakia,7,25,25,3,81,Europe,Europe,Reptiles,0
+Slovenia,32,51,7,4,147,Europe,Europe,Reptiles,2
+Spain,164,124,247,6,686,Europe,Europe,Reptiles,20
+Svalbard and Jan Mayen,0,0,0,0,10,Europe,Europe,Reptiles,0
+Sweden,4,12,5,10,58,Europe,Europe,Reptiles,0
+Switzerland,10,37,4,6,79,Europe,Europe,Reptiles,0
+United Kingdom,7,13,42,6,133,Europe,Europe,Reptiles,1
+Belize,0,12,46,0,130,North America,Mesoamerica,Reptiles,8
+Costa Rica,1,30,143,0,349,North America,Mesoamerica,Reptiles,12
+El Salvador,0,10,33,0,92,North America,Mesoamerica,Reptiles,10
+Guatemala,2,11,120,0,315,North America,Mesoamerica,Reptiles,32
+Honduras,0,21,134,0,317,North America,Mesoamerica,Reptiles,40
+Mexico,8,103,484,1,1261,North America,Mesoamerica,Reptiles,98
+Nicaragua,2,18,50,0,153,North America,Mesoamerica,Reptiles,9
+Panama,0,22,212,0,392,North America,Mesoamerica,Reptiles,10
+Anguilla,0,10,4,0,56,North America,Caribbean Islands,Reptiles,9
+Antigua and Barbuda,0,11,4,0,58,North America,Caribbean Islands,Reptiles,7
+Aruba,1,1,2,0,34,North America,Caribbean Islands,Reptiles,2
+Bahamas,1,11,7,0,88,North America,Caribbean Islands,Reptiles,11
+Barbados,0,11,3,0,57,North America,Caribbean Islands,Reptiles,7
+Bermuda,0,28,8,0,74,North America,Caribbean Islands,Reptiles,4
+"Bonaire, Sint Eustatius and Saba",0,11,3,0,57,North America,Caribbean Islands,Reptiles,6
+Cayman Islands,1,10,22,0,75,North America,Caribbean Islands,Reptiles,7
+Cuba,0,23,179,0,348,North America,Caribbean Islands,Reptiles,24
+Curacao,0,11,2,0,51,North America,Caribbean Islands,Reptiles,5
+Dominica,0,11,12,0,69,North America,Caribbean Islands,Reptiles,3
+Dominican Republic,0,16,47,0,195,North America,Caribbean Islands,Reptiles,47
+Grenada,0,10,3,0,55,North America,Caribbean Islands,Reptiles,7
+Guadeloupe,1,15,10,0,78,North America,Caribbean Islands,Reptiles,9
+Haiti,0,14,93,0,261,North America,Caribbean Islands,Reptiles,54
+Jamaica,0,15,215,0,318,North America,Caribbean Islands,Reptiles,25
+Martinique,2,0,9,0,54,North America,Caribbean Islands,Reptiles,8
+Montserrat,0,11,6,0,58,North America,Caribbean Islands,Reptiles,4
+Puerto Rico,0,0,64,0,139,North America,Caribbean Islands,Reptiles,16
+Saint Barth_lemy,0,11,2,0,38,North America,Caribbean Islands,Reptiles,4
+Saint Kitts and Nevis,0,10,2,0,54,North America,Caribbean Islands,Reptiles,6
+Saint Lucia,0,11,7,0,64,North America,Caribbean Islands,Reptiles,7
+Saint Martin (French part),0,10,3,0,55,North America,Caribbean Islands,Reptiles,8
+Saint Vincent and the Grenadines,0,10,6,0,60,North America,Caribbean Islands,Reptiles,8
+Sint Maarten (Dutch part),0,10,3,0,55,North America,Caribbean Islands,Reptiles,8
+Trinidad and Tobago,0,10,50,0,119,North America,Caribbean Islands,Reptiles,7
+Turks and Caicos Islands,0,10,9,0,62,North America,Caribbean Islands,Reptiles,7
+"Virgin Islands, British",0,10,20,0,81,North America,Caribbean Islands,Reptiles,14
+"Virgin Islands, U.S.",0,0,17,0,66,North America,Caribbean Islands,Reptiles,14
+Canada,17,20,18,7,155,North America,North America,Reptiles,6
+Saint Pierre and Miquelon,0,0,0,0,16,North America,North America,Reptiles,0
+United States,311,269,510,24,1589,North America,North America,Reptiles,37
+Argentina,0,14,70,1,273,South America,South America,Reptiles,26
+"Bolivia, Plurinational States of",2,1,106,0,239,South America,South America,Reptiles,11
+Brazil,22,34,558,0,1027,South America,South America,Reptiles,30
+Chile,1,12,73,0,221,South America,South America,Reptiles,25
+Colombia,4,49,268,0,861,South America,South America,Reptiles,35
+Ecuador,49,21,1859,7,2372,South America,South America,Reptiles,63
+Falkland Islands (Malvinas),0,0,5,0,22,South America,South America,Reptiles,0
+French Guiana,0,0,18,0,74,South America,South America,Reptiles,7
+Guyana,0,1,30,0,106,South America,South America,Reptiles,6
+Paraguay,0,0,20,0,64,South America,South America,Reptiles,7
+Peru,4,4,328,0,721,South America,South America,Reptiles,23
+Suriname,0,1,27,0,85,South America,South America,Reptiles,6
+Uruguay,0,2,22,0,112,South America,South America,Reptiles,6
+"Venezuela, Bolivarian Republic of",1,25,86,0,342,South America,South America,Reptiles,25
+American Samoa,5,60,1,0,93,Oceania,Oceania,Reptiles,6
+Australia,174,360,108,1,1005,Oceania,Oceania,Reptiles,75
+Christmas Island,0,19,1,0,40,Oceania,Oceania,Reptiles,3
+Cocos (Keeling) Islands,0,20,0,0,35,Oceania,Oceania,Reptiles,1
+Cook Islands,0,32,11,0,74,Oceania,Oceania,Reptiles,3
+Fiji,68,97,78,0,300,Oceania,Oceania,Reptiles,15
+French Polynesia,31,31,48,0,176,Oceania,Oceania,Reptiles,3
+Guam,6,54,5,0,101,Oceania,Oceania,Reptiles,5
+Kiribati,1,80,0,0,105,Oceania,Oceania,Reptiles,2
+Marshall Islands,1,72,0,0,100,Oceania,Oceania,Reptiles,4
+"Micronesia, Federated States of",3,111,5,0,168,Oceania,Oceania,Reptiles,7
+Nauru,0,68,0,0,83,Oceania,Oceania,Reptiles,0
+New Caledonia,28,97,350,0,592,Oceania,Oceania,Reptiles,54
+New Zealand,35,26,21,3,219,Oceania,Oceania,Reptiles,15
+Niue,0,30,0,0,51,Oceania,Oceania,Reptiles,4
+Norfolk Island,12,11,2,0,45,Oceania,Oceania,Reptiles,2
+Northern Mariana Islands,4,53,6,0,101,Oceania,Oceania,Reptiles,4
+Palau,40,106,5,0,185,Oceania,Oceania,Reptiles,3
+Papua New Guinea,2,176,179,2,524,Oceania,Oceania,Reptiles,13
+Pitcairn,5,11,7,0,42,Oceania,Oceania,Reptiles,0
+Samoa,1,62,2,0,94,Oceania,Oceania,Reptiles,5
+Solomon Islands,2,148,16,0,241,Oceania,Oceania,Reptiles,6
+Tokelau,0,35,0,0,49,Oceania,Oceania,Reptiles,3
+Tonga,4,43,5,0,80,Oceania,Oceania,Reptiles,5
+Tuvalu,1,77,0,0,97,Oceania,Oceania,Reptiles,3
+United States Minor Outlying Islands,0,47,0,0,70,Oceania,Oceania,Reptiles,2
+Vanuatu,3,88,10,0,139,Oceania,Oceania,Reptiles,4
+Wallis and Futuna,0,64,1,0,88,Oceania,Oceania,Reptiles,2
+Algeria,11,29,22,0,143,Africa,North Africa,Amphibians,3
+Egypt,0,56,8,0,167,Africa,North Africa,Amphibians,0
+Libya,0,4,7,0,67,Africa,North Africa,Amphibians,0
+Morocco,37,32,52,2,228,Africa,North Africa,Amphibians,2
+Tunisia,7,13,9,0,100,Africa,North Africa,Amphibians,1
+Western Sahara,2,1,0,0,52,Africa,North Africa,Amphibians,0
+Angola,7,4,34,0,155,Africa,Sub-Saharan Africa,Amphibians,0
+Benin,2,1,20,0,95,Africa,Sub-Saharan Africa,Amphibians,0
+Botswana,0,0,3,0,33,Africa,Sub-Saharan Africa,Amphibians,0
+Burkina Faso,1,0,4,0,33,Africa,Sub-Saharan Africa,Amphibians,0
+Burundi,3,3,89,0,142,Africa,Sub-Saharan Africa,Amphibians,1
+Cabo Verde,13,0,51,0,116,Africa,Sub-Saharan Africa,Amphibians,0
+Cameroon,13,12,555,0,846,Africa,Sub-Saharan Africa,Amphibians,56
+Central African Republic,0,0,26,0,66,Africa,Sub-Saharan Africa,Amphibians,0
+Chad,4,0,6,0,48,Africa,Sub-Saharan Africa,Amphibians,0
+Comoros,0,76,9,0,120,Africa,Sub-Saharan Africa,Amphibians,0
+Congo,7,0,46,0,139,Africa,Sub-Saharan Africa,Amphibians,1
+"Congo, The Democratic Republic of the",44,10,148,0,390,Africa,Sub-Saharan Africa,Amphibians,11
+Cªte d'Ivoire,5,2,118,0,262,Africa,Sub-Saharan Africa,Amphibians,14
+Djibouti,1,56,3,0,107,Africa,Sub-Saharan Africa,Amphibians,0
+Equatorial Guinea,2,2,98,0,187,Africa,Sub-Saharan Africa,Amphibians,4
+Eritrea,1,57,6,0,136,Africa,Sub-Saharan Africa,Amphibians,0
+Eswatini,0,0,13,0,41,Africa,Sub-Saharan Africa,Amphibians,0
+Ethiopia,4,11,64,0,177,Africa,Sub-Saharan Africa,Amphibians,12
+Gabon,2,2,173,0,284,Africa,Sub-Saharan Africa,Amphibians,3
+Gambia,2,0,6,0,73,Africa,Sub-Saharan Africa,Amphibians,0
+Ghana,2,3,119,0,245,Africa,Sub-Saharan Africa,Amphibians,11
+Guinea,3,5,70,0,218,Africa,Sub-Saharan Africa,Amphibians,5
+Guinea-Bissau,2,0,6,0,83,Africa,Sub-Saharan Africa,Amphibians,0
+Kenya,20,71,243,0,505,Africa,Sub-Saharan Africa,Amphibians,11
+Lesotho,0,3,4,0,20,Africa,Sub-Saharan Africa,Amphibians,0
+Liberia,3,7,53,0,177,Africa,Sub-Saharan Africa,Amphibians,4
+Madagascar,35,159,1111,0,1858,Africa,Sub-Saharan Africa,Amphibians,145
+Malawi,7,7,34,0,122,Africa,Sub-Saharan Africa,Amphibians,5
+Mali,0,0,12,0,49,Africa,Sub-Saharan Africa,Amphibians,0
+Mauritania,2,1,0,0,91,Africa,Sub-Saharan Africa,Amphibians,0
+Mauritius,29,91,91,0,262,Africa,Sub-Saharan Africa,Amphibians,0
+Mayotte,0,70,3,0,93,Africa,Sub-Saharan Africa,Amphibians,0
+Mozambique,0,64,145,0,347,Africa,Sub-Saharan Africa,Amphibians,5
+Namibia,2,2,27,0,117,Africa,Sub-Saharan Africa,Amphibians,0
+Niger,1,0,4,0,38,Africa,Sub-Saharan Africa,Amphibians,0
+Nigeria,3,10,205,0,368,Africa,Sub-Saharan Africa,Amphibians,11
+R_union,17,72,18,0,132,Africa,Sub-Saharan Africa,Amphibians,0
+Rwanda,0,4,41,0,98,Africa,Sub-Saharan Africa,Amphibians,2
+"Saint Helena, Ascension and Tristan da Cunha",1,67,44,1,153,Africa,Sub-Saharan Africa,Amphibians,0
+Sao Tome and Principe,3,1,49,0,102,Africa,Sub-Saharan Africa,Amphibians,3
+Senegal,12,1,14,0,132,Africa,Sub-Saharan Africa,Amphibians,0
+Seychelles,37,283,61,0,441,Africa,SSub-Saharan Africa,Amphibians,6
+Sierra Leone,5,3,72,0,187,Africa,Sub-Saharan Africa,Amphibians,3
+Somalia,2,60,49,0,185,Africa,Sub-Saharan Africa,Amphibians,0
+South Africa,22,186,153,0,602,Africa,Sub-Saharan Africa,Amphibians,16
+South Sudan,0,1,17,0,57,Africa,Sub-Saharan Africa,Amphibians,0
+Sudan,0,50,17,0,147,Africa,Sub-Saharan Africa,Amphibians,0
+"Tanzania, United Republic of",11,136,644,0,1155,Africa,Sub-Saharan Africa,Amphibians,61
+Togo,2,1,13,0,88,Africa,Sub-Saharan Africa,Amphibians,2
+Uganda,14,16,64,0,221,Africa,Sub-Saharan Africa,Amphibians,2
+Zambia,12,2,23,0,92,Africa,Sub-Saharan Africa,Amphibians,0
+Zimbabwe,0,7,52,0,102,Africa,Sub-Saharan Africa,Amphibians,7
+Antarctica,0,0,0,0,6,Antarctica,Antarctica,Amphibians,0
+Bouvet Island,0,0,0,0,3,Antarctica,Antarctica,Amphibians,0
+French Southern Territories,0,0,1,0,28,Antarctica,Antarctica,Amphibians,0
+Heard Island and McDonald Islands,0,0,0,0,12,Antarctica,Antarctica,Amphibians,0
+South Georgia and the South Sandwich Islands,0,0,0,0,9,Antarctica,Antarctica,Amphibians,0
+China,15,61,593,1,1105,Asia,East Asia,Amphibians,87
+Hong Kong,1,7,10,0,68,Asia,East Asia,Amphibians,5
+Japan,33,142,50,4,429,Asia,East Asia,Amphibians,20
+"Korea, Democratic People's Republic of",0,3,17,0,82,Asia,East Asia,Amphibians,1
+"Korea, Republic of",0,8,31,1,119,Asia,East Asia,Amphibians,3
+Macao,0,1,0,0,15,Asia,East Asia,Amphibians,0
+Mongolia,0,3,0,0,40,Asia,East Asia,Amphibians,0
+"Taiwan, Province of China",1,127,85,1,342,Asia,East Asia,Amphibians,10
+Belarus,3,7,1,0,26,Asia,North Asia,Amphibians,0
+Moldova,2,4,2,0,33,Asia,North Asia,Amphibians,0
+Russian Federation,8,31,56,5,239,Asia,North Asia,Amphibians,0
+Ukraine,9,29,22,1,114,Asia,North Asia,Amphibians,0
+Bangladesh,0,7,23,0,156,Asia,South & Southeast Asia,Amphibians,1
+Bhutan,0,1,43,0,97,Asia,South & Southeast Asia,Amphibians,1
+British Indian Ocean Territory,0,69,1,0,86,Asia,South & Southeast Asia,Amphibians,0
+Brunei Darussalam,0,9,127,0,224,Asia,South & Southeast Asia,Amphibians,2
+Cambodia,1,78,37,0,264,Asia,South & Southeast Asia,Amphibians,9
+Disputed Territory,0,1,0,0,8,Asia,South & Southeast Asia,Amphibians,0
+India,7,128,396,0,1073,Asia,South & Southeast Asia,Amphibians,75
+Indonesia,6,285,458,0,1332,Asia,South & Southeast Asia,Amphibians,29
+Lao People's Democratic Republic,16,5,56,0,239,Asia,South & Southeast Asia,Amphibians,6
+Malaysia,37,228,727,1,1301,Asia,South & Southeast Asia,Amphibians,31
+Maldives,0,46,0,0,75,Asia,South & Southeast Asia,Amphibians,0
+Myanmar,3,74,61,0,331,Asia,South & Southeast Asia,Amphibians,3
+Nepal,1,2,18,0,107,Asia,South & Southeast Asia,Amphibians,3
+Philippines,3,235,254,0,780,Asia,South & Southeast Asia,Amphibians,27
+Singapore,0,173,62,0,306,Asia,South & Southeast Asia,Amphibians,0
+Sri Lanka,0,130,297,0,598,Asia,South & Southeast Asia,Amphibians,56
+Thailand,15,196,159,0,641,Asia,South & Southeast Asia,Amphibians,7
+Timor-Leste,0,1,2,0,29,Asia,South & Southeast Asia,Amphibians,0
+Viet Nam,30,122,231,0,692,Asia,South & Southeast Asia,Amphibians,45
+Afghanistan,0,2,5,0,40,Asia,West & Central Asia,Amphibians,1
+Armenia,2,7,74,0,116,Asia,West & Central Asia,Amphibians,0
+Azerbaijan,2,5,44,0,100,Asia,West & Central Asia,Amphibians,1
+Bahrain,0,13,0,0,41,Asia,West & Central Asia,Amphibians,0
+Cyprus,5,10,22,0,79,Asia,West & Central Asia,Amphibians,0
+Georgia,4,11,63,1,121,Asia,West & Central Asia,Amphibians,1
+"Iran, Islamic Republic of",2,22,7,0,143,Asia,West & Central Asia,Amphibians,4
+Iraq,1,16,2,0,72,Asia,West & Central Asia,Amphibians,1
+Israel,11,63,23,0,193,Asia,West & Central Asia,Amphibians,2
+Jordan,6,55,8,0,122,Asia,West & Central Asia,Amphibians,0
+Kazakhstan,2,5,14,0,80,Asia,West & Central Asia,Amphibians,1
+Kuwait,0,13,0,0,53,Asia,West & Central Asia,Amphibians,0
+Kyrgyzstan,0,4,13,0,43,Asia,West & Central Asia,Amphibians,0
+Lebanon,9,9,24,0,99,Asia,West & Central Asia,Amphibians,0
+Oman,2,29,6,0,104,Asia,West & Central Asia,Amphibians,0
+Pakistan,0,18,12,0,146,Asia,West & Central Asia,Amphibians,0
+"Palestine, State of",2,2,6,0,36,Asia,West & Central Asia,Amphibians,1
+Qatar,0,13,0,0,46,Asia,West & Central Asia,Amphibians,0
+Saudi Arabia,1,58,4,0,136,Asia,West & Central Asia,Amphibians,0
+Syrian Arab Republic,9,13,26,0,139,Asia,West & Central Asia,Amphibians,0
+Tajikistan,0,3,12,0,47,Asia,West & Central Asia,Amphibians,0
+Turkey,45,40,113,2,401,Asia,West & Central Asia,Amphibians,10
+Turkmenistan,1,6,4,0,59,Asia,West & Central Asia,Amphibians,0
+United Arab Emirates,0,15,0,0,60,Asia,West & Central Asia,Amphibians,0
+Uzbekistan,1,2,16,0,62,Asia,West & Central Asia,Amphibians,0
+Yemen,2,66,163,0,306,Asia,West & Central Asia,Amphibians,1
+Albania,50,21,4,0,137,Europe,Europe,Amphibians,2
+Andorra,3,5,0,0,14,Europe,Europe,Amphibians,0
+Austria,43,31,17,8,127,Europe,Europe,Amphibians,0
+Belgium,6,9,0,1,39,Europe,Europe,Amphibians,0
+Bosnia and Herzegovina,18,24,3,0,96,Europe,Europe,Amphibians,1
+Bulgaria,32,25,9,0,115,Europe,Europe,Amphibians,0
+Croatia,49,30,8,1,181,Europe,Europe,Amphibians,2
+Czechia,6,23,26,5,74,Europe,Europe,Amphibians,0
+Denmark,5,11,1,3,49,Europe,Europe,Amphibians,0
+Estonia,4,3,0,2,24,Europe,Europe,Amphibians,0
+Faroe Islands,0,0,0,1,24,Europe,Europe,Amphibians,0
+Finland,3,7,2,6,37,Europe,Europe,Amphibians,0
+France,92,68,47,8,300,Europe,Europe,Amphibians,2
+Germany,31,30,36,7,144,Europe,Europe,Amphibians,0
+Gibraltar,3,2,1,0,33,Europe,Europe,Amphibians,0
+Greece,178,130,72,1,503,Europe,Europe,Amphibians,5
+Greenland,0,0,1,0,25,Europe,Europe,Amphibians,0
+Guernsey,0,0,0,0,6,Europe,Europe,Amphibians,0
+Holy See (Vatican City State),0,0,0,0,1,Europe,Europe,Amphibians,0
+Hungary,8,26,43,2,105,Europe,Europe,Amphibians,0
+Iceland,0,0,0,0,29,Europe,Europe,Amphibians,0
+Ireland,4,2,3,2,54,Europe,Europe,Amphibians,0
+Isle of Man,0,0,0,0,2,Europe,Europe,Amphibians,0
+Italy,83,139,102,9,423,Europe,Europe,Amphibians,9
+Jersey,1,0,0,0,7,Europe,Europe,Amphibians,0
+Latvia,4,8,0,1,31,Europe,Europe,Amphibians,0
+Liechtenstein,2,4,0,0,8,Europe,Europe,Amphibians,0
+Lithuania,3,5,1,1,28,Europe,Europe,Amphibians,0
+Luxembourg,5,2,0,0,11,Europe,Europe,Amphibians,0
+"Macedonia, the former Yugoslav Republic of",71,15,4,1,125,Europe,Europe,Amphibians,0
+Malta,3,2,4,0,39,Europe,Europe,Amphibians,0
+Monaco,1,2,1,0,22,Europe,Europe,Amphibians,0
+Montenegro,22,20,3,0,101,Europe,Europe,Amphibians,1
+Netherlands,5,6,1,3,43,Europe,Europe,Amphibians,0
+Norway,3,7,10,11,73,Europe,Europe,Amphibians,0
+Poland,7,21,11,3,65,Europe,Europe,Amphibians,0
+Portugal,86,118,101,4,410,Europe,Europe,Amphibians,1
+Romania,25,43,7,0,125,Europe,Europe,Amphibians,0
+San Marino,1,0,0,0,1,Europe,Europe,Amphibians,0
+Serbia,8,27,6,1,77,Europe,Europe,Amphibians,0
+Slovakia,7,25,25,3,81,Europe,Europe,Amphibians,0
+Slovenia,32,51,7,4,147,Europe,Europe,Amphibians,2
+Spain,164,124,247,6,686,Europe,Europe,Amphibians,6
+Svalbard and Jan Mayen,0,0,0,0,10,Europe,Europe,Amphibians,0
+Sweden,4,12,5,10,58,Europe,Europe,Amphibians,0
+Switzerland,10,37,4,6,79,Europe,Europe,Amphibians,1
+United Kingdom,7,13,42,6,133,Europe,Europe,Amphibians,0
+Belize,0,12,46,0,130,North America,Mesoamerica,Amphibians,3
+Costa Rica,1,30,143,0,349,North America,Mesoamerica,Amphibians,61
+El Salvador,0,10,33,0,92,North America,Mesoamerica,Amphibians,9
+Guatemala,2,11,120,0,315,North America,Mesoamerica,Amphibians,77
+Honduras,0,21,134,0,317,North America,Mesoamerica,Amphibians,55
+Mexico,8,103,484,1,1261,North America,Mesoamerica,Amphibians,219
+Nicaragua,2,18,50,0,153,North America,Mesoamerica,Amphibians,10
+Panama,0,22,212,0,392,North America,Mesoamerica,Amphibians,49
+Anguilla,0,10,4,0,56,North America,Caribbean Islands,Amphibians,0
+Antigua and Barbuda,0,11,4,0,58,North America,Caribbean Islands,Amphibians,0
+Aruba,1,1,2,0,34,North America,Caribbean Islands,Amphibians,0
+Bahamas,1,11,7,0,88,North America,Caribbean Islands,Amphibians,0
+Barbados,0,11,3,0,57,North America,Caribbean Islands,Amphibians,0
+Bermuda,0,28,8,0,74,North America,Caribbean Islands,Amphibians,0
+"Bonaire, Sint Eustatius and Saba",0,11,3,0,57,North America,Caribbean Islands,Amphibians,0
+Cayman Islands,1,10,22,0,75,North America,Caribbean Islands,Amphibians,0
+Cuba,0,23,179,0,348,North America,Caribbean Islands,Amphibians,49
+Curacao,0,11,2,0,51,North America,Caribbean Islands,Amphibians,0
+Dominica,0,11,12,0,69,North America,Caribbean Islands,Amphibians,2
+Dominican Republic,0,16,47,0,195,North America,Caribbean Islands,Amphibians,32
+Grenada,0,10,3,0,55,North America,Caribbean Islands,Amphibians,1
+Guadeloupe,1,15,10,0,78,North America,Caribbean Islands,Amphibians,3
+Haiti,0,14,93,0,261,North America,Caribbean Islands,Amphibians,49
+Jamaica,0,15,215,0,318,North America,Caribbean Islands,Amphibians,15
+Martinique,2,0,9,0,54,North America,Caribbean Islands,Amphibians,2
+Montserrat,0,11,6,0,58,North America,Caribbean Islands,Amphibians,1
+Puerto Rico,0,0,64,0,139,North America,Caribbean Islands,Amphibians,14
+Saint Barth_lemy,0,11,2,0,38,North America,Caribbean Islands,Amphibians,0
+Saint Kitts and Nevis,0,10,2,0,54,North America,Caribbean Islands,Amphibians,1
+Saint Lucia,0,11,7,0,64,North America,Caribbean Islands,Amphibians,0
+Saint Martin (French part),0,10,3,0,55,North America,Caribbean Islands,Amphibians,0
+Saint Vincent and the Grenadines,0,10,6,0,60,North America,Caribbean Islands,Amphibians,1
+Sint Maarten (Dutch part),0,10,3,0,55,North America,Caribbean Islands,Amphibians,0
+Trinidad and Tobago,0,10,50,0,119,North America,Caribbean Islands,Amphibians,8
+Turks and Caicos Islands,0,10,9,0,62,North America,Caribbean Islands,Amphibians,0
+"Virgin Islands, British",0,10,20,0,81,North America,Caribbean Islands,Amphibians,2
+"Virgin Islands, U.S.",0,0,17,0,66,North America,Caribbean Islands,Amphibians,2
+Canada,17,20,18,7,155,North America,North America,Amphibians,1
+Saint Pierre and Miquelon,0,0,0,0,16,North America,North America,Amphibians,0
+United States,311,269,510,24,1589,North America,North America,Amphibians,56
+Argentina,0,14,70,1,273,South America,South America,Amphibians,30
+"Bolivia, Plurinational States of",2,1,106,0,239,South America,South America,Amphibians,35
+Brazil,22,34,558,0,1027,South America,South America,Amphibians,35
+Chile,1,12,73,0,221,South America,South America,Amphibians,29
+Colombia,4,49,268,0,861,South America,South America,Amphibians,222
+Ecuador,49,21,1859,7,2372,South America,South America,Amphibians,159
+Falkland Islands (Malvinas),0,0,5,0,22,South America,South America,Amphibians,0
+French Guiana,0,0,18,0,74,South America,South America,Amphibians,3
+Guyana,0,1,30,0,106,South America,South America,Amphibians,9
+Paraguay,0,0,20,0,64,South America,South America,Amphibians,0
+Peru,4,4,328,0,721,South America,South America,Amphibians,138
+Suriname,0,1,27,0,85,South America,South America,Amphibians,1
+Uruguay,0,2,22,0,112,South America,South America,Amphibians,5
+"Venezuela, Bolivarian Republic of",1,25,86,0,342,South America,South America,Amphibians,73
+American Samoa,5,60,1,0,93,Oceania,Oceania,Amphibians,0
+Australia,174,360,108,1,1005,Oceania,Oceania,Amphibians,47
+Christmas Island,0,19,1,0,40,Oceania,Oceania,Amphibians,0
+Cocos (Keeling) Islands,0,20,0,0,35,Oceania,Oceania,Amphibians,0
+Cook Islands,0,32,11,0,74,Oceania,Oceania,Amphibians,0
+Fiji,68,97,78,0,300,Oceania,Oceania,Amphibians,1
+French Polynesia,31,31,48,0,176,Oceania,Oceania,Amphibians,0
+Guam,6,54,5,0,101,Oceania,Oceania,Amphibians,0
+Kiribati,1,80,0,0,105,Oceania,Oceania,Amphibians,0
+Marshall Islands,1,72,0,0,100,Oceania,Oceania,Amphibians,0
+"Micronesia, Federated States of",3,111,5,0,168,Oceania,Oceania,Amphibians,0
+Nauru,0,68,0,0,83,Oceania,Oceania,Amphibians,0
+New Caledonia,28,97,350,0,592,Oceania,Oceania,Amphibians,0
+New Zealand,35,26,21,3,219,Oceania,Oceania,Amphibians,3
+Niue,0,30,0,0,51,Oceania,Oceania,Amphibians,0
+Norfolk Island,12,11,2,0,45,Oceania,Oceania,Amphibians,0
+Northern Mariana Islands,4,53,6,0,101,Oceania,Oceania,Amphibians,0
+Palau,40,106,5,0,185,Oceania,Oceania,Amphibians,0
+Papua New Guinea,2,176,179,2,524,Oceania,Oceania,Amphibians,11
+Pitcairn,5,11,7,0,42,Oceania,Oceania,Amphibians,0
+Samoa,1,62,2,0,94,Oceania,Oceania,Amphibians,0
+Solomon Islands,2,148,16,0,241,Oceania,Oceania,Amphibians,2
+Tokelau,0,35,0,0,49,Oceania,Oceania,Amphibians,0
+Tonga,4,43,5,0,80,Oceania,Oceania,Amphibians,0
+Tuvalu,1,77,0,0,97,Oceania,Oceania,Amphibians,0
+United States Minor Outlying Islands,0,47,0,0,70,Oceania,Oceania,Amphibians,0
+Vanuatu,3,88,10,0,139,Oceania,Oceania,Amphibians,0
+Wallis and Futuna,0,64,1,0,88,Oceania,Oceania,Amphibians,0
+Algeria,11,29,22,0,143,Africa,North Africa,Fishes,41
+Egypt,0,56,8,0,167,Africa,North Africa,Fishes,58
+Libya,0,4,7,0,67,Africa,North Africa,Fishes,32
+Morocco,37,32,52,2,228,Africa,North Africa,Fishes,54
+Tunisia,7,13,9,0,100,Africa,North Africa,Fishes,39
+Western Sahara,2,1,0,0,52,Africa,North Africa,Fishes,33
+Angola,7,4,34,0,155,Africa,Sub-Saharan Africa,Fishes,53
+Benin,2,1,20,0,95,Africa,Sub-Saharan Africa,Fishes,40
+Botswana,0,0,3,0,33,Africa,Sub-Saharan Africa,Fishes,2
+Burkina Faso,1,0,4,0,33,Africa,Sub-Saharan Africa,Fishes,4
+Burundi,3,3,89,0,142,Africa,Sub-Saharan Africa,Fishes,17
+Cabo Verde,13,0,51,0,116,Africa,Sub-Saharan Africa,Fishes,35
+Cameroon,13,12,555,0,846,Africa,Sub-Saharan Africa,Fishes,122
+Central African Republic,0,0,26,0,66,Africa,Sub-Saharan Africa,Fishes,3
+Chad,4,0,6,0,48,Africa,Sub-Saharan Africa,Fishes,1
+Comoros,0,76,9,0,120,Africa,Sub-Saharan Africa,Fishes,11
+Congo,7,0,46,0,139,Africa,Sub-Saharan Africa,Fishes,57
+"Congo, The Democratic Republic of the",44,10,148,0,390,Africa,Sub-Saharan Africa,Fishes,94
+Cªte d'Ivoire,5,2,118,0,262,Africa,Sub-Saharan Africa,Fishes,59
+Djibouti,1,56,3,0,107,Africa,Sub-Saharan Africa,Fishes,23
+Equatorial Guinea,2,2,98,0,187,Africa,Sub-Saharan Africa,Fishes,44
+Eritrea,1,57,6,0,136,Africa,Sub-Saharan Africa,Fishes,29
+Eswatini,0,0,13,0,41,Africa,Sub-Saharan Africa,Fishes,5
+Ethiopia,4,11,64,0,177,Africa,Sub-Saharan Africa,Fishes,14
+Gabon,2,2,173,0,284,Africa,Sub-Saharan Africa,Fishes,72
+Gambia,2,0,6,0,73,Africa,Sub-Saharan Africa,Fishes,35
+Ghana,2,3,119,0,245,Africa,Sub-Saharan Africa,Fishes,58
+Guinea,3,5,70,0,218,Africa,Sub-Saharan Africa,Fishes,76
+Guinea-Bissau,2,0,6,0,83,Africa,Sub-Saharan Africa,Fishes,41
+Kenya,20,71,243,0,505,Africa,Sub-Saharan Africa,Fishes,74
+Lesotho,0,3,4,0,20,Africa,Sub-Saharan Africa,Fishes,1
+Liberia,3,7,53,0,177,Africa,Sub-Saharan Africa,Fishes,64
+Madagascar,35,159,1111,0,1858,Africa,Sub-Saharan Africa,Fishes,111
+Malawi,7,7,34,0,122,Africa,Sub-Saharan Africa,Fishes,36
+Mali,0,0,12,0,49,Africa,Sub-Saharan Africa,Fishes,2
+Mauritania,2,1,0,0,91,Africa,Sub-Saharan Africa,Fishes,45
+Mauritius,29,91,91,0,262,Africa,Sub-Saharan Africa,Fishes,21
+Mayotte,0,70,3,0,93,Africa,Sub-Saharan Africa,Fishes,8
+Mozambique,0,64,145,0,347,Africa,Sub-Saharan Africa,Fishes,72
+Namibia,2,2,27,0,117,Africa,Sub-Saharan Africa,Fishes,33
+Niger,1,0,4,0,38,Africa,Sub-Saharan Africa,Fishes,4
+Nigeria,3,10,205,0,368,Africa,Sub-Saharan Africa,Fishes,74
+R_union,17,72,18,0,132,Africa,Sub-Saharan Africa,Fishes,14
+Rwanda,0,4,41,0,98,Africa,Sub-Saharan Africa,Fishes,7
+"Saint Helena, Ascension and Tristan da Cunha",1,67,44,1,153,Africa,Sub-Saharan Africa,Fishes,14
+Sao Tome and Principe,3,1,49,0,102,Africa,Sub-Saharan Africa,Fishes,25
+Senegal,12,1,14,0,132,Africa,Sub-Saharan Africa,Fishes,58
+Seychelles,37,283,61,0,441,Africa,SSub-Saharan Africa,Fishes,24
+Sierra Leone,5,3,72,0,187,Africa,Sub-Saharan Africa,Fishes,57
+Somalia,2,60,49,0,185,Africa,Sub-Saharan Africa,Fishes,31
+South Africa,22,186,153,0,602,Africa,Sub-Saharan Africa,Fishes,121
+South Sudan,0,1,17,0,57,Africa,Sub-Saharan Africa,Fishes,0
+Sudan,0,50,17,0,147,Africa,Sub-Saharan Africa,Fishes,32
+"Tanzania, United Republic of",11,136,644,0,1155,Africa,Sub-Saharan Africa,Fishes,179
+Togo,2,1,13,0,88,Africa,Sub-Saharan Africa,Fishes,38
+Uganda,14,16,64,0,221,Africa,Sub-Saharan Africa,Fishes,60
+Zambia,12,2,23,0,92,Africa,Sub-Saharan Africa,Fishes,20
+Zimbabwe,0,7,52,0,102,Africa,Sub-Saharan Africa,Fishes,3
+Antarctica,0,0,0,0,6,Antarctica,Antarctica,Fishes,0
+Bouvet Island,0,0,0,0,3,Antarctica,Antarctica,Fishes,1
+French Southern Territories,0,0,1,0,28,Antarctica,Antarctica,Fishes,7
+Heard Island and McDonald Islands,0,0,0,0,12,Antarctica,Antarctica,Fishes,1
+South Georgia and the South Sandwich Islands,0,0,0,0,9,Antarctica,Antarctica,Fishes,0
+China,15,61,593,1,1105,Asia,East Asia,Fishes,136
+Hong Kong,1,7,10,0,68,Asia,East Asia,Fishes,15
+Japan,33,142,50,4,429,Asia,East Asia,Fishes,77
+"Korea, Democratic People's Republic of",0,3,17,0,82,Asia,East Asia,Fishes,20
+"Korea, Republic of",0,8,31,1,119,Asia,East Asia,Fishes,28
+Macao,0,1,0,0,15,Asia,East Asia,Fishes,9
+Mongolia,0,3,0,0,40,Asia,East Asia,Fishes,2
+"Taiwan, Province of China",1,127,85,1,342,Asia,East Asia,Fishes,73
+Belarus,3,7,1,0,26,Asia,North Asia,Fishes,2
+Moldova,2,4,2,0,33,Asia,North Asia,Fishes,8
+Russian Federation,8,31,56,5,239,Asia,North Asia,Fishes,39
+Ukraine,9,29,22,1,114,Asia,North Asia,Fishes,24
+Bangladesh,0,7,23,0,156,Asia,South & Southeast Asia,Fishes,29
+Bhutan,0,1,43,0,97,Asia,South & Southeast Asia,Fishes,3
+British Indian Ocean Territory,0,69,1,0,86,Asia,South & Southeast Asia,Fishes,13
+Brunei Darussalam,0,9,127,0,224,Asia,South & Southeast Asia,Fishes,14
+Cambodia,1,78,37,0,264,Asia,South & Southeast Asia,Fishes,48
+Disputed Territory,0,1,0,0,8,Asia,South & Southeast Asia,Fishes,7
+India,7,128,396,0,1073,Asia,South & Southeast Asia,Fishes,227
+Indonesia,6,285,458,0,1332,Asia,South & Southeast Asia,Fishes,166
+Lao People's Democratic Republic,16,5,56,0,239,Asia,South & Southeast Asia,Fishes,55
+Malaysia,37,228,727,1,1301,Asia,South & Southeast Asia,Fishes,87
+Maldives,0,46,0,0,75,Asia,South & Southeast Asia,Fishes,24
+Myanmar,3,74,61,0,331,Asia,South & Southeast Asia,Fishes,53
+Nepal,1,2,18,0,107,Asia,South & Southeast Asia,Fishes,7
+Philippines,3,235,254,0,780,Asia,South & Southeast Asia,Fishes,91
+Singapore,0,173,62,0,306,Asia,South & Southeast Asia,Fishes,29
+Sri Lanka,0,130,297,0,598,Asia,South & Southeast Asia,Fishes,57
+Thailand,15,196,159,0,641,Asia,South & Southeast Asia,Fishes,106
+Timor-Leste,0,1,2,0,29,Asia,South & Southeast Asia,Fishes,13
+Viet Nam,30,122,231,0,692,Asia,South & Southeast Asia,Fishes,83
+Afghanistan,0,2,5,0,40,Asia,West & Central Asia,Fishes,4
+Armenia,2,7,74,0,116,Asia,West & Central Asia,Fishes,3
+Azerbaijan,2,5,44,0,100,Asia,West & Central Asia,Fishes,14
+Bahrain,0,13,0,0,41,Asia,West & Central Asia,Fishes,14
+Cyprus,5,10,22,0,79,Asia,West & Central Asia,Fishes,24
+Georgia,4,11,63,1,121,Asia,West & Central Asia,Fishes,11
+"Iran, Islamic Republic of",2,22,7,0,143,Asia,West & Central Asia,Fishes,47
+Iraq,1,16,2,0,72,Asia,West & Central Asia,Fishes,19
+Israel,11,63,23,0,193,Asia,West & Central Asia,Fishes,50
+Jordan,6,55,8,0,122,Asia,West & Central Asia,Fishes,20
+Kazakhstan,2,5,14,0,80,Asia,West & Central Asia,Fishes,14
+Kuwait,0,13,0,0,53,Asia,West & Central Asia,Fishes,18
+Kyrgyzstan,0,4,13,0,43,Asia,West & Central Asia,Fishes,3
+Lebanon,9,9,24,0,99,Asia,West & Central Asia,Fishes,28
+Oman,2,29,6,0,104,Asia,West & Central Asia,Fishes,36
+Pakistan,0,18,12,0,146,Asia,West & Central Asia,Fishes,46
+"Palestine, State of",2,2,6,0,36,Asia,West & Central Asia,Fishes,2
+Qatar,0,13,0,0,46,Asia,West & Central Asia,Fishes,17
+Saudi Arabia,1,58,4,0,136,Asia,West & Central Asia,Fishes,41
+Syrian Arab Republic,9,13,26,0,139,Asia,West & Central Asia,Fishes,51
+Tajikistan,0,3,12,0,47,Asia,West & Central Asia,Fishes,5
+Turkey,45,40,113,2,401,Asia,West & Central Asia,Fishes,131
+Turkmenistan,1,6,4,0,59,Asia,West & Central Asia,Fishes,13
+United Arab Emirates,0,15,0,0,60,Asia,West & Central Asia,Fishes,20
+Uzbekistan,1,2,16,0,62,Asia,West & Central Asia,Fishes,7
+Yemen,2,66,163,0,306,Asia,West & Central Asia,Fishes,40
+Albania,50,21,4,0,137,Europe,Europe,Fishes,44
+Andorra,3,5,0,0,14,Europe,Europe,Fishes,0
+Austria,43,31,17,8,127,Europe,Europe,Fishes,11
+Belgium,6,9,0,1,39,Europe,Europe,Fishes,13
+Bosnia and Herzegovina,18,24,3,0,96,Europe,Europe,Fishes,36
+Bulgaria,32,25,9,0,115,Europe,Europe,Fishes,22
+Croatia,49,30,8,1,181,Europe,Europe,Fishes,64
+Czechia,6,23,26,5,74,Europe,Europe,Fishes,2
+Denmark,5,11,1,3,49,Europe,Europe,Fishes,18
+Estonia,4,3,0,2,24,Europe,Europe,Fishes,5
+Faroe Islands,0,0,0,1,24,Europe,Europe,Fishes,13
+Finland,3,7,2,6,37,Europe,Europe,Fishes,6
+France,92,68,47,8,300,Europe,Europe,Fishes,53
+Germany,31,30,36,7,144,Europe,Europe,Fishes,24
+Gibraltar,3,2,1,0,33,Europe,Europe,Fishes,18
+Greece,178,130,72,1,503,Europe,Europe,Fishes,80
+Greenland,0,0,1,0,25,Europe,Europe,Fishes,9
+Guernsey,0,0,0,0,6,Europe,Europe,Fishes,6
+Holy See (Vatican City State),0,0,0,0,1,Europe,Europe,Fishes,0
+Hungary,8,26,43,2,105,Europe,Europe,Fishes,9
+Iceland,0,0,0,0,29,Europe,Europe,Fishes,16
+Ireland,4,2,3,2,54,Europe,Europe,Fishes,28
+Isle of Man,0,0,0,0,2,Europe,Europe,Fishes,2
+Italy,83,139,102,9,423,Europe,Europe,Fishes,52
+Jersey,1,0,0,0,7,Europe,Europe,Fishes,6
+Latvia,4,8,0,1,31,Europe,Europe,Fishes,6
+Liechtenstein,2,4,0,0,8,Europe,Europe,Fishes,0
+Lithuania,3,5,1,1,28,Europe,Europe,Fishes,6
+Luxembourg,5,2,0,0,11,Europe,Europe,Fishes,1
+"Macedonia, the former Yugoslav Republic of",71,15,4,1,125,Europe,Europe,Fishes,13
+Malta,3,2,4,0,39,Europe,Europe,Fishes,22
+Monaco,1,2,1,0,22,Europe,Europe,Fishes,15
+Montenegro,22,20,3,0,101,Europe,Europe,Fishes,32
+Netherlands,5,6,1,3,43,Europe,Europe,Fishes,15
+Norway,3,7,10,11,73,Europe,Europe,Fishes,23
+Poland,7,21,11,3,65,Europe,Europe,Fishes,8
+Portugal,86,118,101,4,410,Europe,Europe,Fishes,67
+Romania,25,43,7,0,125,Europe,Europe,Fishes,22
+San Marino,1,0,0,0,1,Europe,Europe,Fishes,0
+Serbia,8,27,6,1,77,Europe,Europe,Fishes,15
+Slovakia,7,25,25,3,81,Europe,Europe,Fishes,5
+Slovenia,32,51,7,4,147,Europe,Europe,Fishes,33
+Spain,164,124,247,6,686,Europe,Europe,Fishes,83
+Svalbard and Jan Mayen,0,0,0,0,10,Europe,Europe,Fishes,2
+Sweden,4,12,5,10,58,Europe,Europe,Fishes,15
+Switzerland,10,37,4,6,79,Europe,Europe,Fishes,9
+United Kingdom,7,13,42,6,133,Europe,Europe,Fishes,48
+Belize,0,12,46,0,130,North America,Mesoamerica,Fishes,45
+Costa Rica,1,30,143,0,349,North America,Mesoamerica,Fishes,64
+El Salvador,0,10,33,0,92,North America,Mesoamerica,Fishes,17
+Guatemala,2,11,120,0,315,North America,Mesoamerica,Fishes,41
+Honduras,0,21,134,0,317,North America,Mesoamerica,Fishes,45
+Mexico,8,103,484,1,1261,North America,Mesoamerica,Fishes,181
+Nicaragua,2,18,50,0,153,North America,Mesoamerica,Fishes,40
+Panama,0,22,212,0,392,North America,Mesoamerica,Fishes,57
+Anguilla,0,10,4,0,56,North America,Caribbean Islands,Fishes,32
+Antigua and Barbuda,0,11,4,0,58,North America,Caribbean Islands,Fishes,31
+Aruba,1,1,2,0,34,North America,Caribbean Islands,Fishes,24
+Bahamas,1,11,7,0,88,North America,Caribbean Islands,Fishes,43
+Barbados,0,11,3,0,57,North America,Caribbean Islands,Fishes,29
+Bermuda,0,28,8,0,74,North America,Caribbean Islands,Fishes,27
+"Bonaire, Sint Eustatius and Saba",0,11,3,0,57,North America,Caribbean Islands,Fishes,32
+Cayman Islands,1,10,22,0,75,North America,Caribbean Islands,Fishes,31
+Cuba,0,23,179,0,348,North America,Caribbean Islands,Fishes,44
+Curacao,0,11,2,0,51,North America,Caribbean Islands,Fishes,28
+Dominica,0,11,12,0,69,North America,Caribbean Islands,Fishes,31
+Dominican Republic,0,16,47,0,195,North America,Caribbean Islands,Fishes,29
+Grenada,0,10,3,0,55,North America,Caribbean Islands,Fishes,29
+Guadeloupe,1,15,10,0,78,North America,Caribbean Islands,Fishes,31
+Haiti,0,14,93,0,261,North America,Caribbean Islands,Fishes,30
+Jamaica,0,15,215,0,318,North America,Caribbean Islands,Fishes,30
+Martinique,2,0,9,0,54,North America,Caribbean Islands,Fishes,26
+Montserrat,0,11,6,0,58,North America,Caribbean Islands,Fishes,30
+Puerto Rico,0,0,64,0,139,North America,Caribbean Islands,Fishes,32
+Saint Barth_lemy,0,11,2,0,38,North America,Caribbean Islands,Fishes,20
+Saint Kitts and Nevis,0,10,2,0,54,North America,Caribbean Islands,Fishes,30
+Saint Lucia,0,11,7,0,64,North America,Caribbean Islands,Fishes,30
+Saint Martin (French part),0,10,3,0,55,North America,Caribbean Islands,Fishes,31
+Saint Vincent and the Grenadines,0,10,6,0,60,North America,Caribbean Islands,Fishes,29
+Sint Maarten (Dutch part),0,10,3,0,55,North America,Caribbean Islands,Fishes,31
+Trinidad and Tobago,0,10,50,0,119,North America,Caribbean Islands,Fishes,37
+Turks and Caicos Islands,0,10,9,0,62,North America,Caribbean Islands,Fishes,30
+"Virgin Islands, British",0,10,20,0,81,North America,Caribbean Islands,Fishes,31
+"Virgin Islands, U.S.",0,0,17,0,66,North America,Caribbean Islands,Fishes,29
+Canada,17,20,18,7,155,North America,North America,Fishes,44
+Saint Pierre and Miquelon,0,0,0,0,16,North America,North America,Fishes,3
+United States,311,269,510,24,1589,North America,North America,Fishes,251
+Argentina,0,14,70,1,273,South America,South America,Fishes,42
+"Bolivia, Plurinational States of",2,1,106,0,239,South America,South America,Fishes,8
+Brazil,22,34,558,0,1027,South America,South America,Fishes,93
+Chile,1,12,73,0,221,South America,South America,Fishes,27
+Colombia,4,49,268,0,861,South America,South America,Fishes,99
+Ecuador,49,21,1859,7,2372,South America,South America,Fishes,61
+Falkland Islands (Malvinas),0,0,5,0,22,South America,South America,Fishes,5
+French Guiana,0,0,18,0,74,South America,South America,Fishes,30
+Guyana,0,1,30,0,106,South America,South America,Fishes,33
+Paraguay,0,0,20,0,64,South America,South America,Fishes,0
+Peru,4,4,328,0,721,South America,South America,Fishes,52
+Suriname,0,1,27,0,85,South America,South America,Fishes,32
+Uruguay,0,2,22,0,112,South America,South America,Fishes,45
+"Venezuela, Bolivarian Republic of",1,25,86,0,342,South America,South America,Fishes,45
+American Samoa,5,60,1,0,93,Oceania,Oceania,Fishes,12
+Australia,174,360,108,1,1005,Oceania,Oceania,Fishes,125
+Christmas Island,0,19,1,0,40,Oceania,Oceania,Fishes,11
+Cocos (Keeling) Islands,0,20,0,0,35,Oceania,Oceania,Fishes,11
+Cook Islands,0,32,11,0,74,Oceania,Oceania,Fishes,11
+Fiji,68,97,78,0,300,Oceania,Oceania,Fishes,20
+French Polynesia,31,31,48,0,176,Oceania,Oceania,Fishes,28
+Guam,6,54,5,0,101,Oceania,Oceania,Fishes,14
+Kiribati,1,80,0,0,105,Oceania,Oceania,Fishes,14
+Marshall Islands,1,72,0,0,100,Oceania,Oceania,Fishes,18
+"Micronesia, Federated States of",3,111,5,0,168,Oceania,Oceania,Fishes,25
+Nauru,0,68,0,0,83,Oceania,Oceania,Fishes,11
+New Caledonia,28,97,350,0,592,Oceania,Oceania,Fishes,37
+New Zealand,35,26,21,3,219,Oceania,Oceania,Fishes,38
+Niue,0,30,0,0,51,Oceania,Oceania,Fishes,8
+Norfolk Island,12,11,2,0,45,Oceania,Oceania,Fishes,6
+Northern Mariana Islands,4,53,6,0,101,Oceania,Oceania,Fishes,14
+Palau,40,106,5,0,185,Oceania,Oceania,Fishes,21
+Papua New Guinea,2,176,179,2,524,Oceania,Oceania,Fishes,61
+Pitcairn,5,11,7,0,42,Oceania,Oceania,Fishes,9
+Samoa,1,62,2,0,94,Oceania,Oceania,Fishes,16
+Solomon Islands,2,148,16,0,241,Oceania,Oceania,Fishes,24
+Tokelau,0,35,0,0,49,Oceania,Oceania,Fishes,10
+Tonga,4,43,5,0,80,Oceania,Oceania,Fishes,16
+Tuvalu,1,77,0,0,97,Oceania,Oceania,Fishes,13
+United States Minor Outlying Islands,0,47,0,0,70,Oceania,Oceania,Fishes,10
+Vanuatu,3,88,10,0,139,Oceania,Oceania,Fishes,18
+Wallis and Futuna,0,64,1,0,88,Oceania,Oceania,Fishes,12

@@ -17,6 +17,10 @@ scatterplot_df1 <- read_csv("clean_scatterplot.csv")
 
 bio <- read_csv("bio.csv")
 
+bio$Country <- as.character(bio$Country)
+
+country_vector <- bio$Country
+
 PopulationPredictions <- read_csv("PopulationPredictions.csv", 
                                   col_types = cols(Total2000 = col_factor(levels = c("2", 
                                                                                      "3", "4", "5", "6", "7", "8", "9", 
@@ -134,7 +138,7 @@ ui <- navbarPage("Exploring Population Growth and the Global Distribution of IUC
                  
                  # Bar graph panel
                  tabPanel("Bar Graph",
-                          titlePanel("Number of Threatened Species by Country"),
+                          titlePanel("Number of IUCN Threatened Species by Country"),
                           sidebarLayout(
                             sidebarPanel(
                               selectInput("country_1", "Country 1",
@@ -212,8 +216,8 @@ server <- function(input, output) {
   })
 
   bio_df <- reactive({
-    bio %>% 
-      filter(Country == input$country_1 | Country == input$country_2)
+    bio %>%
+    filter(Country == input$country_1 | Country == input$country_2)
   })
   
   # Generate ggplot scatterplot of requested variables 
@@ -224,7 +228,7 @@ server <- function(input, output) {
            aes_string(x = input$x, y = input$y)) +
       geom_point() +
       geom_text(aes(label = Country)) +
-      labs(x = "Number of Threatened Species", y = "Rate of Population Increase (2050)") +
+      labs(x = "Number of IUCN Listed Threatened Species", y = "Rate of Population Increase (2050)") +
       theme(panel.grid.major = element_line(color = gray(0.5), linetype = "blank", 
                                             size = 0.5), panel.background = element_rect(fill = "white"))
 
@@ -233,15 +237,19 @@ server <- function(input, output) {
 
 # Generate  bar graph of requested variables
 output$bargraph <- renderPlot({
-  ggplot(data = bio_df, 
-         aes_string(x = bio_df$species_type, y = bio_df$thr_count, fill = bio_df$Country)) +
+  ggplot(data = bio_df(), 
+         aes(x = bio_df()$species_type, y = bio_df()$thr_count, fill = bio_df()$Country)) +
     geom_bar(stat="identity", position="dodge") +
     labs(x = "Species Type", y = "Count") +
     theme(panel.grid.major = element_line(color = gray(0.5), 
           linetype = "blank", size = 0.5), 
           panel.background = element_rect(fill = "white"))+
     theme_classic()+
-    theme(axis.title = element_text(face="bold"), title = element_text(face="bold"))})
+    theme(axis.title = element_text(face="bold"), title = element_text(face="bold"))+
+    scale_fill_brewer(palette="Paired")+
+    scale_x_discrete(expand=c(0.15,0))+
+    scale_y_continuous(expand=c(0,0))
+  })
 
 output$map <- renderPlot({
   if (input$year == 2000) 
