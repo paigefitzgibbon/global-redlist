@@ -137,12 +137,12 @@ ui <- navbarPage("Exploring Population Growth and the Global Distribution of IUC
                           titlePanel("Number of Threatened Species by Country"),
                           sidebarLayout(
                             sidebarPanel(
-                              selectInput("z1", "Country 1",
-                                                     choices = levels(bio$country),
-                                                     selected = "Afghanistan",
+                              selectInput("country_1", "Country 1",
+                                          choices = c("Algeria","China","Denmark","France","Ghana"),
+                                                     selected = "China",
                                                      multiple = FALSE),
-                              selectInput("z2", "Country 2",
-                                          choices = levels(bio$country),
+                              selectInput("country_2", "Country 2",
+                                          choices = c("Algeria","China","Denmark","France","Ghana"),
                                           selected = "Ghana",
                                           multiple = FALSE)
                             ),
@@ -211,6 +211,11 @@ server <- function(input, output) {
     filter(Continent == input$continent)
   })
 
+  bio_df <- reactive({
+    bio %>% 
+      filter(Country == input$country_1 | Country == input$country_2)
+  })
+  
   # Generate ggplot scatterplot of requested variables 
   output$scatterplot <- renderPlot({
     
@@ -228,17 +233,14 @@ server <- function(input, output) {
 
 # Generate  bar graph of requested variables
 output$bargraph <- renderPlot({
-  ggplot(data = bio, 
-         aes_string(x = bio$species_type, y = bio$thr_count, fill=input$z1)) +
-    geom_bar(stat='identity', position='dodge') +
-    geom_text(label = bio$Country) +
-    labs(x = "Number of Threatened Species", y = "Count") +
+  ggplot(data = bio_df, 
+         aes_string(x = bio_df$species_type, y = bio_df$thr_count, fill = bio_df$Country)) +
+    geom_bar(stat="identity", position="dodge") +
+    labs(x = "Species Type", y = "Count") +
     theme(panel.grid.major = element_line(color = gray(0.5), 
           linetype = "blank", size = 0.5), 
           panel.background = element_rect(fill = "white"))+
     theme_classic()+
-    xlab("Species Type")+
-    ylab("Count of Threatened Species")+
     theme(axis.title = element_text(face="bold"), title = element_text(face="bold"))})
 
 output$map <- renderPlot({
