@@ -9,7 +9,7 @@ library(rmapshaper)
 library(janitor)
 library(datasets)
 library(RColorBrewer)
-library(ggrepel)
+library(plotly)
 
 # Read in data
 
@@ -178,15 +178,15 @@ ui <- navbarPage("Exploring Population Growth and the Global Distribution of IUC
                             sidebarPanel(
                                           
                               #Drop-down menu to choose continent of interest
-                              selectInput("continent", "Continent",
-                                          choices = c(Africa = "Africa", Asia = "Asia", Europe = "Europe", 'North America' = "North America", Oceania = "Oceania", 'South America' = "South America"),
-                                          selected = "Africa",
-                                          multiple = FALSE),
+                              radioButtons("continent",
+                                           label = "Select a Continent:",
+                                           choices = c(Africa = "Africa", Asia = "Asia", Europe = "Europe", 'North America' = "North America", Oceania = "Oceania", 'South America' = "South America"),
+                                           selected = "Africa"),
                               
                               #Drop-down menu to choose species class (X axis)
                               selectInput("x", "Species Class",
-                                          choices = c("Mammals", "Birds", "Reptiles", "Amphibians", "Fishes", "Molluscs", "Total"),
-                                          selected = "Total",
+                                          choices = c("Mammals", "Birds", "Reptiles", "Amphibians", "Fishes", "Molluscs", "All"),
+                                          selected = "All",
                                           multiple = FALSE),
                               
                               #Drop-down menu to choose growth rate variant (Y axis)
@@ -196,7 +196,8 @@ ui <- navbarPage("Exploring Population Growth and the Global Distribution of IUC
                                           multiple = FALSE)
                             ),
                             mainPanel(
-                              plotOutput(outputId = "scatterplot")
+                              plotlyOutput(outputId = "scatterplot"),
+                              verbatimTextOutput("hover")
                             )
                           )
                            
@@ -220,19 +221,25 @@ server <- function(input, output) {
     filter(Country == input$country_1 | Country == input$country_2)
   })
   
-  # Generate ggplot scatterplot of requested variables 
-  output$scatterplot <- renderPlot({
-    
-    
-    ggplot(data = scatterplot_filtered(), 
+  # Generate plotly scatterplot of requested variables
+  output$scatterplot <- renderPlotly({
+
+    plot <- ggplot(data = scatterplot_filtered(), 
            aes_string(x = input$x, y = input$y)) +
-      geom_point() +
-      geom_text(aes(label = Country)) +
-      labs(x = "Number of IUCN Listed Threatened Species", y = "Rate of Population Increase (2050)") +
-      theme(panel.grid.major = element_line(color = gray(0.5), linetype = "blank", 
-                                            size = 0.5), panel.background = element_rect(fill = "white"))
-
-
+      geom_point(aes(fill = input$continent, text = paste("Country:", Country)), show.legend = FALSE,
+                 size = 4, alpha = 0.7, color = "dodgerblue2") +
+      labs(x = "Number of IUCN Listed Threatened Species",
+           y = "Rate of Population Increase (2050)") +
+      scale_fill_brewer(palette="Paired") +
+      theme(panel.grid.major = element_line(color = gray(0.5), 
+                                            linetype = "blank", 
+                                            size = 0.5), 
+            panel.background = element_rect(fill = "white"),
+            axis.title = element_text(face="bold"), title = element_text(face="bold"))
+    
+    require(plotly)
+    ggplotly(plot, tooltip = c("text", "x", "y"))
+    
   })
 
 # Generate  bar graph of requested variables
