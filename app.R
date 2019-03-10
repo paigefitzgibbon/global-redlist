@@ -178,10 +178,10 @@ ui <- navbarPage("Exploring Population Growth and the Global Distribution of IUC
                             sidebarPanel(
                                           
                               #Drop-down menu to choose continent of interest
-                              selectInput("continent", "Continent",
-                                          choices = c(Africa = "Africa", Asia = "Asia", Europe = "Europe", 'North America' = "North America", Oceania = "Oceania", 'South America' = "South America"),
-                                          selected = "Africa",
-                                          multiple = FALSE),
+                              radioButtons("continent", "Continent",
+                                           label = "Highlight a Continent:",
+                                          choices = c(Africa = "Africa", Asia = "Asia", Europe = "Europe", 'North America' = "North America", Oceania = "Oceania", 'South America' = "South America")
+                                          ),
                               
                               #Drop-down menu to choose species class (X axis)
                               selectInput("x", "Species Class",
@@ -211,6 +211,7 @@ ui <- navbarPage("Exploring Population Growth and the Global Distribution of IUC
 server <- function(input, output) {
 
   scatterplot_filtered <- reactive({
+    
     scatterplot_df1 %>%
     filter(Continent == input$continent)
   })
@@ -222,17 +223,14 @@ server <- function(input, output) {
   
   # Generate ggplot scatterplot of requested variables 
   output$scatterplot <- renderPlot({
-    
-    
+
     ggplot(data = scatterplot_filtered(), 
            aes_string(x = input$x, y = input$y)) +
-      geom_point() +
+      geom_point(aes(fill = input$continent)) +
       geom_text(aes(label = Country)) +
       labs(x = "Number of IUCN Listed Threatened Species", y = "Rate of Population Increase (2050)") +
       theme(panel.grid.major = element_line(color = gray(0.5), linetype = "blank", 
                                             size = 0.5), panel.background = element_rect(fill = "white"))
-
-
   })
 
 # Generate  bar graph of requested variables
