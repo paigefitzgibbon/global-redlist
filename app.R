@@ -252,17 +252,17 @@ output$bargraph <- renderPlot({
   })
 
 output$map <- renderPlot({
-  if (input$year == 2000) 
+  if (input$year == "2,000") 
   {plot(Graph2000)}
-  else if (input$year == 2010)
+  else if (input$year == "2,010")
   {plot(Graph2010)}
-  else if (input$year == 2020)
+  else if (input$year == "2,020")
   {plot(Graph2020)}
-  else if (input$year == 2030)
+  else if (input$year == "2,030")
   {plot(Graph2030)}
-  else if (input$year == 2040)
+  else if (input$year == "2,040")
   {plot(Graph2040)}
-  else (input$year == 2050)
+  else (input$year == "2,050")
   {plot(Graph2050)}}) 
 
  
