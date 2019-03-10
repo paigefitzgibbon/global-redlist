@@ -104,14 +104,14 @@ Graph2050<- ggplot(data = world_df) +
 
 # User interface 
 ui <- navbarPage("Exploring Population Growth and the Global Distribution of IUCN Red List Species",
-                 theme = shinytheme("cerulean"),
+                 theme = shinytheme("flatly"),
                  
                  # Home page panel               
                  tabPanel("Summary",
                           
                           fluidPage(
                             sidebarLayout(
-                              sidebarPanel(tags$img(src = "turtle.jpg", align = "center", height = '400px', width = '250px')
+                              sidebarPanel(tags$img(src = "turtle.jpg", align = "center", width="100%")
                               ),
                               mainPanel(
                                 br(),
@@ -248,7 +248,8 @@ output$bargraph <- renderPlot({
     theme(axis.title = element_text(face="bold"), title = element_text(face="bold"))+
     scale_fill_brewer(palette="Paired")+
     scale_x_discrete(expand=c(0.15,0))+
-    scale_y_continuous(expand=c(0,0))
+    scale_y_continuous(expand=c(0,0))+
+    labs(fill="Country")
   })
 
 output$map <- renderPlot({
