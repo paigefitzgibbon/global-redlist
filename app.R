@@ -10,6 +10,7 @@ library(janitor)
 library(datasets)
 library(RColorBrewer)
 library(plotly)
+library(jpeg)
 
 # Read in data
 
@@ -161,9 +162,9 @@ ui <- navbarPage("Exploring Population Growth and the Global Distribution of IUC
                  tabPanel("Map",
                           titlePanel("Distribution of Worldwide Population"),
                           sidebarLayout(
-                            sidebarPanel(sliderInput("year", "Year",
+                            sidebarPanel(sliderInput("x", "Year",
                                                      min = 2000, max = 2050,
-                                                     value = 2000, step = 10)),
+                                                     value = 2030, step = 10)),
                             mainPanel(
                               plotOutput(outputId = "map")
                             )
@@ -260,18 +261,21 @@ output$bargraph <- renderPlot({
   })
 
 output$map <- renderPlot({
-  if (input$year == "2,000") 
+  if (input$x == 2000) 
   {plot(Graph2000)}
-  else if (input$year == "2,010")
+  else if (input$x == 2010)
   {plot(Graph2010)}
-  else if (input$year == "2,020")
+  else if (input$x == 2020)
   {plot(Graph2020)}
-  else if (input$year == "2,030")
+  else if (input$x == 2030)
   {plot(Graph2030)}
-  else if (input$year == "2,040")
+  else if (input$x == 2040)
   {plot(Graph2040)}
-  else (input$year == "2,050")
-  {plot(Graph2050)}}) 
+  else if(input$x == 2050)
+  {plot(Graph2050)}
+  else(input$x > 2050)
+  {plot.new()}
+  }) 
 
  
   
