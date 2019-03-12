@@ -12,7 +12,6 @@ library(RColorBrewer)
 library(plotly)
 library(png)
 library(imager)
-library(wesanderson)
 
 # Read in data
 
@@ -116,22 +115,23 @@ ui <- navbarPage("Exploring Population Growth and the Global Distribution of IUC
                           
                           fluidPage(
                             sidebarLayout(
-                              sidebarPanel(tags$img(src = "turtle.jpg", align = "center", width="100%")
+                              sidebarPanel(tags$img(src = "gorilla-baby.jpg", align = "center", width="100%")
                               ),
                               mainPanel(
                                 br(),
                                 h3("This app will examine the relationship between human
-                                   population growth and the global distribution of IUCN Red List species (Critically Endangered, Endangered and Vulnerable)."), ("The goal of this app is to help visualize how many and what class of listed species are located in each country compared to historical and projected population growth."),
+                                   population growth and the global distribution of IUCN Red List species (Critically Endangered, Endangered and Vulnerable)."), 
+                                h4("The goal of this app is to help visualize how many and what class of listed species are located in each country compared to historical and projected population growth."),
                                 br(),
                                 br(),
                                 strong("Our app will utilize three datasets:"),
-                                h5("1) Number of threatened International Union for the Conservation of Nature (IUCN) Red List species in each country categorized by continent (IUCN Red List of Threatened Species 2018)."),
-                                h5("2) Total population (including both sexes) by region, subregion, and country, annually for 1950-2100 (thousands) (United Nations 2017)."),
-                                h5("3) Average annual rates of population change by region, subregion, and country for 1950-2100 (percentage) (United Nations 2017)."),
+                                p(tags$ol("1) Number of threatened International Union for the Conservation of Nature (IUCN) Red List species in each country categorized by continent (IUCN Red List of Threatened Species 2018).")),
+                                p(tags$ol("2) Total population (including both sexes) by region, subregion, and country, annually for 1950-2100 (thousands) (United Nations 2017).")),
+                                p(tags$ol("3) Average annual rates of population change by region, subregion, and country for 1950-2100 (percentage) (United Nations 2017).")),
                                 br(),
                                 br(),
-                                h6("Creators: Paige FitzGibbon, Rachel Kenny, and Madison Meltzer")
-                                )
+                                p(em("Creators: Paige FitzGibbon, Rachel Kenny, and Madison Meltzer")
+                                ))
                               
                             )
                           )
