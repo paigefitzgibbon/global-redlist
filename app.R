@@ -11,6 +11,7 @@ library(datasets)
 library(RColorBrewer)
 library(plotly)
 library(jpeg)
+library(imager)
 
 # Read in data
 
@@ -39,6 +40,8 @@ PopulationPredictions <- read_csv("PopulationPredictions.csv",
 world_outline <- read_sf(dsn = ".", layer = "countries")
 world_df <- full_join(world_outline, PopulationPredictions, by = "COUNTRY")
 cols <- c("2" = "#FFFFCC", "3" = "#FFEDA0", "4" = "#FED976", "5" = "#FEB24C", "6" = "#FD8D3C", "7" = "#FC4E2A", "8" = "#E31A1C", "9" = "#BD0026", "10" = "#800026")
+
+
 
 # Define plots
 Graph2000 <- ggplot(data = world_df) + 
@@ -164,7 +167,7 @@ ui <- navbarPage("Exploring Population Growth and the Global Distribution of IUC
                           sidebarLayout(
                             sidebarPanel(sliderInput("x", "Year",
                                                      min = 2000, max = 2050,
-                                                     value = 2030, step = 10)),
+                                                     value = 2000, step = 10)),
                             mainPanel(
                               plotOutput(outputId = "map")
                             )
@@ -261,20 +264,18 @@ output$bargraph <- renderPlot({
   })
 
 output$map <- renderPlot({
-  if (input$x == 2000) 
-  {plot(Graph2000)}
-  else if (input$x == 2010)
+  if (input$x == "2000") 
+  return({plot(Graph2000)})
+  if (input$x == "2010")
   {plot(Graph2010)}
-  else if (input$x == 2020)
+  if (input$x == 2020)
   {plot(Graph2020)}
-  else if (input$x == 2030)
+  if (input$x == 2030)
   {plot(Graph2030)}
-  else if (input$x == 2040)
+  if (input$x == 2040)
   {plot(Graph2040)}
-  else if(input$x == 2050)
+  if(input$x == 2050)
   {plot(Graph2050)}
-  else(input$x > 2050)
-  {plot.new()}
   }) 
 
  
