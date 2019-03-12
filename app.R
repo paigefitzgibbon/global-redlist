@@ -10,7 +10,7 @@ library(janitor)
 library(datasets)
 library(RColorBrewer)
 library(plotly)
-library(jpeg)
+library(png)
 library(imager)
 
 # Read in data
@@ -165,11 +165,11 @@ ui <- navbarPage("Exploring Population Growth and the Global Distribution of IUC
                  tabPanel("Map",
                           titlePanel("Distribution of Worldwide Population"),
                           sidebarLayout(
-                            sidebarPanel(sliderInput("x", "Year",
+                            sidebarPanel(sliderInput("year", "Year",
                                                      min = 2000, max = 2050,
                                                      value = 2000, step = 10)),
                             mainPanel(
-                              plotOutput(outputId = "map")
+                              imageOutput(outputId = "map")
                             )
                           )
                           
@@ -263,19 +263,55 @@ output$bargraph <- renderPlot({
     labs(fill="Country")
   })
 
-output$map <- renderPlot({
-  if (input$x == "2000") 
-  return({plot(Graph2000)})
-  if (input$x == "2010")
-  {plot(Graph2010)}
-  if (input$x == 2020)
-  {plot(Graph2020)}
-  if (input$x == 2030)
-  {plot(Graph2030)}
-  if (input$x == 2040)
-  {plot(Graph2040)}
-  if(input$x == 2050)
-  {plot(Graph2050)}
+output$map <- renderImage({
+  if (input$year == 2000) 
+  {
+    return(list(
+      src = "plot2000.png",
+      contentType = "image/png",
+      alt = "2000"
+    ))
+  } 
+  if (input$year == 2010)
+  {
+    return(list(
+      src = "plot2010.png",
+      contentType = "image/png",
+      alt = "2010"
+    ))
+  } 
+  if (input$year == 2020)
+  {
+    return(list(
+      src = "plot2020.png",
+      contentType = "image/png",
+      alt = "2020"
+    ))
+  } 
+  if (input$year == 2030)
+  {
+    return(list(
+      src = "plot2030.png",
+      contentType = "image/png",
+      alt = "2030"
+    ))
+  } 
+  if (input$year == 2040)
+  {
+    return(list(
+      src = "plot2040.png",
+      contentType = "image/png",
+      alt = "2040"
+    ))
+  } 
+  else if(input$year == 2050)
+  {
+    return(list(
+      src = "plot2050.png",
+      contentType = "image/png",
+      alt = "2050"
+    ))
+  } 
   }) 
 
  
