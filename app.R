@@ -312,9 +312,8 @@ output$map <- renderImage({
       alt = "2050"
     ))
   } 
-  }) 
-
- 
+  } 
+, deleteFile = FALSE)
   
 }
 
