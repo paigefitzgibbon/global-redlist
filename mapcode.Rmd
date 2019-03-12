@@ -9,6 +9,8 @@ output: html_document
 library(sf)
 library(tidyverse)
 library(RColorBrewer)
+library(imager)
+
 
 PopulationPredictions <- read_csv("PopulationPredictions.csv", 
     col_types = cols(Total2000 = col_factor(levels = c("2", 
@@ -32,7 +34,8 @@ world_df <- full_join(world_outline, PopulationPredictions, by = "COUNTRY")
 
 cols <- c("2" = "#FFFFCC", "3" = "#FFEDA0", "4" = "#FED976", "5" = "#FEB24C", "6" = "#FD8D3C", "7" = "#FC4E2A", "8" = "#E31A1C", "9" = "#BD0026", "10" = "#800026")
 
-
+png(filename = "plot2000.png",
+    width = 500, height = 500, units = "px", pointsize = 12)
 Graph2000 <- ggplot(data = world_df) + 
         geom_sf(aes(fill = Total2000), 
                 colour = "gray10", 
@@ -42,7 +45,12 @@ Graph2000 <- ggplot(data = world_df) +
         theme_minimal() +
         coord_sf(datum=NA) +
         labs(x = "", y = "", title = "Distribution of Worldwide Population (Decile)")
+plot(Graph2000)
+dev.off()
 
+
+png(filename = "plot2010.png",
+    width = 500, height = 500, units = "px", pointsize = 12)
 Graph2010<- ggplot(data = world_df) + 
         geom_sf(aes(fill = Total2010), 
                 colour = "gray10", 
@@ -52,7 +60,11 @@ Graph2010<- ggplot(data = world_df) +
         theme_minimal() +
         coord_sf(datum=NA) +
         labs(x = "", y = "", title = "Distribution of Worldwide Population (Decile)")
+plot(Graph2010)
+dev.off()
 
+png(filename = "plot2020.png",
+    width = 500, height = 500, units = "px", pointsize = 12)
 Graph2020 <- ggplot(data = world_df) + 
         geom_sf(aes(fill = Total2020), 
                 colour = "gray10", 
@@ -62,8 +74,11 @@ Graph2020 <- ggplot(data = world_df) +
         theme_minimal() +
         coord_sf(datum=NA) +
         labs(x = "", y = "", title = "Distribution of Worldwide Population (Decile)")
+plot(Graph2020)
+dev.off()
 
-
+png(filename = "plot2030.png",
+    width = 500, height = 500, units = "px", pointsize = 12)
 Graph2030 <- ggplot(data = world_df) + 
         geom_sf(aes(fill = Total2030), 
                 colour = "gray10", 
@@ -73,7 +88,11 @@ Graph2030 <- ggplot(data = world_df) +
         theme_minimal() +
         coord_sf(datum=NA) +
         labs(x = "", y = "", title = "Distribution of Worldwide Population (Decile)")
+plot(Graph2030)
+dev.off()
 
+png(filename = "plot2040.png",
+    width = 500, height = 500, units = "px", pointsize = 12)
 Graph2040<- ggplot(data = world_df) + 
         geom_sf(aes(fill = Total2040), 
                 colour = "gray10", 
@@ -83,7 +102,11 @@ Graph2040<- ggplot(data = world_df) +
         theme_minimal() +
         coord_sf(datum=NA) +
         labs(x = "", y = "", title = "Distribution of Worldwide Population (Decile)")
+plot(Graph2040)
+dev.off()
 
+png(filename = "plot2050.png",
+    width = 500, height = 500, units = "px", pointsize = 12)
 Graph2050<- ggplot(data = world_df) + 
         geom_sf(aes(fill = Total2050), 
                 colour = "gray10", 
@@ -93,15 +116,11 @@ Graph2050<- ggplot(data = world_df) +
         theme_minimal() +
         coord_sf(datum=NA) +
         labs(x = "", y = "", title = "Distribution of Worldwide Population (Decile)")
-
-
-par(mfrow=c(1,5)) 
-plot(Graph2000)
-plot(Graph2010)
-plot(Graph2020)
-plot(Graph2030)
-plot(Graph2040)
 plot(Graph2050)
+dev.off()
+
+
+
 
 ```
 
