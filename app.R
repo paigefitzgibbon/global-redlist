@@ -141,7 +141,7 @@ ui <- navbarPage("Exploring Population Growth and the Global Distribution of IUC
                  tabPanel("Population over time",
                           titlePanel("Distribution of Worldwide Population"),
                           h5("Move the slider to see how the distribution of global population has changed since 2000 and is projected to change by 2050."),
-                          br(),
+                    
                           sidebarLayout(
                             sidebarPanel(sliderInput("year", "Year",
                                                      min = 2000, max = 2050,
