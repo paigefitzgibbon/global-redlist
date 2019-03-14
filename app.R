@@ -118,15 +118,14 @@ ui <- navbarPage("Exploring Population Growth and the Global Distribution of IUC
                               ),
                               mainPanel(
                                 br(),
-                                h3("This app will examine the relationship between human
-                                   population growth and the global distribution of IUCN Red List species (Critically Endangered, Endangered and Vulnerable)."), 
-                                h4("The goal of this app is to help visualize how many and what class of listed species are located in each country compared to historical and projected population growth."),
+                                h2("Examine the relationship between human population growth and the global distribution of IUCN Red List species (Critically Endangered, Endangered and Vulnerable)."), 
+                                h3("The goal of this app is to help visualize how many and what class of listed species are located in each country compared to historical and projected population growth."),
                                 br(),
                                 br(),
                                 strong("Our app will utilize three datasets:"),
-                                p(tags$ol("1) Number of threatened International Union for the Conservation of Nature (IUCN) Red List species in each country categorized by continent (IUCN Red List of Threatened Species 2018).")),
-                                p(tags$ol("2) Total population (including both sexes) by region, subregion, and country, annually for 1950-2100 (thousands) (United Nations 2017).")),
-                                p(tags$ol("3) Average annual rates of population change by region, subregion, and country for 1950-2100 (percentage) (United Nations 2017).")),
+                                p(tags$ol("1) International Union for the Conservation of Nature (IUCN) - Number of  species listed as threatened on the IUCN Red List for each country. Species counts within country are further subdivided by family (IUCN Red List of Threatened Species 2018).")),
+                                p(tags$ol("2) United Nations (UN) - Total population (including both sexes) by region, subregion, and country, annually for 1950-2100 (United Nations 2017).")),
+                                p(tags$ol("3) United Nations (UN) - Average annual rates of population change (percent change) by region, subregion, and country for 1950-2100 (United Nations 2017).")),
                                 br(),
                                 br(),
                                 p(em("Creators: Paige FitzGibbon, Rachel Kenny, and Madison Meltzer")
@@ -153,7 +152,7 @@ ui <- navbarPage("Exploring Population Growth and the Global Distribution of IUC
                  ),
                  
                  # Bar graph panel
-                 tabPanel("IUCN Listed Species by Country",
+                 tabPanel("Threatened species by country",
                           titlePanel("Number of IUCN Threatened Species by Country"),
                           h5("Select two countries to compare the number of IUCN listed threatened species in each. It's important to note that the number of listed species can be greatly affected by the availability of data."),
                           br(),
