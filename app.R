@@ -39,7 +39,7 @@ PopulationPredictions <- read_csv("PopulationPredictions.csv",
                                                                                                                                                                                                                                                                                                        "10"))))
 world_outline <- read_sf(dsn = ".", layer = "countries")
 world_df <- full_join(world_outline, PopulationPredictions, by = "COUNTRY")
-cols <- c("2" = "#FFFFCC", "3" = "#FFEDA0", "4" = "#FED976", "5" = "#FEB24C", "6" = "#FD8D3C", "7" = "#FC4E2A", "8" = "#E31A1C", "9" = "#BD0026", "10" = "#800026")
+cols <- c("2" = "#65182f", "3" = "#9c2530", "4" = "#c75c57", "5" = "#f28882", "6" = "#fcd2ce", "7" = "#c9e3e5", "8" = "#87c4cf", "9" = "#3b8eab", "10" = "#053761")
 
 
 
@@ -48,8 +48,7 @@ Graph2000 <- ggplot(data = world_df) +
   geom_sf(aes(fill = Total2000), 
           colour = "gray10", 
           show.legend = FALSE) +
-  scale_colour_manual(values = cols) +
-  scale_fill_manual(values = cols) +
+  scale_fill_brewer(palette = "RdBu") +
   theme_minimal() +
   coord_sf(datum=NA) +
   labs(x = "", y = "", title = " ")
