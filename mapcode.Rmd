@@ -10,6 +10,7 @@ library(sf)
 library(tidyverse)
 library(RColorBrewer)
 library(imager)
+library(tmap)
 
 
 PopulationPredictions <- read_csv("PopulationPredictions.csv", 
@@ -34,12 +35,14 @@ world_df <- full_join(world_outline, PopulationPredictions, by = "COUNTRY")
 
 cols <- c("2" = "#FFFFCC", "3" = "#FFEDA0", "4" = "#FED976", "5" = "#FEB24C", "6" = "#FD8D3C", "7" = "#FC4E2A", "8" = "#E31A1C", "9" = "#BD0026", "10" = "#800026")
 
+
+
 png(filename = "plot2000.png",
     width = 1100, height = 600, units = "px", pointsize = 12)
 Graph2000 <- ggplot(data = world_df) + 
         geom_sf(aes(fill = Total2000), 
                 colour = "gray10", 
-                show.legend = FALSE) +
+                show.legend = TRUE) +
   scale_colour_manual(values = cols) +
   scale_fill_manual(values = cols) +
         theme_minimal() +
