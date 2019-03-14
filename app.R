@@ -236,7 +236,7 @@ server <- function(input, output) {
                    aes_string(x = input$x, y = input$y)) +
       geom_point(aes(text = paste("Country:", Country)), show.legend = TRUE,
                  size = 4, alpha = 0.7) +
-      geom_point(data=scatterplot_filtered(), colour="turquoise1", alpha = .7, size=3)+
+      geom_point(data=scatterplot_filtered(), aes(text = paste("Country:", Country)), colour="turquoise1", alpha = .7, size=3)+
       labs(x = "Number of IUCN Listed Threatened Species",
            y = "2050 Projected Rate of Population Increase (%)") +
       scale_fill_brewer(palette="Paired") +
