@@ -154,7 +154,7 @@ ui <- navbarPage("Exploring Population Growth and the Global Distribution of IUC
                  # Bar graph panel
                  tabPanel("Threatened species by country",
                           titlePanel("Number of IUCN Threatened Species by Country"),
-                          h5("Select two countries to compare the number of IUCN listed threatened species in each. It's important to note that the number of listed species can be greatly affected by the availability of data."),
+                          h5("Select two countries to compare the number of IUCN listed threatened species in each. It's important to note that the number of listed species depends on the availability of species distribution data."),
                           br(),
                           sidebarLayout(
                             sidebarPanel(
@@ -178,7 +178,7 @@ ui <- navbarPage("Exploring Population Growth and the Global Distribution of IUC
                  # Scatterplot panel
                  tabPanel("Exploring countries at risk",
                           titlePanel("Countries At Risk"),
-                          h5("First select a continent you want to explore and a species class that you're interested in. Finally select one of three variations (high, low, medium) of population growth rate variant. Hover over each point to see details for each country."),
+                          h5("First select a continent you want to explore and a species class that you're interested in. Finally select one of three variants (high, low, medium) of population growth rate. Hover over each point to see details for each country."),
                           br(),
                           sidebarLayout(
                             sidebarPanel(
